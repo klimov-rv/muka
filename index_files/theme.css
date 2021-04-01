@@ -20373,6 +20373,13 @@ header .header-menu li:hover .subcol-dropdown {
   font-style: italic;
 }
 
+
+.text-title {
+  color: #fea933;
+  font-size: 80px;
+  line-height: 1.3em;
+}
+
 .regular-text {
   color: #4c4c4c;
   font-style: 18px;

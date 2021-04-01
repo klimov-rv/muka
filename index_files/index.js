@@ -118,3 +118,36 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+$(window).on("load",function() {
+  $(window).scroll(function() {
+    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+    $(".animate2_1").each(function() {  
+      var objectBottom = $(this).offset().top + $(this).outerHeight();  
+      if (objectBottom < windowBottom) {    
+        $(this).animate({ left: '+=210' }, 130 ); 
+      } else {   
+      }
+    });
+  }).scroll();  
+});
+
+function isScrolledIntoView(elem)
+{
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+    return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom) && (elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+}
+
+$(window).scroll(function() {    
+  if(isScrolledIntoView($('#banner-typed')))
+  { 
+    $("#banner-typed").typed({
+      strings: ["Из производимой на предприятии муки можно испечь по 1 батону в сутки на каждого жителя Нижегородской области."],
+      typeSpeed: 1, 
+    });
+  }    
+});
+ 

@@ -148,18 +148,7 @@ abbr[title] {
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   /* 2 */
-}
-
-/**
-   * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
-   */
-
-/* line 133, spider.scss */
-
-b, strong {
-  font-weight: inherit;
-  font-weight: bolder;
-}
+} 
 
 /**
    * Add the correct font weight in Chrome, Edge, and Safari.
