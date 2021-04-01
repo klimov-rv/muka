@@ -754,6 +754,12 @@
         padding: 9px 0 20px;
         font-size: 19px;
     }
+    .siteFooter_rellax {
+        display: none;
+    }
+    .fact-icons .fact-icons__bgline {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 480px) {

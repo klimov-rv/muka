@@ -1133,7 +1133,7 @@
                 </section>
             </div>
             <footer class="siteFooter" data-aos="fade-in">
-
+                <div class="siteFooter_rellax rellax" data-rellax-speed="-7" data-rellax-percentage="0.45"></div>
                 <div class="container_narrow row flex-center flex-middle">
                     <form class="contact-form cell-8 cell-16-sm">
                         <h2 class="greeting__header">Связаться с нами</h2>
@@ -1153,8 +1153,7 @@
                 <div class="pin-bottom">
                     <div class="container_narrow row">
                         <div class="siteFooter__copy cell-8 cell-16-sm">
-                            <span>© 2020 Все права защищены <p class="hide-sm">|
-                                </p>&nbsp;</span>
+                            <span>© 2020 Все права защищены | &nbsp;</span>
                             <a href="#" class="siteFooter__link">Политика
                                 конфиденциальности</a>
                         </div>
@@ -1198,10 +1197,20 @@
     </script>
     <script src="index_files/mmenu-light.js"></script>
     <script src="index_files/jquery.fancybox.pack.min.js"></script>
-    <script src="assets/js/typed.js"></script>
     <script src="index_files/index.js"></script>
     <script src="assets/common.js"></script>
     <script src="index_files/mouse-move-animate.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <script src="assets/js/rellax.js"></script>
+    <script>
+    	var rellax = new Rellax('.rellax', {
+        // center: true
+        callback: function(position) {
+            // callback every position change
+            console.log(position);
+        }
+      });
+    </script>
 
 </body>
 
