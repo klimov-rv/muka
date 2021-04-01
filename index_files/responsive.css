@@ -1037,6 +1037,7 @@
     }
     .siteFooter { 
         background-image: url("footer_bg-sm.png");
+        background-size: cover;
     }
     .siteFooter__contacts {
         justify-content: center;
