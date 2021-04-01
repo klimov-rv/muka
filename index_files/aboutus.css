@@ -1,0 +1,73 @@
+.aboutus-block {
+    background-image: none;
+    padding-top: 131px;
+    flex-direction: column;
+}
+
+.hero__text_block {
+    flex: 0 0 599px;
+    background: url("pic1-aboutus.png") no-repeat center right / 60% transparent;
+    top: -30px;
+    padding-top: 30px;
+}
+
+.aboutus-block .font-sans {
+    line-height: 1.1em;
+}
+
+.history__wrap {
+    position: relative;
+    z-index: 9;
+}
+
+.history__block {
+    background: url("history-static_bg.png") no-repeat center center / 100% transparent;
+    min-height: 957px;
+    color: #4c4c4c;
+    font-family: PT Sans;
+    font-size: 18px;
+    line-height: 1.1em;
+}
+
+.beans_animate-vertical {
+    background: url("history-beans_bg.png") no-repeat center center transparent;
+}
+
+.history__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.history__list_pass,
+.history__list_li {
+    flex: 0 0 13.9%;
+    height: 461px;
+    position: relative;
+    margin-bottom: 17px;
+}
+
+.history__year_text {
+     position: absolute;
+     width: 100%;
+     left: 0;
+     right: 0;
+     text-align: center;
+}
+.history__list_li:nth-child(odd) .history__year_text {
+    top: 349px;
+}
+.history__list_li:nth-child(even) .history__year_text { 
+    bottom: 345px;
+}
+
+.production {
+    background: url("production-section-bg.png") repeat-x center center transparent; 
+}
+.production__slider_wrap {
+    position: relative;
+    z-index: 7;
+} 
+
+.production_subtext {
+    color: #4c4c4c;
+    font-family: PT Sans;
+}
