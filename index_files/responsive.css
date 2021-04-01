@@ -967,6 +967,7 @@
     }
     .banner-bread {
         background-image: url("banner-bread-sm.png");
+        background-size: cover;
     }
     .geo-map {
         background-position-x: -300px;
