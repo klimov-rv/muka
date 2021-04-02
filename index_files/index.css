@@ -157,6 +157,7 @@
     padding-top: 85px;
     margin-top: -57px;
     position: relative;
+    background: #fbfbfb;
     z-index: 3;
 }
 
@@ -832,6 +833,7 @@ header .search_widget-submit {
     white-space: nowrap;
     position: relative;
     border-radius: 50px;
+    outline: none;
 }
 
 .button2 {
@@ -1052,13 +1054,13 @@ input.quantity-input:focus-visible {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 0; 
+    top: 0;
     background: url("fact-icons_bg-line.png") no-repeat center center / 1519px transparent;
     z-index: 1;
     margin-left: 103px;
 }
 
-.fact-icons .fact-icons__bgline .animate2_1 { 
+.fact-icons .fact-icons__bgline .animate2_1 {
     position: absolute;
     background-color: white;
     z-index: 2;
@@ -1164,11 +1166,14 @@ input.quantity-input:focus-visible {
 .geo-map {
     background: url("geo-map__bottombg.png") no-repeat bottom center transparent;
     margin-bottom: -50px;
+    position: relative;
 }
-.geo-map .hero__beans_animate { 
+
+.geo-map .hero__beans_animate {
     background: url("geo-map__animate1.png") no-repeat bottom center transparent;
     margin-left: -50px;
 }
+
 .geo-map__left {
     position: relative;
     min-height: 190px;
@@ -1181,6 +1186,52 @@ input.quantity-input:focus-visible {
     height: 300%;
     width: 100%;
     background: url("geo-map.png") no-repeat center center transparent;
+}
+
+.country {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.country.russia {
+    width: 797px;
+    height: 304px;
+    background: url("map-russia-1.png") no-repeat center center transparent;
+    top: 61px;
+    left: -1px;
+}
+
+.country.belarus {
+    width: 119px;
+    height: 40px;
+    background: url("map-bl-1.png") no-repeat center center transparent;
+    top: 266px;
+    left: -62px;
+}
+
+.country.iran {
+    width: 93px;
+    height: 82px;
+    background: url("map-iran-1.png") no-repeat center center transparent;
+    top: 372px;
+    left: 111px;
+}
+
+.country.knr {
+    width: 285px;
+    height: 187px;
+    background: url("map-knr-1.png") no-repeat center center transparent;
+    top: 291px;
+    left: 250px;
+}
+
+.country.vietnam {
+    width: 124px;
+    height: 77px;
+    background: url("map-viet-1.png") no-repeat center center transparent;
+    top: 458px;
+    left: 305px;
 }
 
 .geo-map__list>li {
@@ -1231,9 +1282,9 @@ input.quantity-input:focus-visible {
 }
 
 .info0_1_text strong {
-    font-size: 20px; 
-    line-height: 30px; 
-    text-align: center;  
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
     margin-bottom: 15px;
 }
 
@@ -1287,10 +1338,55 @@ input.quantity-input:focus-visible {
     background: url("elevator_bg.png") no-repeat center center / cover transparent;
     z-index: 1;
     position: relative;
+    max-height: 795px;
+    overflow: hidden;
+}
+
+#bg_video {
+    position: absolute;
+    z-index: -1;
+}
+
+.video__overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #4e1904;
+    position: absolute;
+    z-index: 0;
+    opacity: .5;
+}
+
+.elevator {
+    z-index: 1;
+    position: relative;
+}
+
+.elevator::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 67px;
+    background: url("wave1.svg") no-repeat bottom center / cover transparent;
+    z-index: 9;
+}
+
+.elevator::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 94px;
+    background: url("wave2.svg") no-repeat top center / cover transparent;
+    z-index: 9;
 }
 
 .elevator>.container_narrow {
     min-height: 695px;
+    z-index: 5;
+    position: relative;
 }
 
 .elevator_textblock {
@@ -1905,6 +2001,7 @@ input.quantity-input:focus-visible {
     min-height: 850px;
     position: relative;
 }
+
 .siteFooter_rellax {
     position: absolute;
     top: 0;
@@ -1913,7 +2010,7 @@ input.quantity-input:focus-visible {
     width: 100%;
     height: 100%;
     background: url("contact_bg_3.png") right bottom no-repeat, url("contact_bg_4.png") left bottom no-repeat, #fbfbfb;
-    margin-top: 132px;
+    margin-top: 31px;
 }
 
 .siteFooter>.container_narrow {
