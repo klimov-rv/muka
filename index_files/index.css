@@ -153,12 +153,14 @@
     z-index: 5;
 }
 
-.main-wrapper+.siteFooter {
-    padding-top: 85px;
-    margin-top: -57px;
-    position: relative;
-    background: #fbfbfb;
-    z-index: 3;
+.siteFooter {
+    padding-top: 135px;
+    margin-top: -145px;
+    z-index: 7;
+    -webkit-clip-path: polygon(99.95% 878px, 3px 867px, 0% 6%, 1.89% 6.16%, 3.58% 6.36%, 4.95% 6.49%, 6.47% 6.57%, 8.05% 6.52%, 10.26% 6.78%, 14.79% 6.98%, 17.84% 6.81%, 20.88% 7.41%, 25.3% 9.23%, 30.4% 11.55%, 34.66% 13.42%, 37.4% 14.34%, 39.99% 14.85%, 42.46% 14.98%, 44.25% 14.79%, 45.99% 14.48%, 47.52% 14.12%, 48.99% 13.57%, 50.51% 12.71%, 52.2% 12.04%, 54.31% 11.14%, 56.57% 10.1%, 58.73% 9.14%, 60.99% 8.28%, 63.52% 7.49%, 66.51% 6.97%, 69.36% 6.97%, 71.84% 7.01%, 74.68% 7.12%, 77.37% 7.37%, 80.28% 7.59%, 82.39% 7.78%, 85.06% 8.07%, 87.75% 8.65%, 91.17% 9.09%, 94.79% 9.84%, 99.84% 11%);
+    clip-path: polygon(99.95% 878px, 3px 867px, 0% 6%, 1.89% 6.16%, 3.58% 6.36%, 4.95% 6.49%, 6.47% 6.57%, 8.05% 6.52%, 10.26% 6.78%, 14.79% 6.98%, 17.84% 6.81%, 20.88% 7.41%, 25.3% 9.23%, 30.4% 11.55%, 34.66% 13.42%, 37.4% 14.34%, 39.99% 14.85%, 42.46% 14.98%, 44.25% 14.79%, 45.99% 14.48%, 47.52% 14.12%, 48.99% 13.57%, 50.51% 12.71%, 52.2% 12.04%, 54.31% 11.14%, 56.57% 10.1%, 58.73% 9.14%, 60.99% 8.28%, 63.52% 7.49%, 66.51% 6.97%, 69.36% 6.97%, 71.84% 7.01%, 74.68% 7.12%, 77.37% 7.37%, 80.28% 7.59%, 82.39% 7.78%, 85.06% 8.07%, 87.75% 8.65%, 91.17% 9.09%, 94.79% 9.84%, 99.84% 11%);
+    /* transition: clip-path .6s ease-out; */
+    overflow: hidden;
 }
 
 .pin-bottom {
@@ -400,8 +402,8 @@ header .search_widget-submit {
     font-family: PT Sans;
     position: absolute;
     display: block;
-    top: -27px;
-    right: -27px;
+    top: -31px;
+    right: -29px;
     background-color: #f4a344;
     border-radius: 50%;
     color: white;
@@ -548,7 +550,9 @@ header .search_widget-submit {
     white-space: nowrap;
     font-size: 40px;
 }
-
+.typed-cursor {
+    display: none;
+}
 .siteHeader__mainnav li {
     text-align: center;
     position: relative;
@@ -823,6 +827,7 @@ header .search_widget-submit {
     border: 0px solid #f4a344;
     padding: 0 30px;
     width: 235px;
+    max-width: 300px;
     height: 50px;
     line-height: 49px;
     color: white;
@@ -863,15 +868,16 @@ h2 {
     z-index: 3;
 }
 
-.greeting:before {
-    content: "";
+.greeting_parallax {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 50vw;
     height: 113%;
+    z-index: -1;
     background: url("pic1-cut5.png") no-repeat left center transparent;
     background-size: initial;
+    /* background-attachment: fixed; */
 }
 
 .greeting .container_narrow .lefted {
@@ -1010,10 +1016,6 @@ input.quantity-input:focus-visible {
     background: url("greeting11.png") no-repeat right bottom / contain transparent;
 }
 
-.decor-divider.white {
-    background: url('decor_white.svg') no-repeat center center / 65px transparent;
-}
-
 .greeting__text {
     text-align: center;
     width: 410px;
@@ -1050,7 +1052,7 @@ input.quantity-input:focus-visible {
     z-index: 5;
 }
 
-.fact-icons .fact-icons__bgline {
+.fact-icons__bgline {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -1060,7 +1062,7 @@ input.quantity-input:focus-visible {
     margin-left: 103px;
 }
 
-.fact-icons .fact-icons__bgline .animate2_1 {
+.fact-icons__bgline .animate2_1 {
     position: absolute;
     background-color: white;
     z-index: 2;
@@ -1275,10 +1277,10 @@ input.quantity-input:focus-visible {
 }
 
 .info0_2_text {
-    right: 16px;
+    right: 7px;
     top: 8px;
-    height: 150px;
-    width: 153px;
+    height: 170px;
+    width: 169px;
 }
 
 .info0_1_text strong {
@@ -1286,6 +1288,7 @@ input.quantity-input:focus-visible {
     line-height: 30px;
     text-align: center;
     margin-bottom: 15px;
+    white-space: nowrap;
 }
 
 .info0_2 {
@@ -1317,7 +1320,7 @@ input.quantity-input:focus-visible {
     width: 50%;
     height: 100%;
     float: left;
-    shape-outside: polygon(0px 0px, 96.83% -2px, 47.12% 8.86%, 23.4% 17.3%, 6% 32.6%, 0px 50%, 6% 65.6%, 23.4% 82.7%, 50% 94%, 98% 100%, 0px 100%);
+    shape-outside: polygon(0px 0px, 88.55% 1px, 22.22% 20.73%, 3px 51.14%, 26.95% 81.55%, 88.54% 98.86%, 0px 100%);
     shape-margin: 0;
 }
 
@@ -1326,7 +1329,8 @@ input.quantity-input:focus-visible {
     width: 50%;
     height: 100%;
     float: right;
-    shape-outside: polygon(-15.26% -4.57%, 98.56% 1.71%, 107.19% 98.86%, 2% 100%, 50% 94%, 76.6% 82.7%, 94% 65.6%, 100% 50%, 99.76% 33.74%, 92.42% 20.73%, 62.95% 11.72%);
+    shape-outside: polygon(14.96% 4%, 100% 0%, 100% 100%, 7.59% 96.57%, 65.69% 82.7%, 89.95% 65.42%, 94.87% 40.02%, 71.12% 17.87%);
+    /*    // тестить тестить тестить  */
     shape-margin: 0;
 }
 
@@ -1345,6 +1349,12 @@ input.quantity-input:focus-visible {
 #bg_video {
     position: absolute;
     z-index: -1;
+    position: absolute;
+    height: 100%;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .video__overlay {
@@ -1366,7 +1376,7 @@ input.quantity-input:focus-visible {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 101%;
     height: 67px;
     background: url("wave1.svg") no-repeat bottom center / cover transparent;
     z-index: 9;
@@ -1377,7 +1387,7 @@ input.quantity-input:focus-visible {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 101%;
     height: 94px;
     background: url("wave2.svg") no-repeat top center / cover transparent;
     z-index: 9;
@@ -1484,7 +1494,7 @@ input.quantity-input:focus-visible {
 
 .tara_select {
     flex-wrap: nowrap;
-    align-items: end;
+    align-items: flex-end;
     margin-bottom: 49px;
 }
 
@@ -1998,11 +2008,13 @@ input.quantity-input:focus-visible {
 }
 
 .siteFooter {
+    position: relative;
+    background: #fbfbfb;
     min-height: 850px;
     position: relative;
 }
 
-.siteFooter_rellax {
+.siteFooter_parallax {
     position: absolute;
     top: 0;
     left: 0;
@@ -2011,6 +2023,7 @@ input.quantity-input:focus-visible {
     height: 100%;
     background: url("contact_bg_3.png") right bottom no-repeat, url("contact_bg_4.png") left bottom no-repeat, #fbfbfb;
     margin-top: 31px;
+    background-attachment: fixed;
 }
 
 .siteFooter>.container_narrow {

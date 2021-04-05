@@ -1,17 +1,17 @@
 
 $('[data-fancybox]').fancybox({
-  youtube : {
-      controls : 0,
-      showinfo : 0
+  youtube: {
+    controls: 0,
+    showinfo: 0
   },
-  vimeo : {
-      color : 'f00'
+  vimeo: {
+    color: 'f00'
   }
-});
+}); 
 
-var greetingSlider = new Swiper('#greetingSlider', { 
+var greetingSlider = new Swiper('#greetingSlider', {
   slidesPerView: 1,
-  loop: false,  
+  loop: false,
   pagination: {
     el: '#greetingSlider .swiper-pagination',
     type: 'fraction',
@@ -20,12 +20,12 @@ var greetingSlider = new Swiper('#greetingSlider', {
     nextEl: '#greetingSlider .swiper-button-next',
     prevEl: '#greetingSlider .swiper-button-prev',
   },
-}); 
+});
 
 var slider0 = new Swiper('#tab-0', {
   slidesPerView: 4,
   spaceBetween: 10,
-  loop: false,  
+  loop: false,
   pagination: {
     el: '#tab-0 .swiper-pagination',
     type: 'fraction',
@@ -44,7 +44,7 @@ var slider0 = new Swiper('#tab-0', {
       slidesPerView: 2,
       spaceBetween: 10,
       loop: false,
-    }, 
+    },
     1024: {
       slidesPerView: 3,
       spaceBetween: 10,
@@ -75,27 +75,27 @@ var slider1 = new Swiper('#tab-1', {
       slidesPerView: 2,
       spaceBetween: 10,
       loop: false,
-    }, 
+    },
     1024: {
       slidesPerView: 3,
       spaceBetween: 10,
       loop: false,
     }
   }
-});  
+});
 
-var facticonsSlider = new Swiper('#facticonsSlider', { 
+var facticonsSlider = new Swiper('#facticonsSlider', {
   slidesPerView: 1,
-  loop: false,  
+  loop: false,
   pagination: {
-    el: '#facticonsSlider .swiper-pagination', 
+    el: '#facticonsSlider .swiper-pagination',
     type: 'fraction',
   },
   navigation: {
     nextEl: '#facticonsSlider .swiper-button-next',
     prevEl: '#facticonsSlider .swiper-button-prev',
   },
-}); 
+});
 
 
 document.getElementById("defaultOpen").click();
@@ -112,42 +112,40 @@ function openTab(evt, tabName) {
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
     slider0.update();
-    slider1.update(); 
+    slider1.update();
   }
 
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
 
-$(window).on("load",function() {
-  $(window).scroll(function() {
-    var windowBottom = $(this).scrollTop() + $(this).innerHeight();
-    $(".animate2_1").each(function() {  
-      var objectBottom = $(this).offset().top + $(this).outerHeight();  
-      if (objectBottom < windowBottom) {    
-        $(this).animate({ left: '+=210' }, 130 ); 
-      } else {   
-      }
-    });
-  }).scroll();  
-});
+var $trig1 = $("#elToTrigger1");
+var $trig2 = $("#elToTrigger2");
 
-function isScrolledIntoView(elem)
-{
-    var docViewTop = $(window).scrollTop();
-    var docViewBottom = docViewTop + $(window).height();
-    var elemTop = $(elem).offset().top;
-    var elemBottom = elemTop + $(elem).height();
-    return ((elemBottom >= docViewTop) && (elemTop <= docViewBottom) && (elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-}
-
-$(window).scroll(function() {    
-  if(isScrolledIntoView($('#banner-typed')))
-  { 
-    $("#banner-typed").typed({
+$trig1.bind('inview', function (event, visible) {
+  if (visible) {
+    $trig1.typed({
       strings: ["Из производимой на предприятии муки можно испечь по 1 батону в сутки на каждого жителя Нижегородской области."],
-      typeSpeed: 1, 
+      typeSpeed: -100,
     });
-  }    
+  }
 });
- 
+
+$trig2.bind('inview', function (event, visible, topOrBottomOrBoth) {
+
+  if (visible) {
+    if (topOrBottomOrBoth == 'top') {
+      // top part of element is visible
+      $trig2.animate({ left: '+=30' }, "slow");
+    } else if (topOrBottomOrBoth == 'bottom') {
+      // bottom part of element is visible
+    } else {
+      // whole part of element is visible
+
+      $trig2.animate({ left: '+=470' }, "slow");
+      $trig2.animate({ left: '+=310' }, "slow");
+      $trig2.animate({ left: '+=510' }, "slow");
+      $trig2.animate({ left: '+=100%' }, 730);
+    }
+  }
+});
