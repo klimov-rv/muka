@@ -365,6 +365,11 @@
 }
 
 @media screen and (max-width: 768px) {
+    
+    #bg_video {
+        height: 100%;
+        width: auto;
+    }
     .header-wrapper {
         padding-bottom: 0;
     }
@@ -375,9 +380,6 @@
         width: 100%;
         overflow: hidden;
         padding-bottom: 55px;
-    }
-    .slider-pagination__wrap {
-        position: relative;
     }
     .slider-pagination__wrap .swiper-button-next, .slider-pagination__wrap .swiper-button-prev, .slider-pagination__wrap .swiper-pagination-fraction {
         bottom: auto;
@@ -420,7 +422,7 @@
     .animate0_2 {
         width: 210px;
     }
-    .fact-icons_corner4, .fact-icons__bgline {
+    .fact-icons__corner4, .fact-icons__bgline {
         background: none;
     }
     .main-wrapper {
@@ -835,6 +837,9 @@
         left: 32%;
         width: 60%;
         top: 70px;
+    }
+    .geo-map__left {
+        min-height: 235px;
     }
     .geo-map__left .geo-map__imgholder {
         background-image: url("geo-map-xs.png");
@@ -1280,7 +1285,7 @@
     .fact-icons__slider .swiper-button-next, .fact-icons__slider .swiper-button-prev {
         width: 70px;
     }
-    .fact-icons_corner4, .fact-icons__bgline {
+    .fact-icons__corner4, .fact-icons__bgline {
         background: none;
     }
     .fact-icons__item:nth-child(1), .fact-icons__item:nth-child(3) {
@@ -1398,10 +1403,6 @@
     }
     .siteFooter .pin-bottom {
         padding-bottom: 45px;
-    }
-    #bg_video {
-        height: 100%;
-        width: auto;
     }
     .elevator {
         padding: 50px 0;

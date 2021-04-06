@@ -1,12 +1,12 @@
-var slider0 = new Swiper('#prod-slider', {
-    slidesPerView: 1, 
-    loop: true,  
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'fraction',
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    }, 
-  });
+var slider0 = new Swiper('#productionSlider', {
+  slidesPerView: 1,  
+  loop: true,  
+  pagination: {
+    el: '#productionSlider .swiper-pagination',
+    type: 'fraction',
+  },
+  navigation: {
+    nextEl: '#productionSlider .swiper-button-next',
+    prevEl: '#productionSlider .swiper-button-prev',
+  }, 
+});
