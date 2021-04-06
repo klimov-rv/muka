@@ -2733,6 +2733,7 @@
  }
 
  .tab button {
+     position: relative;
      cursor: pointer;
      border: 0px solid;
      padding: 10px 0;
