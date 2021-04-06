@@ -1,0 +1,111 @@
+.news-feed .beans-animate {
+    background: url("news-beans1.png") no-repeat center center transparent;
+}
+
+.news.promo {
+    background: url("news-bg1.png") no-repeat center top transparent;
+    min-height: 575px;
+}
+
+.news-feed__wrap {
+    display: flex;
+}
+
+.masonry__item {
+    flex: 1 1 100%;
+    min-height: 250px;
+    padding: 9px;
+}
+
+.masonry__item_inner {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 5px 15px 0px #dbdcd8;
+    border-radius: 20px;
+    display: flex;
+}
+
+.masonry__item:hover .news-title__link {
+    color: #f4a344;
+    text-decoration: underline;
+}
+
+.news-title__link {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    max-height: 115px;
+    /* max-width: 100%;
+    white-space: nowrap;  */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.news-image__link {
+    border-radius: 5px;
+    height: 100%;
+    padding: 10px;
+}
+
+.news-image {
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background: url("no-image.png") no-repeat center center / cover transparent;
+}
+
+.news-right {
+    justify-content: center;
+    text-align: start;
+}
+
+.masonry__item:nth-child(5n+1) {
+    -webkit-flex-basis: 56.25%;
+    -ms-flex-preferred-size: 56.25%;
+    flex-basis: 56.25%;
+}
+
+.masonry__item:nth-child(5n+2) {
+    -webkit-flex-basis: 43.75%;
+    -ms-flex-preferred-size: 43.75%;
+    flex-basis: 43.75%;
+}
+
+.masonry__item:nth-child(5n+3) {
+    -webkit-flex-basis: 37.5%;
+    -ms-flex-preferred-size: 37.5%;
+    flex-basis: 37.5%;
+}
+
+.masonry__item:nth-child(5n+4) {
+    -webkit-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+}
+
+.masonry__item:nth-child(5n) {
+    -webkit-flex-basis: 37.5%;
+    -ms-flex-preferred-size: 37.5%;
+    flex-basis: 37.5%;
+}
+
+.masonry__item:nth-child(5n+1) .news-image__link {
+    flex: 0 0 45%;
+}
+
+.masonry__item:nth-child(5n+2) .news-image__link {
+    flex: 0 0 41%;
+}
+
+.masonry__item:nth-child(5n+3) .news-image__link {
+    flex: 0 0 50%;
+}
+
+.masonry__item:nth-child(5n+4) .news-image__link {
+    flex: 0 0 55%;
+}
+
+.masonry__item:nth-child(5n) .news-image__link {
+    flex: 0 0 50%;
+}

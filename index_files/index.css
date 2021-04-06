@@ -863,7 +863,7 @@
 
  .button1, .button2 {
      cursor: pointer;
-     display: block;  
+     display: block;
      padding: 0 30px;
      width: 235px;
      max-width: 300px;
@@ -881,14 +881,15 @@
  }
 
  .button1 {
-    border: 1px solid #f3a344;  
-    background-color: white;
-    color: #f3a344;  
-}
+     border: 1px solid #f3a344;
+     background-color: white;
+     color: #f3a344;
+ }
+
  .button2 {
-     border: 0px solid;  
+     border: 0px solid;
      background-color: #f3a344;
-     color: white;  
+     color: white;
  }
 
  .button2:hover {
@@ -1013,9 +1014,11 @@
  .quantity-control:nth-child(2) {
      content: "-";
  }
+
  .lefted.dedicated {
-     position: relative; 
+     position: relative;
  }
+
  .lefted.dedicated:after {
      content: "";
      position: absolute;
@@ -2188,7 +2191,7 @@
      width: 100%;
      height: 100%;
      background: url("contact_bg_3.png") right bottom no-repeat, url("contact_bg_4.png") left bottom no-repeat, white;
-     margin-top: 31px; 
+     margin-top: 31px;
  }
 
  .template-is-index .siteFooter_parallax {
@@ -4033,16 +4036,17 @@
      display: -webkit-box;
      display: -ms-flexbox;
      display: flex;
-     -ms-flex-wrap: wrap;
-     flex-wrap: wrap;
+     -ms-flex-wrap: nowrap;
+     flex-wrap: nowrap;
      -webkit-box-align: center;
      -ms-flex-align: center;
      align-items: center;
+     justify-content: center;
      width: 100%;
      width: auto;
-     -webkit-box-flex: 0 1 auto;
-     -ms-flex: 0 1 auto;
-     flex: 0 1 auto;
+     -webkit-box-flex: 1 1 auto;
+     -ms-flex: 1 1 auto;
+     flex: 1 1 auto;
      -ms-flex-negative: 1;
      flex-shrink: 1;
      margin-left: auto;
@@ -4096,58 +4100,22 @@
  }
 
  .pagination {
-     color: #f4a344;
-     font-size: 13px;
-     font-weight: 700;
+     color: #2f2f2f;
+     font-size: 40px;
+     font-weight: 300;
      text-transform: uppercase;
+     margin-bottom: 69px;
  }
 
- .pagination>.pagination-item {
-     line-height: 35px;
-     display: -webkit-box;
-     display: -ms-flexbox;
+ .pagination-item {
+     flex: 0 0 auto;
+     padding: 20px;
      display: flex;
-     -webkit-box-flex: 1;
-     position: relative;
+     cursor: pointer;
  }
 
- .pagination-link {
-     display: block;
-     padding: 6px 7px;
-     height: auto;
-     min-width: 7px;
-     text-decoration: none;
-     text-align: center;
-     vertical-align: top;
-     -webkit-transition: all 300ms;
-     -o-transition: all 300ms;
-     transition: all 300ms;
-     font-size: 14px;
-     font-weight: 400;
-     line-height: 30px;
-     border-bottom: 3px solid white;
- }
-
- .pagination-link.extreme {
-     font-weight: 700;
- }
-
- .pagination-item:first-child .pagination-link .arrows {
-     -webkit-transform: rotate(90deg);
-     -ms-transform: rotate(90deg);
-     transform: rotate(90deg);
- }
-
- .pagination-item:last-child .pagination-link .arrows {
-     -webkit-transform: rotate(-90deg);
-     -ms-transform: rotate(-90deg);
-     transform: rotate(-90deg);
- }
-
- .page_size-radio [type="radio"]:checked+.page_size-radio-control, .pagination-item.is-current .pagination-link {
-     font-weight: 700;
-     border: 0px solid;
-     border-bottom: 3px solid #f4a344;
+ .pagination-item:hover a {
+     color: #fea933;
  }
 
  .catalog__text {
