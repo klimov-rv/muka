@@ -1,0 +1,103 @@
+.zakupka-block {
+    background: url("zakupka_animate0.png") no-repeat calc(100% - 90px) 210px / 500px transparent;
+}
+
+.zakupka_animate0 {
+    position: relative;
+}
+
+.zakupka.promo .hero__text_block {
+    flex-direction: row;
+    min-height: 415px;
+}
+
+.zakupka-block .beans-animate {
+    background: url("geo-map__animate1.png") no-repeat bottom center transparent;
+}
+
+/* 
+.waygraphic {
+    min-height: 760px;
+} */
+
+.waygraphic__wrap {
+    min-height: 760px;
+    background: url("waygraphic_line.png") no-repeat 144px 165px transparent;
+    position: relative;
+}
+
+.waygraphic__point_1, .waygraphic__point_2, .waygraphic__point_3, .waygraphic__point_4, .waygraphic__point_5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.waygraphic__point_1 {
+    width: 325px;
+    height: 195px;
+    top: 0px;
+    left: 0px;
+}
+
+.waygraphic__point_2 {
+    width: 454px;
+    height: 68px;
+    top: 323px;
+    left: 47px;
+}
+
+.waygraphic__point_3 {
+    width: 463px;
+    height: 78px;
+    top: 335px;
+    left: 768px;
+}
+
+.waygraphic__point_4 {
+    width: 386px;
+    height: 68px;
+    top: 506px;
+    left: 69px;
+}
+
+.waygraphic__point_5 {
+    top: 500px;
+    left: 500px;
+}
+
+.point_wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 200px;
+    width: 100%;
+}
+
+.waypoint {
+    position: absolute;
+    top: 0;
+    right: -95px;
+    width: 95px;
+    height: 195px;
+    background: url("waygraphic_point.png") no-repeat center center transparent;
+}
+
+.waygraphic__point_2 .waypoint {
+    top: -100%;
+    right: -50px;
+}
+
+.waygraphic__point_3 .waypoint {
+    top: -121px;
+    left: -95px;
+}
+
+.waygraphic__point_4 .waypoint {
+    top: -92px;
+    right: -115px;
+}
+
+.waygraphic__point_5 .waypoint {
+    top: 0;
+    right: -95px;
+}

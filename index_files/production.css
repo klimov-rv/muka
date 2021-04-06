@@ -1,7 +1,5 @@
 .production-block {
-    background: url("pic2.png") no-repeat calc(100% - 150px) 100px / 300px transparent;
-    padding-top: 131px;
-    flex-direction: column;
+    background: url("pic2.png") no-repeat calc(100% - 150px) 100px / 300px transparent; 
 }
 
 .hero__text_block {

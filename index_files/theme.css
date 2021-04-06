@@ -8669,3 +8669,9 @@ header .header-menu li:hover .subcol-dropdown {
   color: #4c4c4c;
   font-family: PT Sans;
 }
+
+.production-block,
+.zakupka-block { 
+  padding-top: 131px;
+  flex-direction: column;
+}
