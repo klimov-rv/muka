@@ -364,8 +364,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 768px) { 
     #bg_video {
         height: 100%;
         width: auto;
