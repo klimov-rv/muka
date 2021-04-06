@@ -1,0 +1,14 @@
+.production-block {
+    background: url("pic2.png") no-repeat calc(100% - 150px) 100px / 300px transparent;
+    padding-top: 131px;
+    flex-direction: column;
+}
+
+.hero__text_block {
+    flex: 0 0 599px;
+    top: -30px;
+    padding-top: 30px;
+}
+.promo.production {
+    background: url("production-head__bg.png") repeat-x top center transparent;
+}
