@@ -918,8 +918,8 @@
      min-height: 900px;
      z-index: 3;
  }
-.ourmission_parallax,
- .greeting_parallax {
+
+ .ourmission_parallax, .greeting_parallax {
      position: absolute;
      bottom: 0;
      left: 0;
@@ -940,7 +940,7 @@
      font-size: 17px;
  }
 
- .greeting__header {
+ .header__standart, .greeting__header {
      font-size: 80px;
      color: #4e1904;
      text-align: center;
@@ -1549,6 +1549,7 @@
      background: url("grains3_all.png") no-repeat center center transparent;
      z-index: 3;
  }
+
  .tablinks {
      outline: none;
      font-size: 50px;
@@ -1583,7 +1584,7 @@
  }
 
  .tabs-content .slider-pagination__wrap {
-    top: 50px;
+     top: 50px;
  }
 
  .tara_select {
@@ -2727,11 +2728,13 @@
      -ms-flex-pack: center;
      justify-content: center;
      padding-bottom: 20px;
+     z-index: 3;
+     position: relative;
  }
 
  .tab button {
      cursor: pointer;
-     border: 0px solid; 
+     border: 0px solid;
      padding: 10px 0;
      margin: 0 30px;
      text-transform: uppercase;
@@ -2739,11 +2742,9 @@
      -o-transition: 0.3s;
      transition: 0.3s;
      width: auto;
-     
      white-space: nowrap;
      opacity: 0.3;
  }
- 
 
  .tab button.active {
      opacity: 1;
