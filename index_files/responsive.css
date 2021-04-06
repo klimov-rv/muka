@@ -117,11 +117,11 @@
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
     }
-    .tabcontent .product__list {
+    .tabcontent .slider__list {
         -ms-flex-wrap: nowrap;
             flex-wrap: nowrap;
     }
-    #rel_products .product__list {
+    #rel_products .slider__list {
         -ms-flex-wrap: nowrap;
             flex-wrap: nowrap;
     }

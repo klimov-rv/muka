@@ -569,7 +569,7 @@
 
  /* Prospero */
 
- .tab button, .siteHeader__mainnav .menu__link {
+ .siteHeader__mainnav .menu__link {
      position: relative;
      display: block;
      margin: 0 1.5em;
@@ -918,13 +918,13 @@
      min-height: 900px;
      z-index: 3;
  }
-
+.ourmission_parallax,
  .greeting_parallax {
      position: absolute;
      bottom: 0;
      left: 0;
      width: 50vw;
-     height: 113%;
+     height: 100%;
      z-index: -1;
      background: url("pic1-cut5.png") no-repeat left center transparent;
      background-size: initial;
@@ -961,7 +961,7 @@
  .greeting__header:after {
      content: "";
      position: absolute;
-     bottom: -5px;
+     bottom: -23px;
      height: 100px;
      width: 100%;
      background: url("pic1-colos.png") no-repeat center center / 50px transparent;
@@ -1026,7 +1026,7 @@
  .greeting__header.lefted.dedicated:after {
      content: "";
      position: absolute;
-     bottom: -5px;
+     bottom: -23px;
      left: -15px;
      height: 100px;
      width: 100px;
@@ -1132,6 +1132,7 @@
  }
 
  .icons__item .icon__signature {
+     padding: 0 25px;
      font-size: 18px;
      z-index: 3;
  }
@@ -1548,14 +1549,21 @@
      background: url("grains3_all.png") no-repeat center center transparent;
      z-index: 3;
  }
-
- .prodcarousel_collections .tablinks {
+ .tablinks {
      outline: none;
-     padding-top: 50px;
      font-size: 50px;
-     background: url("tab1.png") no-repeat top center transparent;
      color: #2f2f2f;
      opacity: 0.3;
+ }
+
+ .template-is-index .prodcarousel_collections .tablinks:nth-child(1) {
+     padding-top: 50px;
+     background: url("tab1.png") no-repeat top center transparent;
+ }
+
+ .template-is-index .prodcarousel_collections .tablinks:nth-child(2) {
+     padding-top: 50px;
+     background: url("tab2.png") no-repeat top center transparent;
  }
 
  .prodcarousel .tab {
@@ -1574,8 +1582,8 @@
      font-size: 30px;
  }
 
- .tablinks:nth-child(2) {
-     background: url("tab2.png") no-repeat top center transparent;
+ .tabs-content .slider-pagination__wrap {
+    top: 50px;
  }
 
  .tara_select {
@@ -2192,7 +2200,7 @@
      z-index: 1;
      width: 100%;
      height: 100%;
-     background: url("contact_bg_3.png") right bottom no-repeat, url("contact_bg_4.png") left bottom no-repeat, #fbfbfb;
+     background: url("contact_bg_3.png") right bottom no-repeat, url("contact_bg_4.png") left bottom no-repeat, white;
      margin-top: 31px;
      background-attachment: fixed;
  }
@@ -2448,7 +2456,7 @@
      padding: 17px 29px 33px;
  }
 
- #rel_products .product__list, .tabcontent .product__list {
+ #rel_products .slider__list, .tabcontent .slider__list {
      display: -webkit-box;
      display: -ms-flexbox;
      display: flex;
@@ -2603,6 +2611,11 @@
      display: block;
  }
 
+ /* .img__relative {
+     padding-bottom: 76%;
+     height: 500px;
+ } */
+
  .img__relative .product-img, .product-img__relative .product-img, .half__img_full img {
      position: absolute;
      -webkit-transform: translate(-50%, -50%);
@@ -2718,9 +2731,7 @@
 
  .tab button {
      cursor: pointer;
-     border: 0px solid;
-     font-size: 13px;
-     color: #f4a344;
+     border: 0px solid; 
      padding: 10px 0;
      margin: 0 30px;
      text-transform: uppercase;
@@ -2728,21 +2739,22 @@
      -o-transition: 0.3s;
      transition: 0.3s;
      width: auto;
- }
-
- .tab button {
+     
      white-space: nowrap;
      opacity: 0.3;
  }
+ 
 
  .tab button.active {
      opacity: 1;
+     font-weight: bold;
  }
 
  .tabcontent {
      -webkit-animation: fadeEffect .9s ease-in-out;
      animation: fadeEffect .9s ease-in-out;
      position: relative;
+     padding-bottom: 50px;
  }
 
  .card-bundle {
