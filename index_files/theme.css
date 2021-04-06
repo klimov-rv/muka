@@ -8670,7 +8670,7 @@ header .header-menu li:hover .subcol-dropdown {
   font-family: PT Sans;
 }
 
-.vakansii-block, .production-block, .zakupka-block, .news-block {
+.vakansii-block, .production-block, .zakupka-block, .news-block, .contact-block {
   padding-top: 131px;
   flex-direction: column;
 }

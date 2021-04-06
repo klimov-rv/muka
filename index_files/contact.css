@@ -1,0 +1,61 @@
+.contact.promo {
+    background: url("contact-bg1.png") no-repeat center top transparent;
+    min-height: 575px;
+}
+.contact-info {
+    padding-bottom: 100px;
+}
+.contact-map {
+    min-height: 605px;
+    background: url("contact-map.png") no-repeat center top / cover transparent;
+    margin-bottom: 150px;
+}
+
+.contact-info__list li {
+    line-height: 50px;
+    min-height: 80px;
+}
+
+.contact-info__list li:hover a {
+    text-decoration: underline;
+    color: #fea933;
+}
+
+.contact-info__list a {
+    font-size: 40px;
+    color: #4a1400;
+}
+
+.contact-info__list small {
+    font-size: 25px;
+    color: #808080;
+    margin-right: 9px;
+}
+
+a.info-email {
+    font-size: 30px;
+    color: #fea933;
+}
+
+span.info-adress {
+    font-size: 30px;
+    color: #4a1400;
+}
+
+.icon-phone, .icon-mail, .icon-adress {
+    height: 33px;
+    width: 50px;
+    display: inline-block;
+}
+
+.icon-phone {
+    background: url("icon-tel.png") no-repeat center center transparent;
+}
+
+.icon-mail {
+    background: url("icon-mail.png") no-repeat center center transparent;
+}
+
+.icon-adress {
+    background: url("icon-adress.png") no-repeat center center transparent;
+}
