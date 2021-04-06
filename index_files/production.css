@@ -146,11 +146,7 @@
 .samovivoz__picture {
     background: url("samovivoz-pic1.png") no-repeat center center transparent;
     min-height: 310px;
-}
-
-.siteFooter_parallax {
-    background-attachment: unset;
-}
+} 
 
 .samovivoz .beans-animate {
     background-image: url("samovivoz-bg.png");
