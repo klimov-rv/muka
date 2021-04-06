@@ -64,22 +64,13 @@
 .production {
     background: url("production-section-bg.png") repeat-x center center transparent;
     min-height: 1027px;
-    padding-top: 95px;
+    padding-top: 95px; 
+    z-index: 3; 
 }
 
 .production__slider_wrap {
     position: relative;
     z-index: 7;
-}
-
-.production__subtext_wrap {
-    margin-bottom: 21px;
-    text-align: center;
-}
-
-.production__subtext {
-    color: #4c4c4c;
-    font-family: PT Sans;
 }
 
 .promo.aboutus {
@@ -139,10 +130,6 @@
     width: 100px;
 }
 
-.production {
-    position: relative;
-    z-index: 3;
-}
 
 .elevator-lab {
     position: relative;

@@ -42,7 +42,6 @@ button, input, optgroup, select, textarea {
   background-color: white;
   color: #1e1e1e;
 }
- 
 
 .swiper-pagination-current {
   font-size: 40px;
@@ -52,207 +51,73 @@ button, input, optgroup, select, textarea {
 .swiper-pagination {
   font-size: 30px;
 }
- 
-/* line 265, variables.scss.liquid */
 
-.pallette_1 option {
-  background-color: #ffffff;
-  color: #313131;
+input::-webkit-input-placeholder {
+  color: #4c4c4c;
 }
 
-/* line 270, variables.scss.liquid */
-
-.pallette_1 .c_text {
-  color: #313131;
+input::-moz-placeholder {
+  color: #4c4c4c;
 }
 
-/* line 273, variables.scss.liquid */
-
-.pallette_1 .c_link {
-  color: #313131;
+input:-ms-input-placeholder {
+  color: #4c4c4c;
 }
 
-/* line 276, variables.scss.liquid */
-
-.pallette_1 .c_button_bg {
-  background-color: #333333;
+input::-ms-input-placeholder {
+  color: #4c4c4c;
 }
 
-/* line 279, variables.scss.liquid */
-
-.pallette_1 .c_button_text {
-  color: #ffffff;
+input::placeholder {
+  color: #4c4c4c;
 }
 
-/* line 282, variables.scss.liquid */
-
-.pallette_1 .c_button {
-  background-color: #333333;
-  color: #ffffff;
+textarea[placeholder], input[placeholder] {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  font: 18px 'PT Sans';
+  outline: none;
 }
 
-/* line 286, variables.scss.liquid */
-
-.pallette_1 .c_special_bg {
-  background-color: #eeeeee;
+::-webkit-input-placeholder {
+  color: #4c4c4c;
 }
 
-/* line 289, variables.scss.liquid */
-
-.pallette_1 .c_special_2_bg {
-  background-color: #f7454d;
+::-moz-placeholder {
+  color: #4c4c4c;
 }
 
-/* line 292, variables.scss.liquid */
-
-.pallette_1 .c_special_color {
-  color: #eeeeee;
+:-ms-input-placeholder {
+  color: #4c4c4c;
 }
 
-/* line 295, variables.scss.liquid */
-
-.pallette_1 .c_special_2_color {
-  color: #f7454d;
+::-ms-input-placeholder {
+  color: #4c4c4c;
 }
 
-/* line 298, variables.scss.liquid */
-
-.pallette_1 .reg_bg {
-  background-color: #ffffff;
+::placeholder {
+  color: #4c4c4c;
 }
 
-/* line 301, variables.scss.liquid */
-
-.pallette_1 .c_border {
-  border-color: #ffffff80;
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #4c4c4c;
 }
 
-/* line 304, variables.scss.liquid */
-
-.pallette_1 input[type="text"], .pallette_1 input[type="password"], .pallette_1 input[type="email"], .pallette_1 textarea {
-  border-color: #313131;
-  background-color: #ffffff;
-  color: #313131;
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #4c4c4c;
 }
 
-/* line 313, variables.scss.liquid */
-
-.pallette_1.no_bg {
-  background-color: transparent;
+::-ms-input-placeholder {
+  /* IE 10+ */
+  color: #4c4c4c;
 }
 
-/* line 328, variables.scss.liquid */
-
-.pallette_2 {
-  --color_bg: #f8f8f8;
-  --color_text: #313131;
-  --color_link: #313131;
-  --color_button_bg: #333333;
-  --color_button_text: #ffffff;
-  --select-arrow: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 129 129' xmlns:xlink='http://www.w3.org/1999/xlink' enable-background='new 0 0 129 129'%3E%3Cg%3E%3Cpath d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='%23313131'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
-  background-color: #f8f8f8;
-  color: #313131;
-}
-
-/* line 338, variables.scss.liquid */
-
-.pallette_2.gallery-wrapper svg use {
-  stroke: #333333;
-}
-
-/* line 341, variables.scss.liquid */
-
-.pallette_2 .gallery-thumbs-wrap .swiper-button-prev, .pallette_2 .gallery-thumbs-wrap .swiper-button-next {
-  background-color: transparent;
-  border-color: #33333350;
-}
-
-/* line 346, variables.scss.liquid */
-
-.pallette_2 option {
-  background-color: #f8f8f8;
-  color: #313131;
-}
-
-/* line 351, variables.scss.liquid */
-
-.pallette_2 .c_text {
-  color: #313131;
-}
-
-/* line 354, variables.scss.liquid */
-
-.pallette_2 .c_link {
-  color: #313131;
-}
-
-/* line 357, variables.scss.liquid */
-
-.pallette_2 .c_button_bg {
-  background-color: #333333;
-}
-
-/* line 360, variables.scss.liquid */
-
-.pallette_2 .c_button_text {
-  color: #ffffff;
-}
-
-/* line 363, variables.scss.liquid */
-
-.pallette_2 .c_button {
-  background-color: #333333;
-  color: #ffffff;
-}
-
-/* line 367, variables.scss.liquid */
-
-.pallette_2 .c_special_bg {
-  background-color: #f7454d;
-}
-
-/* line 370, variables.scss.liquid */
-
-.pallette_2 .c_special_2_bg {
-  background-color: #eeeeee;
-}
-
-/* line 373, variables.scss.liquid */
-
-.pallette_2 .c_special_color {
-  color: #f7454d;
-}
-
-/* line 376, variables.scss.liquid */
-
-.pallette_2 .c_special_2_color {
-  color: #eeeeee;
-}
-
-/* line 379, variables.scss.liquid */
-
-.pallette_2 .reg_bg {
-  background-color: #f8f8f8;
-}
-
-/* line 382, variables.scss.liquid */
-
-.pallette_2 .c_border {
-  border-color: #f8f8f880;
-}
-
-/* line 385, variables.scss.liquid */
-
-.pallette_2 input[type="text"], .pallette_2 input[type="password"], .pallette_2 input[type="email"], .pallette_2 textarea {
-  border-color: #313131;
-  background-color: #f8f8f8;
-  color: #313131;
-}
-
-/* line 394, variables.scss.liquid */
-
-.pallette_2.no_bg {
-  background-color: transparent;
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #4c4c4c;
 }
 
 /*=========================================
@@ -304,6 +169,11 @@ body {
 
 article, aside, footer, header, nav, section {
   display: block;
+}
+
+section {
+  position: relative;
+  z-index: 0;
 }
 
 /**
@@ -1083,7 +953,6 @@ img {
   -ms-transform: none;
   transform: none;
 }
- 
 
 @media screen and (max-width: 380px) {
   /* line 6738, spider.scss */
@@ -8762,7 +8631,6 @@ header .header-menu li:hover .subcol-dropdown {
   font-style: italic;
 }
 
-
 .text-title {
   color: #fea933;
   font-size: 80px;
@@ -8787,7 +8655,17 @@ header .header-menu li:hover .subcol-dropdown {
   font-weight: bold;
 }
 
-
 .slider-pagination__wrap {
   position: relative;
+}
+
+.content__subtext_wrap, .production__subtext_wrap {
+  margin-bottom: 21px;
+  text-align: center;
+  width: 100%;
+}
+
+.content__subtext, .production__subtext {
+  color: #4c4c4c;
+  font-family: PT Sans;
 }

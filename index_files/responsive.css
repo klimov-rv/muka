@@ -1192,6 +1192,7 @@
             -ms-flex-direction: column;
                 flex-direction: column;
     }
+    .slider-buttons__wrap,
     .slider-pagination__wrap {
         position: relative;
     }

@@ -124,15 +124,6 @@
      z-index: 5;
  }
 
- .siteFooter {
-     padding-top: 135px;
-     margin-top: -145px;
-     z-index: 7;
-     -webkit-clip-path: polygon(99.95% 878px, 3px 867px, 0% 6%, 1.89% 6.16%, 3.58% 6.36%, 4.95% 6.49%, 6.47% 6.57%, 8.05% 6.52%, 10.26% 6.78%, 14.79% 6.98%, 17.84% 6.81%, 20.88% 7.41%, 25.3% 9.23%, 30.4% 11.55%, 34.66% 13.42%, 37.4% 14.34%, 39.99% 14.85%, 42.46% 14.98%, 44.25% 14.79%, 45.99% 14.48%, 47.52% 14.12%, 48.99% 13.57%, 50.51% 12.71%, 52.2% 12.04%, 54.31% 11.14%, 56.57% 10.1%, 58.73% 9.14%, 60.99% 8.28%, 63.52% 7.49%, 66.51% 6.97%, 69.36% 6.97%, 71.84% 7.01%, 74.68% 7.12%, 77.37% 7.37%, 80.28% 7.59%, 82.39% 7.78%, 85.06% 8.07%, 87.75% 8.65%, 91.17% 9.09%, 94.79% 9.84%, 99.84% 11%);
-     clip-path: polygon(99.95% 878px, 3px 867px, 0% 6%, 1.89% 6.16%, 3.58% 6.36%, 4.95% 6.49%, 6.47% 6.57%, 8.05% 6.52%, 10.26% 6.78%, 14.79% 6.98%, 17.84% 6.81%, 20.88% 7.41%, 25.3% 9.23%, 30.4% 11.55%, 34.66% 13.42%, 37.4% 14.34%, 39.99% 14.85%, 42.46% 14.98%, 44.25% 14.79%, 45.99% 14.48%, 47.52% 14.12%, 48.99% 13.57%, 50.51% 12.71%, 52.2% 12.04%, 54.31% 11.14%, 56.57% 10.1%, 58.73% 9.14%, 60.99% 8.28%, 63.52% 7.49%, 66.51% 6.97%, 69.36% 6.97%, 71.84% 7.01%, 74.68% 7.12%, 77.37% 7.37%, 80.28% 7.59%, 82.39% 7.78%, 85.06% 8.07%, 87.75% 8.65%, 91.17% 9.09%, 94.79% 9.84%, 99.84% 11%);
-     /* transition: clip-path .6s ease-out; */
-     overflow: hidden;
- }
 
  .pin-bottom {
      position: absolute;
@@ -636,7 +627,7 @@
      width: 135px;
      left: calc(50% - 65px);
      bottom: 0;
-     background: url("active_underline.png") no-repeat bottom center transparent;
+     background: url("active_underline1.png") no-repeat bottom center transparent;
      -webkit-transform: scale3d(0, 1, 1);
      transform: scale3d(0, 1, 1);
      -webkit-transition: -webkit-transform 0.1s;
@@ -954,7 +945,7 @@
      text-transform: none;
  }
 
- .greeting__header.lefted {
+ .header__standart.lefted, .greeting__header.lefted {
      text-align: left;
  }
 
@@ -2187,13 +2178,6 @@
      opacity: 0.7;
  }
 
- .siteFooter {
-     position: relative;
-     background: #fbfbfb;
-     min-height: 850px;
-     position: relative;
- }
-
  .siteFooter_parallax {
      position: absolute;
      top: 0;
@@ -2240,74 +2224,21 @@
      margin-bottom: 20px;
  }
 
- input::-webkit-input-placeholder {
-     color: #4c4c4c;
- }
+ .siteFooter {
+    position: relative; 
+    min-height: 850px;
+    position: relative;
+}
 
- input::-moz-placeholder {
-     color: #4c4c4c;
- }
-
- input:-ms-input-placeholder {
-     color: #4c4c4c;
- }
-
- input::-ms-input-placeholder {
-     color: #4c4c4c;
- }
-
- input::placeholder {
-     color: #4c4c4c;
- }
-
- textarea[placeholder], input[placeholder] {
-     overflow: hidden;
-     -o-text-overflow: ellipsis;
-     text-overflow: ellipsis;
-     font: 18px 'PT Sans';
-     outline: none;
- }
-
- ::-webkit-input-placeholder {
-     color: #4c4c4c;
- }
-
- ::-moz-placeholder {
-     color: #4c4c4c;
- }
-
- :-ms-input-placeholder {
-     color: #4c4c4c;
- }
-
- ::-ms-input-placeholder {
-     color: #4c4c4c;
- }
-
- ::placeholder {
-     color: #4c4c4c;
- }
-
- :-moz-placeholder {
-     /* Firefox 18- */
-     color: #4c4c4c;
- }
-
- ::-moz-placeholder {
-     /* Firefox 19+ */
-     color: #4c4c4c;
- }
-
- ::-ms-input-placeholder {
-     /* IE 10+ */
-     color: #4c4c4c;
- }
-
- ::-webkit-input-placeholder {
-     /* Chrome/Opera/Safari */
-     color: #4c4c4c;
- }
-
+.template-is-index .siteFooter {
+    padding-top: 135px;
+    margin-top: -145px;
+    z-index: 7;
+    -webkit-clip-path: polygon(99.95% 878px, 3px 867px, 0% 6%, 1.89% 6.16%, 3.58% 6.36%, 4.95% 6.49%, 6.47% 6.57%, 8.05% 6.52%, 10.26% 6.78%, 14.79% 6.98%, 17.84% 6.81%, 20.88% 7.41%, 25.3% 9.23%, 30.4% 11.55%, 34.66% 13.42%, 37.4% 14.34%, 39.99% 14.85%, 42.46% 14.98%, 44.25% 14.79%, 45.99% 14.48%, 47.52% 14.12%, 48.99% 13.57%, 50.51% 12.71%, 52.2% 12.04%, 54.31% 11.14%, 56.57% 10.1%, 58.73% 9.14%, 60.99% 8.28%, 63.52% 7.49%, 66.51% 6.97%, 69.36% 6.97%, 71.84% 7.01%, 74.68% 7.12%, 77.37% 7.37%, 80.28% 7.59%, 82.39% 7.78%, 85.06% 8.07%, 87.75% 8.65%, 91.17% 9.09%, 94.79% 9.84%, 99.84% 11%);
+    clip-path: polygon(99.95% 878px, 3px 867px, 0% 6%, 1.89% 6.16%, 3.58% 6.36%, 4.95% 6.49%, 6.47% 6.57%, 8.05% 6.52%, 10.26% 6.78%, 14.79% 6.98%, 17.84% 6.81%, 20.88% 7.41%, 25.3% 9.23%, 30.4% 11.55%, 34.66% 13.42%, 37.4% 14.34%, 39.99% 14.85%, 42.46% 14.98%, 44.25% 14.79%, 45.99% 14.48%, 47.52% 14.12%, 48.99% 13.57%, 50.51% 12.71%, 52.2% 12.04%, 54.31% 11.14%, 56.57% 10.1%, 58.73% 9.14%, 60.99% 8.28%, 63.52% 7.49%, 66.51% 6.97%, 69.36% 6.97%, 71.84% 7.01%, 74.68% 7.12%, 77.37% 7.37%, 80.28% 7.59%, 82.39% 7.78%, 85.06% 8.07%, 87.75% 8.65%, 91.17% 9.09%, 94.79% 9.84%, 99.84% 11%);
+    /* transition: clip-path .6s ease-out; */
+    overflow: hidden;
+}
  .siteFooter__copy {
      font-family: PT Sans;
      font-size: 16px;
@@ -2730,6 +2661,7 @@
      padding-bottom: 20px;
      z-index: 3;
      position: relative;
+     width: 100%;
  }
 
  .tab button {
@@ -2738,18 +2670,15 @@
      border: 0px solid;
      padding: 10px 0;
      margin: 0 30px;
-     text-transform: uppercase;
-     -webkit-transition: 0.3s;
-     -o-transition: 0.3s;
-     transition: 0.3s;
+     text-transform: none;
      width: auto;
      white-space: nowrap;
      opacity: 0.3;
+     background: transparent;
  }
 
  .tab button.active {
      opacity: 1;
-     font-weight: bold;
  }
 
  .tabcontent {
