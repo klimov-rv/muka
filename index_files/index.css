@@ -626,7 +626,7 @@
      height: 15px;
      width: 135px;
      left: calc(50% - 65px);
-     bottom: 0;
+     bottom: -10px;
      background: url("active_underline1.png") no-repeat bottom center transparent;
      -webkit-transform: scale3d(0, 1, 1);
      transform: scale3d(0, 1, 1);

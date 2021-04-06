@@ -36,7 +36,6 @@
 
 .template-production .tab button.active {
     opacity: 1;
-    font-weight: bold;
     color: #f4a344;
 }
 
@@ -108,10 +107,6 @@
     padding-bottom: 35px;
 }
 
-.samovivoz {
-    background: url("samovivoz-bg.png") repeat center center transparent;
-}
-
 .samovivoz .header__standart {
     padding: 0 45px 0 0;
 }
@@ -157,4 +152,8 @@
 
 .siteFooter_parallax {
     background-attachment: unset;
+}
+
+.samovivoz .beans-animate {
+    background-image: url("samovivoz-bg.png");
 }
