@@ -15,7 +15,7 @@
 }
 
 @media screen and (max-width: 1600px) {
-    .greeting__header.lefted.dedicated:after {
+    .lefted.dedicated:after {
         bottom: -15px;
     }
     .action-block, .banner2 {

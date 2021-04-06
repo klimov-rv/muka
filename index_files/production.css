@@ -109,39 +109,6 @@
     padding: 0 45px 0 0;
 }
 
-.samovivoz__list {
-    line-height: 1.7em;
-    margin-bottom: 15px;
-}
-
-.samovivoz__list_caption {
-    font-size: 50px;
-    color: #4c4c4c;
-}
-
-.samovivoz__lists_wrap {
-    height: 425px;
-    border-left: 2px solid #ede8e5;
-    padding-left: 80px;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.samovivoz__li {
-    padding-left: 35px;
-}
-
-.samovivoz__li:before {
-    content: "\2022";
-    color: #fea933;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-    font-size: 29px;
-    vertical-align: sub;
-    line-height: 18px;
-}
 
 .samovivoz__picture {
     background: url("samovivoz-pic1.png") no-repeat center center transparent;

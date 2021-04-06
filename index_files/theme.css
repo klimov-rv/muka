@@ -8670,8 +8670,56 @@ header .header-menu li:hover .subcol-dropdown {
   font-family: PT Sans;
 }
 
-.production-block,
-.zakupka-block { 
+.vakansii-block, .production-block, .zakupka-block {
   padding-top: 131px;
   flex-direction: column;
+}
+
+.margin-b-80__block {
+  margin-bottom: 80px;
+}
+.margin-b-40__block { 
+  margin-bottom: 40px;
+}
+.text-title.smaller { 
+  font-size: 40px; 
+}
+
+.dark {
+  color: #4e1904;
+}
+
+
+.standart__list {
+  line-height: 1.7em;
+  margin-bottom: 15px;
+}
+
+.standart__list_caption {
+  font-size: 50px;
+  color: #4c4c4c;
+}
+
+.standart__lists_wrap {
+  height: 425px;
+  border-left: 2px solid #ede8e5;
+  padding-left: 80px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.standart__li {
+  padding-left: 35px;
+}
+
+.standart__li:before {
+  content: "\2022";
+  color: #fea933;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 29px;
+  vertical-align: sub;
+  line-height: 18px;
 }

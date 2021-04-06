@@ -863,9 +863,7 @@
 
  .button1, .button2 {
      cursor: pointer;
-     display: block;
-     background: #d67300;
-     border: 0px solid #f4a344;
+     display: block;  
      padding: 0 30px;
      width: 235px;
      max-width: 300px;
@@ -882,12 +880,15 @@
      outline: none;
  }
 
+ .button1 {
+    border: 1px solid #f3a344;  
+    background-color: white;
+    color: #f3a344;  
+}
  .button2 {
-     border: 0px solid;
+     border: 0px solid;  
      background-color: #f3a344;
-     color: white;
-     font-weight: 500;
-     line-height: 49px;
+     color: white;  
  }
 
  .button2:hover {
@@ -1012,8 +1013,10 @@
  .quantity-control:nth-child(2) {
      content: "-";
  }
-
- .greeting__header.lefted.dedicated:after {
+ .lefted.dedicated {
+     position: relative; 
+ }
+ .lefted.dedicated:after {
      content: "";
      position: absolute;
      bottom: -23px;
