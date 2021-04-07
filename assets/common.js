@@ -59,3 +59,64 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+
+
+function galleryInit(galleryThumbs, galleryMain) {
+  var $galleryThumbs = $(galleryThumbs);
+  var $galleryMain = $(galleryMain);
+
+  var galleryThumbsSlider = new Swiper(galleryThumbs, {
+    loopedSlides: $(galleryThumbs + " .swiper-wrapper .swiper-slide").length,
+    spaceBetween: 10,
+    navigation: {
+      nextEl: ".js-gallery-thumbs .swiper-button-next",
+      prevEl: ".js-gallery-thumbs .swiper-button-prev"
+    },
+
+    direction: 'vertical',
+    pagination: {
+      el: '.js-gallery-thumbs .swiper-pagination',
+      clickable: true,
+    },
+    speed: 200,
+    loop: false,
+    slidesPerView: 3,
+    touchRatio: 0.2,
+    slideToClickedSlide: true
+  });
+
+  var galleryTop = new Swiper(galleryMain, {
+    loopedSlides: $(galleryMain + " .swiper-wrapper .swiper-slide").length,
+    navigation: {
+      nextEl: ".js-product-gallery-main .swiper-button-next",
+      prevEl: ".js-product-gallery-main .swiper-button-prev"
+    },
+    speed: 200,
+    loop: false,
+    spaceBetween: 0
+  });
+
+  galleryTop.on("transitionEnd", function (e) {
+    $(".js-gallery-trigger").removeClass("is-active");
+    $(".js-gallery-trigger")
+      .eq(galleryTop.activeIndex)
+      .addClass("is-active");
+    if ($galleryThumbs[0] && $galleryThumbs[0].swiper)
+      $galleryThumbs[0].swiper.slideTo(galleryTop.activeIndex);
+  });
+
+  galleryTop.params.control = galleryThumbsSlider;
+  galleryThumbsSlider.params.control = galleryTop;
+
+  $galleryThumbs.find(".js-gallery-trigger:first").addClass("is-active");
+  $(document).on("click", galleryThumbs + " .js-gallery-trigger", function (
+    event
+  ) {
+    event.preventDefault();
+    var index = $(this).index();
+    if ($galleryMain[0] && $galleryMain[0].swiper) {
+      $galleryMain[0].swiper.slideTo(index);
+    }
+  });
+}

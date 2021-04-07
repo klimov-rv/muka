@@ -1,3 +1,96 @@
 .towar.promo {
     min-height: 510px;
 }
+
+.product__card {
+    top: -300px;
+    z-index: 9;
+}
+
+.gallery__item {
+    position: relative;
+}
+
+.gallery-thumbs .gallery__item {
+    opacity: .3;
+}
+
+.gallery-thumbs .gallery__item.is-active {
+    opacity: 1;
+}
+
+.gallery-main {
+    position: relative;
+    height: 100%;
+    padding: 20px 30px;
+    left: -63px;
+    z-index: 1;
+}
+
+.gallery-thumbs {
+    position: relative;
+    max-height: 550px;
+    padding: 90px 10px;
+    z-index: 3;
+}
+
+.product__card_wrap .product__quantity-controls {
+    margin-bottom: 40px;
+}
+
+.product__title {
+    font-size: 80px;
+    color: #4e1904;
+    margin: -15px 0 0;
+}
+
+.product__price,
+.product__type {
+    font-size: 40px;
+    color: #2f2f2f;
+}
+.product__info  { 
+    min-height: 335px;
+}
+
+.product__price:hover {
+    color: #f4a344; 
+} 
+.description-block_title {
+    font-size: 40px;
+    color: #2f2f2f;
+    text-align: left;
+    margin: 15px 0 5px;
+    line-height: 1.3em;
+}
+
+
+.product__description .t-row-like {
+    width: 80%; 
+    display: flex;
+    flex-wrap: nowrap;
+}
+.product__description .t-cell-like {
+    background: white; 
+    padding: 3px 10px;   
+    margin: 3px 20px 3px 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 31px;
+} 
+.t-row-like .t-cell-like:first-child {
+    flex: 1 0 60%;
+}
+.t-row-like .t-cell-like:last-child { 
+    flex: 1 0 60%;
+    text-align: center; 
+    white-space: nowrap;
+}
+
+.product__card .greeting_parallax {
+    background-position-y: bottom; 
+}
+
+.template-towar .siteFooter {
+    margin-top: -150px;
+}

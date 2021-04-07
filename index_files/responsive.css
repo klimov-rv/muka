@@ -271,14 +271,7 @@
     .divarication__title {
         height: auto;
         margin-bottom: 9px;
-    }
-    .siteFooter_container>.row>div {
-        padding: 10px;
-    }
-    .gallery .gallery__item {
-        margin: 0;
-        margin-bottom: 10px;
-    }
+    } 
     .product__grid_footer .half_right {
         padding-left: 0px;
     }
@@ -599,10 +592,7 @@
     }
     .product__grid_half-left {
         padding-right: 0;
-    }
-    .gallery__item:first-child, .gallery__item {
-        min-height: 450px;
-    }
+    } 
     .product__artic {
         right: 0;
         bottom: 25px;
