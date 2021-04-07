@@ -37,8 +37,9 @@ $(".js-hamburger").click(function () {
   $("#main-menu__list").toggleClass("is-active");
 });
 
-
-document.getElementById("defaultOpen").click();
+if (document.getElementById("defaultOpen")) {
+  document.getElementById("defaultOpen").click();
+}
 
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;

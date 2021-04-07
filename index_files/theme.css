@@ -2295,9 +2295,21 @@ button.option-value[disabled] {
 /* line 214, buttons.scss */
 
 input.quantity-input {
+  width: 90px;
+  font-family: initial;
   background-color: transparent !important;
   color: #1e1e1e;
-}
+} 
+
+.quantity-control {
+  display: block;
+  border: 0px solid;
+  height: 100%;
+  color: #f4a347;
+  font-size: 27px;
+  font-weight: bold;
+  width: 40px;
+}  
 
 /* line 219, buttons.scss */
 
@@ -8670,7 +8682,7 @@ header .header-menu li:hover .subcol-dropdown {
   font-family: PT Sans;
 }
 
-.vakansii-block, .production-block, .zakupka-block, .news-block, .contact-block {
+.vakansii-block, .production-block, .zakupka-block, .news-block, .contact-block, .clean-block {
   padding-top: 131px;
   flex-direction: column;
 }
