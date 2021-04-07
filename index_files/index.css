@@ -701,8 +701,8 @@
  }
 
  .promo {
-     background: url("pic1bg.png") repeat-x top center transparent;
-     min-height: 775px;
+     background: url("pic1bg.png") repeat-x bottom center transparent;
+     min-height: 749px;
      position: relative;
      z-index: 5;
  }
