@@ -22,11 +22,14 @@
     font-size: 40px;
     font-weight: normal;
 }
-
-.cart__list li {
+ 
+li.cart__item_heading { 
     padding: 0 20px;
 }
-
+li.cart__item { 
+    padding: 10px 20px;
+    border-bottom: 1px solid #e1e1e1;
+}  
 .cart__item {
     font-family: PT Sans;
 }
