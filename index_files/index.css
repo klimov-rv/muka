@@ -559,20 +559,6 @@
 
  /* Prospero */
 
- .siteHeader__mainnav .menu__link {
-     position: relative;
-     display: block;
-     margin: 0 1.5em;
-     padding: 0.35em 0;
-     text-align: center;
-     color: #f4a344;
-     -webkit-transition: color 0.3s;
-     -o-transition: color 0.3s;
-     transition: color 0.3s;
-     white-space: nowrap;
-     font-size: 40px;
- }
-
  .typed-cursor {
      display: none;
  }
@@ -584,7 +570,19 @@
  }
 
  .siteHeader__mainnav .menu__link {
+     position: relative;
+     display: block;
      display: inline-block;
+     margin: 0 1.5em;
+     padding: 0.35em 0;
+     text-align: center;
+     color: #f4a344;
+     -webkit-transition: color 0.3s;
+     -o-transition: color 0.3s;
+     transition: color 0.3s;
+     white-space: nowrap;
+     font-size: 40px;
+     line-height: 1.5em;
  }
 
  .siteHeader__mainnav:hover .menu__link {
@@ -599,10 +597,10 @@
      content: '';
      position: absolute;
      z-index: 1;
-     height: 115px;
+     height: 50px;
      width: 135px;
      right: -150px;
-     bottom: -10px;
+     bottom: 20px;
      -webkit-transform: scaleX(-1);
      -ms-transform: scaleX(-1);
      transform: scaleX(-1);

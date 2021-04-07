@@ -23,6 +23,7 @@
     box-shadow: 0px 5px 15px 0px #dbdcd8;
     border-radius: 20px;
     display: flex;
+    background: white;
 }
 
 .masonry__item:hover .news-title__link {
