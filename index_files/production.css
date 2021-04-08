@@ -105,7 +105,7 @@
     padding-bottom: 35px;
 }
 
-.samovivoz .header__standart {
+.samovivoz .header-standart {
     padding: 0 45px 0 0;
 }
 
@@ -117,4 +117,8 @@
 
 .samovivoz .beans-animate {
     background-image: url("samovivoz-bg.png");
+}
+
+.samovivoz {
+    margin-top: 110px;
 }

@@ -110,3 +110,28 @@
 .masonry__item:nth-child(5n) .news-image__link {
     flex: 0 0 50%;
 }
+
+.news__card .header-standart {
+    padding-top: 0;
+}
+.clean.promo .header-standart {
+    padding-bottom: 235px;
+}
+.news__card {
+    padding-top: 155px;
+}
+.news__card .image-holder {
+    margin-top: 75px;
+    margin-bottom: 150px;
+    min-height: 605px;
+}
+.news__card .news-date {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.news__card .news-bold {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}

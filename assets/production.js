@@ -245,8 +245,11 @@
     }
   });
 
+  $(window).load(function() {
+    document.getElementById("defaultOpen2").click();
+  })
+  
 
-  document.getElementById("defaultOpen2").click();
   function openMegaTab(evt, tabName) {
     var i, tabcontent, tablinks;
   

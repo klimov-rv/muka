@@ -482,7 +482,7 @@
         right: 4%;
         width: 45%;
     }
-    .greeting__header {
+    .header-standart {
         font-size: 47px;
     }
     .siteHeader__icon_btn.cart-icon .counter {
@@ -499,7 +499,7 @@
     .hero__text.subtext {
         font-size: 40px;
     }
-    .greeting__header:after {
+    .header-standart:after {
         content: "";
         position: absolute;
         bottom: -20px;
@@ -518,7 +518,7 @@
     .greeting {
         min-height: unset;
     }
-    .greeting__header {
+    .header-standart {
         padding-top: 35px;
         padding-bottom: 35px;
     }
@@ -926,7 +926,7 @@
     .prodcarousel_collections.container_narrow {
         padding-bottom: 50px;
     }
-    .fact-icons .greeting__header::after {
+    .fact-icons .header-standart::after {
         bottom: -30px;
     }
     .fact-icons__slider {
@@ -990,10 +990,10 @@
     .geo-map__list .greeting_numbers {
         margin-right: unset;
     }
-    .geo-map .greeting__header.lefted {
+    .geo-map .header-standart.lefted {
         text-align: center;
     }
-    .geo-map .greeting__header.lefted::after {
+    .geo-map .header-standart.lefted::after {
         bottom: -20px;
         width: 100%;
         left: 0;
@@ -1249,7 +1249,7 @@
     .prodcarousel_collections.container_narrow {
         padding-bottom: 50px;
     }
-    .fact-icons .greeting__header::after {
+    .fact-icons .header-standart::after {
         bottom: -30px;
     }
     .fact-icons__slider {
@@ -1301,10 +1301,10 @@
     .geo-map__list .greeting_numbers {
         margin-right: unset;
     }
-    .geo-map .greeting__header.lefted {
+    .geo-map .header-standart.lefted {
         text-align: center;
     }
-    .geo-map .greeting__header.lefted::after {
+    .geo-map .header-standart.lefted::after {
         bottom: -20px;
         width: 100%;
         left: 0;

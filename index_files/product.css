@@ -1,9 +1,4 @@
-.towar.promo {
-    min-height: 510px;
-}
-
-.product__card {
-    top: -300px;
+.product__card { 
     z-index: 9;
 }
 
@@ -70,8 +65,7 @@
     display: flex;
     flex-wrap: nowrap;
 }
-.product__description .t-cell-like {
-    background: white; 
+.product__description .t-cell-like { 
     padding: 3px 10px;   
     margin: 3px 20px 3px 0;
     font-size: 16px;
@@ -91,6 +85,5 @@
     background-position-y: bottom; 
 }
 
-.template-towar .siteFooter {
-    margin-top: -150px;
+.template-towar .siteFooter { 
 }

@@ -2299,7 +2299,7 @@ input.quantity-input {
   font-family: initial;
   background-color: transparent !important;
   color: #1e1e1e;
-} 
+}
 
 .quantity-control {
   display: block;
@@ -2309,7 +2309,7 @@ input.quantity-input {
   font-size: 27px;
   font-weight: bold;
   width: 40px;
-}  
+}
 
 /* line 219, buttons.scss */
 
@@ -8690,17 +8690,18 @@ header .header-menu li:hover .subcol-dropdown {
 .margin-b-80__block {
   margin-bottom: 80px;
 }
-.margin-b-40__block { 
+
+.margin-b-40__block {
   margin-bottom: 40px;
 }
-.text-title.smaller { 
-  font-size: 40px; 
+
+.text-title.smaller {
+  font-size: 40px;
 }
 
 .dark {
   color: #4e1904;
 }
-
 
 .standart__list {
   line-height: 1.7em;
@@ -8734,4 +8735,14 @@ header .header-menu li:hover .subcol-dropdown {
   font-size: 29px;
   vertical-align: sub;
   line-height: 18px;
+}
+
+.img-contain, .img-cover {
+  width: 100%;
+  height: 100%;
+  background: url("no-image.png") no-repeat center top / cover transparent;
+}
+
+.img-contain {
+  background-size: contain;
 }
