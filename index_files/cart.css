@@ -1,14 +1,9 @@
- .cart__main-block {
-     padding: 70px 0;
- }
-
  .cart__item, .cart__item_heading {
      display: flex;
  }
 
  .cart__item_heading {
      background-color: #f4a344;
-     color: white;
      border-radius: 5px;
      height: 55px;
  }
@@ -16,6 +11,7 @@
  .cart__item_heading>div {
      font-size: 40px;
      font-weight: normal;
+     color: white;
  }
 
  li.cart__item_heading {
@@ -44,6 +40,7 @@
  .item__price_total, .item__price {
      font-size: 20px;
      font-weight: bold;
+     color: #4e1904;
  }
 
  .item__bttn-delete {
@@ -62,7 +59,7 @@
      width: 35px;
  }
 
- .total-order-amount {
+ .total-order-header {
      margin: 35px 0;
      font-size: 50px;
      color: #4e1904;
@@ -72,14 +69,28 @@
      min-height: 150px;
  }
 
- .template-cart .siteFooter_parallax {
-     position: absolute;
-     top: auto;
-     bottom: 0;
-     left: 0;
-     z-index: 1;
+ .checkout-btns .button1 {
+     margin-right: 15px;
+ }
+
+ .checkout-form .checkout-btns {
+     text-align: left;
+ }
+
+ .form__radio_group {
+     margin: 25px 0;
+ }
+
+ .checkout-item__list {
+     background: url("checkout-item__list.png") no-repeat center top transparent;
+     height: 510px;
+     width: 410px;
+ }
+ .checkout-item__info {
+     display: flex;
+     flex-direction: column;
+ }
+ .checkout-item {
      width: 100%;
-     background: url("cart_footer_bg_5.png") center bottom / cover transparent;
-     min-height: 850px;
-     margin-top: 31px;
+     justify-content: space-between;
  }

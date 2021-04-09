@@ -1,0 +1,45 @@
+ 
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg class="factsback" xmlns="http://www.w3.org/2000/svg" width="540.39mm" height="57.79mm" viewBox="0 0 1531.8 163.82">
+	<defs>
+		<mask id="msk1">
+			<path class="path" d="M0,161.43S64.32,13.69,224,6.43s258.34,174,444,155,208.72-191,472-157c101,13,85.92,100.1,185,125s206-76,206-76" transform="translate(0.92 1)" fill="none" stroke="#f4a344" stroke-miterlimit="10" stroke-width="3" fill-rule="evenodd">
+				<animate id="an_stroke" attributeName="stroke-dasharray" begin="indefinite" dur="10s" values="0,1489;1489,0" fill="freeze" repeatCount="indefinite">
+				</animate>
+			</path>
+		</mask>
+	</defs>
+	<path class="path" mask="url(#msk1)" d="M0,161.43S64.32,13.69,224,6.43s258.34,174,444,155,208.72-191,472-157c101,13,85.92,100.1,185,125s206-76,206-76" transform="translate(0.92 1)" fill="none" stroke="#f4a344" stroke-miterlimit="10" stroke-width="2" fill-rule="evenodd">
+	</path>
+</svg>
+<!-- 
+<style>
+.path {
+  stroke-dasharray: 20;
+  stroke-dashoffset: 10;
+  animation: dash 5s linear alternate infinite;
+}
+.linezakup {
+    position: absolute;
+    top: 6.5rem;
+        transform: scale(.83) !important;
+        margin-left: 1rem;
+        z-index: -1;
+}
+.mapback {
+    z-index: -1;
+    left: .878rem;
+    top: 0.01rem;    
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 822;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+</style> -->

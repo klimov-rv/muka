@@ -23,7 +23,10 @@ document.querySelector('a[href="#menu"]')
   });
 
 //	шапка
-
+document.addEventListener("DOMContentLoaded", () => {
+  window.addEventListener("load", scroll);
+  window.addEventListener("scroll", scroll);
+});
 function scroll() {
   if ($(this).scrollTop() > 130) {
     $(".header-wrapper").addClass("scrolled")

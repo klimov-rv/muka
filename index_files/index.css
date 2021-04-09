@@ -149,7 +149,9 @@
  }
 
  .header-wrapper.scrolled {
-     background-color: rgba(255, 255, 255, 0.7);
+     /* background-color: rgba(255, 255, 255, 0.7); */
+     background-color: #fff;
+     box-shadow: 0 0 10px 0px #ccc;
  }
 
  .siteHeader__icons {
@@ -711,10 +713,10 @@
  }
 
  .index.promo {
-    background: url("pic1bg.png") repeat-x bottom center transparent; 
+     background: url("pic1bg.png") repeat-x bottom center transparent;
      min-height: 749px;
  }
- 
+
  .towar.promo {
      background-position-y: bottom;
  }
@@ -956,7 +958,7 @@
      text-transform: none;
  }
 
-.header-standart.lefted {
+ .header-standart.lefted {
      text-align: left;
  }
 
@@ -1171,9 +1173,18 @@
      width: 100%;
      height: 100%;
      top: 0;
-     background: url("fact-icons_bg-line.png") no-repeat center center / 1519px transparent;
+     /* background: url("svg-line.svg") no-repeat center center / 1519px transparent; */
      z-index: 1;
      margin-left: 103px;
+     display: flex;
+     justify-content: center;
+ }
+
+ .factsback {
+     z-index: 1;
+     position: relative;
+     top: calc(50% - 109px);
+     width: 2100px;
  }
 
  .fact-icons__bgline .animate2_1 {
@@ -1182,6 +1193,7 @@
      z-index: 2;
      width: 100%;
      height: 100%;
+     top: 0;
  }
 
  .fact-icons__corner4 {
@@ -1231,7 +1243,7 @@
 
  .geo-map {
      background: url("geo-map__bottombg.png") no-repeat bottom center transparent;
-     margin-bottom: -50px;
+     margin-bottom: -100px;
      position: relative;
  }
 
@@ -1449,9 +1461,10 @@
      position: absolute;
      top: 0;
      left: 0;
-     width: 101%;
+     width: 100%;
      height: 67px;
-     background: url("wave1.svg") no-repeat bottom center / cover transparent;
+     /* background: url("wave1.svg") no-repeat bottom center / cover transparent; */
+     background: url("bg__video--top.png") no-repeat bottom center / 1920px transparent;
      z-index: 9;
  }
 

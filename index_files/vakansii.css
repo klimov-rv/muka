@@ -16,10 +16,7 @@
 } 
 .contact-form__btns .font-sans {
     color: #4c4c4c;
-}
-.contact-form__btns #file-1 {
-    display: none;
-}
+} 
 .contact-form__btns .three_elems {
     margin: 0 35px 35px;
     flex: 0.1 0 30%;
