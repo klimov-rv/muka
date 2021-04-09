@@ -89,12 +89,6 @@
      padding-left: 40px;
  }
 
- .checkout-item__list {
-     width: 100%;
-     display: flex;
-     flex-direction: column;
- }
-
  .checkout-item__info {
      display: flex;
      flex-direction: column;
@@ -110,21 +104,28 @@
  }
 
  .checkout-item__block button.button2 {
-     margin: 0 auto;
+     margin: 25px auto 0;
  }
+
  .checkout-item__block .total-order-header {
      margin-top: 25px;
-     padding-top: 35px; 
+     padding-top: 35px;
  }
- .checkout-item__block .total-order-summ {  
+
+ .checkout-item__block .total-order-summ {
      font-size: 40px;
  }
+
  .checkout-item__list {
      height: 163px;
      overflow: auto;
      flex-wrap: nowrap;
      margin-bottom: 25px;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
  }
+
  .item__price_block {
      display: flex;
      align-items: center;
