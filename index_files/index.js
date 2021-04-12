@@ -104,7 +104,7 @@ $trig1.bind('inview', function (event, visible) {
   if (visible) {
     $trig1.typed({
       strings: ["Из производимой на предприятии муки можно испечь по 1 батону в сутки на каждого жителя Нижегородской области."],
-      typeSpeed: -100,
+      typeSpeed: -35,
     });
   }
 });
