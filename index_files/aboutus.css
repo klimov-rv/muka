@@ -4,9 +4,6 @@
     flex-direction: column;
 }
 
-.hero__text_block {
-    flex: 0 0 599px;
-}
 
 .aboutus-block .header-standart {
     line-height: 1em;
