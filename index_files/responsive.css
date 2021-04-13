@@ -77,6 +77,41 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .waygraphic__wrap {
+        background: none;
+    }
+    .waygraphic__point_5 .waypoint {
+        width: 95px;
+        height: 195px;
+        background-image: url("waygraphic_point.png");
+        font-size: 70px;
+    }
+    .waygraphic__point {
+        width: 100%;
+        height: auto;
+        padding-bottom: 35px;
+        min-height: 225px;
+        position: relative;
+        text-align: left;
+        top: 0;
+        left: 0;
+        right: auto;
+        bottom: auto;
+        display: flex;
+        align-items: flex-end;
+    }
+    .waygraphic__point .waypoint {
+        top: auto;
+        left: 0;
+        right: auto;
+        bottom: 0;
+    }
+    .waygraphic__point .point_wrap {
+        position: unset;
+        text-align: left;
+        padding-left: 105px;
+        height: auto;
+    }
     #bg_video {
         height: 100%;
         width: auto;
@@ -415,6 +450,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    
+    .template-vakansii .three_elems:first-child{
+        margin-bottom: 0;
+    }
     .news.promo {
         background: url("news-bg1-sm.png") no-repeat bottom center / cover transparent;
         min-height: 459px;
@@ -568,7 +607,7 @@
     .template-is-index .hero__text {
         text-align: center;
     }
-    .template-aboutus .hero__text_block {
+    .hero__text_block {
         -ms-flex-align: flex-start;
         align-items: flex-start;
     }
@@ -828,34 +867,20 @@
 }
 
 @media screen and (max-width: 480px) {
-    .waygraphic__wrap {
-        background: none;
+    .contact-form__btns {
+        padding-bottom: 210px;
     }
-    .waygraphic__point_5 .waypoint {
-        width: 95px;
-        height: 195px;
-        background-image: url("waygraphic_point.png");
-        font-size: 70px;
+    .circumstances {
+        margin-bottom: -80px;
     }
-    .waygraphic__point {
-        width: 100%;
-        height: auto;
-        padding-bottom: 35px;
-        min-height: 225px;
-        position: relative;
-        text-align: left;
-        top: 0;
-        left: 0;
-        right: auto;
-        bottom: auto;
-        display: flex;
-        align-items: flex-end;
+    .vacancies__wrap {
+        margin-top: -30px;
     }
-    .waygraphic__point .waypoint {
-        top: auto;
-        left: 0;
-        right: auto;
-        bottom: 0;
+    .vakansii-block .hero__text_block {
+        padding-bottom: 205px;
+    }
+    .vakansii-block {
+        background: url("vakansii-pic1.png") no-repeat bottom center / 300px transparent;
     }
     .meshok-po-centru .container_narrow {
         padding: 0;
@@ -872,12 +897,6 @@
     .meshok-po-centru__image {
         background: url("meshok-po-centru.png") no-repeat center center / contain transparent;
     }
-    .waygraphic__point .point_wrap {
-        position: unset;
-        text-align: left;
-        padding-left: 105px;
-        height: auto;
-    }
     .zakupka+.waygraphic {
         padding-top: 0;
     }
@@ -885,12 +904,11 @@
         background: url("zakupka_animate0.png") no-repeat center 80% / 270px transparent;
     }
     .zakupka.promo .hero__text_block {
-        align-items: flex-start;
-        padding-bottom: 290px;
+        padding-bottom: 285px;
     }
     .clean.promo.zakupka {
         margin-bottom: 20px;
-        background-position-x: -405px;
+        background-position-x: -705px;
     }
     .standart__lists_wrap {
         border-left: 0px solid;

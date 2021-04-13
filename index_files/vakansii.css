@@ -3,6 +3,9 @@
     min-height: 559px;
 }
 
+.vacancies__wrap {
+    margin-top: 30px;
+}
 .circumstances .standart__li {
     margin-bottom: 20px;
 }
