@@ -391,6 +391,9 @@
 }
 
 @media screen and (max-width: 920px) {
+    .contact-map {
+        background: url("contact-map.png") no-repeat top center / contain transparent;
+    }
     .contact-form .header-standart {
         margin-bottom: 25px;
         padding-bottom: 35px;
@@ -450,8 +453,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    
-    .template-vakansii .three_elems:first-child{
+    .template-vakansii .three_elems:first-child {
         margin-bottom: 0;
     }
     .news.promo {
@@ -867,11 +869,62 @@
 }
 
 @media screen and (max-width: 480px) {
+    .contact-info {
+        padding-bottom: 15px;
+    }
+    a.info-email {
+        line-height: 55px;
+    }
+    .contact-info__list li {
+        min-height: unset;
+        line-height: 35px;
+        margin-bottom: 25px;
+    }
+    span.info-adress {
+        font-size: 27px;
+    }
+    .contact-info__list {
+        margin-bottom: 25px;
+    }
+    .contact-map {
+        width: 100vw;
+        background-size: 547px;
+        overflow: visible;
+        margin: -10px;
+        max-width: none;
+        flex-basis: auto;
+        min-height: 330px;
+    }
+    .contact-info__list a {
+        width: 100%;
+        display: inline-block;
+    }
+    .contact-info__wrap {
+        margin-top: 0px;
+    }
+    .promo.contact {
+        min-height: 390px;
+    }
+    .contact .hero__text {
+        padding-bottom: 140px;
+    }
+    .contact.promo {
+        background: url("contact-bg1-sm.png") no-repeat center bottom / cover transparent;
+    }
+    .pagination-item {
+        padding: 12px;
+    }
+    .margin-b-block .header-standart {
+        padding-top: 0;
+    }
+    .margin-b-block {
+        margin-bottom: 30px;
+    }
     .contact-form__btns {
         padding-bottom: 210px;
     }
     .circumstances {
-        margin-bottom: -80px;
+        margin-bottom: -70px;
     }
     .vacancies__wrap {
         margin-top: -30px;
