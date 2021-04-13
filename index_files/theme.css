@@ -8571,6 +8571,7 @@ header .header-menu li:hover .subcol-dropdown {
 
 .hero__text_block {
   flex: 0 0 50%;
+  flex: 0 0 599px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -8688,8 +8689,12 @@ header .header-menu li:hover .subcol-dropdown {
 }
 
 .promo .template_1 {
-  padding-top: 120px;
+  padding-top: 135px;
   flex-direction: column;
+}
+
+.promo .template_1 .header-standart {
+  padding: 15px 0 35px;
 }
 
 .margin-b-80__block {

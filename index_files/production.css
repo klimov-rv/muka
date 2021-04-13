@@ -1,19 +1,14 @@
 .production-block {
-    background: url("pic2.png") no-repeat calc(100% - 150px) 100px / 300px transparent; 
-}
-
-.hero__text_block {
-    flex: 0 0 599px;
-    top: -30px;
-    padding-top: 30px;
-}
+    /* background: url("pic2.png") no-repeat calc(100% - 150px) 100px / 300px transparent;  */
+    background: none;
+} 
 
 .promo.production {
     min-height: 675px;
-    background: url("production-head__bg.png") repeat-x top center / cover transparent;
+    background: url("production-head__bg-all.png") repeat-x bottom center / cover transparent;
 }
 
-.content {
+.prod-content {
     z-index: 3;
 }
 
@@ -78,7 +73,7 @@
     width: 100%;
 }
 
-.container_megatabs .swiper-button-next, .swiper-button-prev {
+.container_megatabs .swiper-button-next, .container_megatabs .swiper-button-prev {
     bottom: -100px;
     width: 100px;
     background: url("arrow.png") no-repeat center center transparent;

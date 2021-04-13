@@ -356,6 +356,10 @@
 }
 
 @media screen and (max-width: 920px) {
+    .contact-form .header-standart {
+        margin-bottom: 25px;
+        padding-bottom: 35px;
+    }
     .ourmission .ourmission_parallax {
         background: none;
     }
@@ -423,11 +427,11 @@
     .masonry .masonry__item .news-image__link {
         flex: 0 0 220px;
     }
-    .masonry__item_inner { 
+    .masonry__item_inner {
         padding: 20px;
         display: flex;
         flex-direction: column;
-        height: auto; 
+        height: auto;
     }
     .news-image__link {
         padding: 0px 0px 20px;
@@ -824,6 +828,72 @@
 }
 
 @media screen and (max-width: 480px) {
+    .standart__lists_wrap {
+        border-left: 0px solid;
+        padding-left: 0px;
+    }
+    .samovivoz .header-standart {
+        padding: 0;
+    }
+    .container_megatabs .swiper-button-next, .container_megatabs .swiper-button-prev {
+        bottom: -200px;
+        width: 50%;
+        background: url("arrow.png") no-repeat center center transparent;
+    }
+    .container_megatabs .swiper-button-next {
+        right: 20px;
+    }
+    .container_megatabs .swiper-button-prev {
+        background: url("arrow-rev.png") no-repeat center center transparent;
+        left: 20px;
+    }
+    .container_megatabs .slider-buttons__wrap {
+        top: 100%;
+    }
+    .container_megatabs .content__wrap {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .template-production .tabs-content .product.swiper-slide {
+        padding-top: 0px;
+    }
+    .template-production .tablinks {
+        font-size: 43px;
+        margin-bottom: 20px;
+    }
+    .megatabcontent .tab {
+        flex-wrap: wrap;
+        padding-bottom: 75px;
+    }
+    .template-production .tab.megatabs {
+        overflow: visible;
+    }
+    .template-production .tab button.megatablinks {
+        font-size: 40px;
+        width: 150px;
+        padding: 15px 25px;
+        white-space: initial;
+    }
+    .content .header-standart {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .contact-form .header-standart {
+        margin-bottom: 25px;
+        padding-bottom: 35px;
+    }
+    .production-block {
+        background: url("pic2.png") no-repeat center 90% / 170px transparent;
+    }
+    .promo.production {
+        min-height: 600px;
+    }
+    .promo.production .hero__text_block {
+        padding-bottom: 300px;
+    }
+    .promo .template_1 {
+        padding-top: 120px;
+    }
     .product-wrapper .button2 {
         margin: 17px auto 0;
         padding: 0 18px;
@@ -949,7 +1019,7 @@
         bottom: 37px;
     }
     .tabs-content .swiper-button-next, .tabs-content .swiper-button-prev {
-        bottom: 30px;
+        bottom: -25px;
     }
     .tara_list li:nth-child(1) {
         height: 85px;
@@ -1182,7 +1252,6 @@
         padding-bottom: 150px;
     }
     .production {
-        padding-top: 40px;
         background: url("production-section-bg.png") repeat-x -450px center /cover transparent;
     }
     .production+.elevator-lab {
@@ -1319,13 +1388,7 @@
     }
     .prodcarousel_collections .tablinks {
         font-size: 45px;
-    }
-    .tabs-content .swiper-pagination-fraction {
-        bottom: 37px;
-    }
-    .tabs-content .swiper-button-next, .tabs-content .swiper-button-prev {
-        bottom: 30px;
-    }
+    } 
     .tara_list li:nth-child(1) {
         height: 85px;
         -ms-flex-preferred-size: 85px;
