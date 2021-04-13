@@ -59,6 +59,7 @@
 .news-right {
     justify-content: center;
     text-align: start;
+    padding: 10px 10px 10px 0;
 }
 
 .masonry__item:nth-child(5n+1) {

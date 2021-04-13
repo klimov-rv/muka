@@ -10,7 +10,7 @@
 
 .promo.production {
     min-height: 675px;
-    background: url("production-head__bg.png") repeat-x top center transparent;
+    background: url("production-head__bg.png") repeat-x top center / cover transparent;
 }
 
 .content {

@@ -874,7 +874,7 @@ img {
 }
 
 .image-container.is-rectangle {
-  padding-top: 130%; 
+  padding-top: 130%;
 }
 
 .image-container.is-rounded {
@@ -8550,10 +8550,13 @@ header .header-menu li:hover .subcol-dropdown {
   position: relative;
   background: url("pic1.png") no-repeat center right / 60% transparent;
   padding-top: 170px;
-  height: 697px;
   width: 100%;
   display: flex;
   z-index: 5;
+}
+
+.promo-block {
+  height: 697px;
 }
 
 .beans-animate {
@@ -8685,7 +8688,7 @@ header .header-menu li:hover .subcol-dropdown {
 }
 
 .promo .template_1 {
-  padding-top: 131px;
+  padding-top: 120px;
   flex-direction: column;
 }
 
@@ -8827,4 +8830,3 @@ form [type="radio"]:checked+label:after {
   -webkit-transform: scale(1);
   transform: scale(1);
 }
- 

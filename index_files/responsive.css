@@ -2,6 +2,12 @@
     .banner-bread {
         background-size: cover;
     }
+    .geo-map {
+        background: url("geo-map__bottombg.png") no-repeat bottom center / 100% transparent;
+    }
+    .template-is-index .elevator::before {
+        background: url("bg__video--top.png") no-repeat bottom center / 100% transparent;
+    }
 }
 
 @media screen and (max-width: 1675px) {
@@ -59,9 +65,22 @@
     .history__list_li {
         margin-bottom: 0;
     }
+    .template-is-index .siteFooter {
+        margin-top: -50px;
+    }
+    .template-is-index .siteFooter_parallax {
+        background-attachment: unset;
+    }
+    .siteFooter_parallax {
+        background: url("contact_bg_3.png") right bottom no-repeat, url("contact_bg_4.png") left bottom no-repeat, #fbfbfb;
+    }
 }
 
 @media screen and (max-width: 1200px) {
+    #bg_video {
+        height: 100%;
+        width: auto;
+    }
     .product .product-block {
         padding: 0 15px;
     }
@@ -87,9 +106,9 @@
     .siteFooter_parallax {
         opacity: 0.3;
     }
-    .container {
-        padding-left: 15px;
-        padding-right: 15px;
+    .container, .container_narrow {
+        padding-right: 20px;
+        padding-left: 20px;
     }
     .product-img__relative {
         display: block;
@@ -190,10 +209,6 @@
 }
 
 @media screen and (max-width: 1024px) {
-    #bg_video {
-        height: 100%;
-        width: auto;
-    }
     #productionSlider .swiper-slide img {
         -o-object-fit: contain;
         object-fit: contain;
@@ -290,10 +305,6 @@
     }
     .addLinks .addLinks__column:last-child {
         margin-top: 35px;
-    }
-    .container_narrow {
-        padding-right: 20px;
-        padding-left: 20px;
     }
     .prodcarousel_collections {
         padding: 0;
@@ -400,9 +411,29 @@
 }
 
 @media screen and (max-width: 768px) {
-    #bg_video {
-        height: 100%;
-        width: auto;
+    .news.promo {
+        background: url("news-bg1-sm.png") no-repeat bottom center / cover transparent;
+        min-height: 459px;
+        margin-bottom: 20px;
+    }
+    .masonry .masonry__item {
+        flex: 1 1 100%;
+        margin-bottom: 10px;
+    }
+    .masonry .masonry__item .news-image__link {
+        flex: 0 0 220px;
+    }
+    .masonry__item_inner { 
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        height: auto; 
+    }
+    .news-image__link {
+        padding: 0px 0px 20px;
+    }
+    .news-right {
+        padding: 0;
     }
     .header-wrapper {
         padding-bottom: 0;
@@ -492,18 +523,6 @@
     .promo__img_wrapper {
         margin: 0 25px;
     }
-    .garderob-slider .swiper-button-prev {
-        left: calc(-50% + 50px);
-    }
-    .garderob-slider .swiper-button-next {
-        right: calc(-50% + 50px);
-    }
-    .garderob-slider .swiper-button-next::after {
-        text-align: left;
-    }
-    .garderob-slider .swiper-button-prev::after {
-        text-align: right;
-    }
     .prodcarousel_collections {
         padding: 0 10px;
     }
@@ -541,7 +560,13 @@
     }
     .hero__text {
         font-size: 48px;
+    }
+    .template-is-index .hero__text {
         text-align: center;
+    }
+    .template-aboutus .hero__text_block {
+        -ms-flex-align: flex-start;
+        align-items: flex-start;
     }
     .hero__text.subtext {
         font-size: 40px;
@@ -556,8 +581,9 @@
         padding-top: 35px;
         padding-bottom: 35px;
     }
-    .greeting .decor-divider {
-        margin-top: 0px;
+    .hero__text .header-standart {
+        padding-top: 15px;
+        padding-bottom: 38px;
     }
     .divarication__wrapper {
         bottom: -75px;
@@ -824,7 +850,6 @@
         font-size: 40px;
     }
     .promo {
-        padding-top: 10px;
         min-height: 723px;
     }
     .hero__text.subtext {
