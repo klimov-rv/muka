@@ -72,6 +72,9 @@
     font-weight: 300;
     line-height: 31px;
 } 
+.product__description b.t-cell-like { 
+    font-weight: 700;
+}
 .t-row-like .t-cell-like:first-child {
     flex: 1 0 60%;
 }

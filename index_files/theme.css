@@ -8667,8 +8667,7 @@ header .header-menu li:hover .subcol-dropdown {
 .clean.promo {
   background: url("pic1bg.png") no-repeat center bottom transparent;
   min-height: 435px;
-  /* margin-bottom: -235px; */
-  /* найти на какой странице */
+  /* margin-bottom: -235px; */ /* towar */
   margin-bottom: -109px;
 }
 
@@ -8678,6 +8677,7 @@ header .header-menu li:hover .subcol-dropdown {
 }
 
 .towar.promo {
+  margin-bottom: -235px;
   background-position-y: bottom;
 }
 

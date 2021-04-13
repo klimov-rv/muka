@@ -458,7 +458,7 @@
 @media screen and (max-width: 768px) {
     .news__card .image-holder {
         margin-top: 20px;
-        margin-bottom: 70px; 
+        margin-bottom: 70px;
     }
     .template-vakansii .three_elems:first-child {
         margin-bottom: 0;
@@ -873,6 +873,53 @@
 }
 
 @media screen and (max-width: 480px) {
+    .t-row-like .t-cell-like:first-child {
+        flex: 1 1 auto;
+    }
+    .product__description .t-cell-like {
+        padding: 3px 0;
+        margin: 3px 0 3px 0;
+    }
+    .product__description .t-row-like.wrap-xs b {
+        width: 100%;
+    }
+    .product__description .t-row-like.wrap-xs {
+        flex-wrap: wrap;
+    }
+    .product__description {
+        padding-top: 30px;
+    }
+    .product__description strong {
+        padding: 5px 0;
+        display: inline-block;
+    }
+    .product__description .font-sans {
+        line-height: 1.5em;
+    }
+    .product__card_wrap .product__quantity-controls {
+        margin: 20px auto 40px;
+    }
+    .gallery-main .swiper-slide img {
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+    .product__price {
+        margin: 25px 0;
+    }
+    .gallery-thumbs {
+        padding: 0;
+    }
+    .gallery-main {
+        left: auto;
+        padding: 10px 10px 10px 30px;
+    }
+    .product__card_wrap .product__info {
+        min-height: auto;
+    }
+    .product__card_wrap .product__title {
+        margin-top: 0;
+        font-size: 50px;
+    }
     .template-news-page .clean_template {
         min-height: 250px;
         padding-top: 125px;
