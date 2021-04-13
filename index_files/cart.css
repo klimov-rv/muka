@@ -224,3 +224,6 @@ li.cart__item {
 .template-cart .hero__text .lefted.dedicated::after {
     display: none;
 }
+.template-cart-checkout .lefted.dedicated::after {
+    display: none;
+}
