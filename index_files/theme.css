@@ -8715,11 +8715,7 @@ header .header-menu li:hover .subcol-dropdown {
 
 .img-contain {
   background-size: contain;
-}
-
-.clean.promo .header-standart {
-  padding-bottom: 235px;
-}
+} 
 
 .clean.promo.zakupka {
   margin-bottom: -130px;
