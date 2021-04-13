@@ -1,7 +1,7 @@
 .production-block {
     /* background: url("pic2.png") no-repeat calc(100% - 150px) 100px / 300px transparent;  */
     background: none;
-} 
+}
 
 .promo.production {
     min-height: 675px;
@@ -57,7 +57,21 @@
     font-size: 70px;
 }
 
+.prod-content__subtext_wrap, .production__subtext_wrap {
+    margin-bottom: 21px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.prod-content__subtext, .production__subtext {
+    color: #4c4c4c;
+    font-family: PT Sans;
+}
+
 .container_megatabs {
+    margin-top: 30px;
     background: url("megatabs_bg.png") repeat-x center top transparent;
 }
 
@@ -104,11 +118,10 @@
     padding: 0 45px 0 0;
 }
 
-
 .samovivoz__picture {
     background: url("samovivoz-pic1.png") no-repeat center center transparent;
     min-height: 310px;
-} 
+}
 
 .samovivoz .beans-animate {
     background-image: url("samovivoz-bg.png");

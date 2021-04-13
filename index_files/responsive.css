@@ -828,12 +828,82 @@
 }
 
 @media screen and (max-width: 480px) {
+    .waygraphic__wrap {
+        background: none;
+    }
+    .waygraphic__point_5 .waypoint {
+        width: 95px;
+        height: 195px;
+        background-image: url("waygraphic_point.png");
+        font-size: 70px;
+    }
+    .waygraphic__point {
+        width: 100%;
+        height: auto;
+        padding-bottom: 35px;
+        min-height: 225px;
+        position: relative;
+        text-align: left;
+        top: 0;
+        left: 0;
+        right: auto;
+        bottom: auto;
+        display: flex;
+        align-items: flex-end;
+    }
+    .waygraphic__point .waypoint {
+        top: auto;
+        left: 0;
+        right: auto;
+        bottom: 0;
+    }
+    .meshok-po-centru .container_narrow {
+        padding: 0;
+    }
+    .meshok-po-centru .text-title {
+        font-size: 50px;
+    }
+    .meshok-po-centru .font-sans {
+        font-size: 18px;
+    }
+    .margin-b-80__block {
+        margin-bottom: 40px;
+    }
+    .meshok-po-centru__image {
+        background: url("meshok-po-centru.png") no-repeat center center / contain transparent;
+    }
+    .waygraphic__point .point_wrap {
+        position: unset;
+        text-align: left;
+        padding-left: 105px;
+        height: auto;
+    }
+    .zakupka+.waygraphic {
+        padding-top: 0;
+    }
+    .zakupka-block {
+        background: url("zakupka_animate0.png") no-repeat center 80% / 270px transparent;
+    }
+    .zakupka.promo .hero__text_block {
+        align-items: flex-start;
+        padding-bottom: 290px;
+    }
+    .clean.promo.zakupka {
+        margin-bottom: 20px;
+        background-position-x: -405px;
+    }
     .standart__lists_wrap {
         border-left: 0px solid;
         padding-left: 0px;
     }
     .samovivoz .header-standart {
         padding: 0;
+    }
+    .clean.promo.zakupka .header-standart {
+        padding-top: 10px;
+    }
+    .container_megatabs {
+        margin-top: 0;
     }
     .container_megatabs .swiper-button-next, .container_megatabs .swiper-button-prev {
         bottom: -200px;
@@ -850,7 +920,7 @@
     .container_megatabs .slider-buttons__wrap {
         top: 100%;
     }
-    .container_megatabs .content__wrap {
+    .container_megatabs .prod-content__wrap {
         padding-right: 0;
         padding-left: 0;
     }
@@ -874,7 +944,7 @@
         padding: 15px 25px;
         white-space: initial;
     }
-    .content .header-standart {
+    .prod-content .header-standart {
         padding-top: 15px;
         padding-bottom: 15px;
     }
@@ -958,6 +1028,7 @@
     .product-block .product-wrapper {
         -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
         box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+        border-width: 0px;
     }
     .animate0_2 {
         left: 32%;
@@ -1319,10 +1390,6 @@
     .product .product-block {
         padding: 0 10px;
     }
-    .product-block .product-wrapper {
-        -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
-        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1);
-    }
     .animate0_2 {
         left: 32%;
         width: 60%;
@@ -1388,7 +1455,7 @@
     }
     .prodcarousel_collections .tablinks {
         font-size: 45px;
-    } 
+    }
     .tara_list li:nth-child(1) {
         height: 85px;
         -ms-flex-preferred-size: 85px;
