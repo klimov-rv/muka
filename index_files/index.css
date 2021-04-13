@@ -703,26 +703,7 @@
      -webkit-transform: translate3d(0, 0, 0);
      transform: translate3d(0, 0, 0);
  }
-
- /* .promo { 
-     z-index: 5;
- } */
-
- .clean.promo {
-     background: url("pic1bg.png") no-repeat center bottom transparent;
-     min-height: 435px;
-     margin-bottom: -235px;
- }
-
- .index.promo {
-     background: url("pic1bg.png") repeat-x bottom center transparent;
-     min-height: 749px;
- }
-
- .towar.promo {
-     background-position-y: bottom;
- }
-
+ 
  .promo-angle {
      width: 291px;
      height: 671px;

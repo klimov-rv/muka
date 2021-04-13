@@ -32,6 +32,9 @@
     .ourmission .greeting_parallax {
         background: none;
     }
+    .news__card .image-holder {
+        min-height: 461px;
+    }
 }
 
 @media screen and (max-width: 1411px) {
@@ -453,6 +456,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .news__card .image-holder {
+        margin-top: 20px;
+        margin-bottom: 70px; 
+    }
     .template-vakansii .three_elems:first-child {
         margin-bottom: 0;
     }
@@ -866,6 +873,10 @@
 }
 
 @media screen and (max-width: 480px) {
+    .template-news-page .clean_template {
+        min-height: 250px;
+        padding-top: 125px;
+    }
     .checkout-item__block {
         padding-right: 30px;
         padding-left: 30px;

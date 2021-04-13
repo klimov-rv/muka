@@ -814,7 +814,7 @@ output {
 
 [hidden] {
   display: none !important;
-}  
+}
 
 /*=========================================
   IMAGES
@@ -1875,15 +1875,15 @@ a {
 /* line 6846, spider.scss */
 
 .row.is-grid {
-  margin-left: -5px;
-  margin-right: -5px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
 /* line 6850, spider.scss */
 
 .is-grid>[class*='cell-'] {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* line 6854, spider.scss */
@@ -8636,7 +8636,6 @@ header .header-menu li:hover .subcol-dropdown {
   font-size: 18px;
   font-family: PT Sans;
 }
- 
 
 .regular-text .highlighted {
   color: #f4a344;
@@ -8655,6 +8654,31 @@ header .header-menu li:hover .subcol-dropdown {
 
 .promo .template_1 .header-standart {
   padding: 15px 0 35px;
+}
+
+.clean.promo .template_1 .header-standart {
+  padding: 15px 0 115px;
+}
+
+.clean.promo {
+  margin-bottom: -109px;
+}
+
+.clean.promo {
+  background: url("pic1bg.png") no-repeat center bottom transparent;
+  min-height: 435px;
+  /* margin-bottom: -235px; */
+  /* найти на какой странице */
+  margin-bottom: -109px;
+}
+
+.index.promo {
+  background: url("pic1bg.png") repeat-x bottom center transparent;
+  min-height: 749px;
+}
+
+.towar.promo {
+  background-position-y: bottom;
 }
 
 .margin-b-80__block {
@@ -8715,7 +8739,7 @@ header .header-menu li:hover .subcol-dropdown {
 
 .img-contain {
   background-size: contain;
-} 
+}
 
 .clean.promo.zakupka {
   margin-bottom: -130px;
