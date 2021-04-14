@@ -3,13 +3,58 @@
     background: none;
 }
 
-.promo.production {
+.promo.product-page {
     min-height: 675px;
     background: url("production-head__bg-all.png") repeat-x bottom center / cover transparent;
 }
 
+.product-page.promo .beans-animate.js-parallax__first-layer {
+    background: url("parallax-beans8--1st-layer.png") no-repeat center center transparent;
+    margin-left: -332px;
+    height: 114%;
+}
+
+.product-page.promo .beans-animate.js-parallax__second-layer {
+    background: url("parallax-beans8--2nd-layer.png") no-repeat center center transparent;
+    margin-left: -259px;
+    height: 75%;
+}
+
 .prod-content {
     z-index: 3;
+}
+
+.prod-content .prod-content__wrap .beans-animate.js-parallax__first-layer {
+    background: url("parallax-beans9--2nd-layer.png") no-repeat center left transparent;
+    margin-left: -332px;
+    height: 114%;
+}
+
+.prod-content .prod-content__wrap .beans-animate.js-parallax__second-layer {
+    background: url("parallax-beans9--1st-layer.png") no-repeat center right transparent;
+    margin-left: -259px;
+    height: 131%;
+}
+
+.prod-content .beans-animate.js-parallax__second-layer {
+    background: url("parallax-beans10--1st-layer.png") no-repeat center bottom transparent;
+    height: 82%;
+    margin-left: -200px;
+}
+.samovivoz>.container_narrow {
+position: unset; 
+}
+.samovivoz .beans-animate.js-parallax__first-layer {
+    background: url("parallax-beans11--1st-layer.png") no-repeat center right transparent;
+    margin-left: -387px;
+    height: 100%;
+    z-index: 5;
+}
+
+.samovivoz .beans-animate.js-parallax__second-layer {
+    background: url("parallax-beans11--2nd-layer.png") no-repeat center bottom transparent;
+    height: 123%;
+    margin-left: -200px;
 }
 
 .megatabcontent {
@@ -117,10 +162,11 @@
 
 .samovivoz .header-standart {
     padding: 0 45px 0 0;
+    z-index: 9;
 }
 
 .samovivoz__picture {
-    background: url("samovivoz-pic1.png") no-repeat center center transparent;
+    background: url("pic-23.png") no-repeat center center /contain transparent;
     min-height: 310px;
 }
 

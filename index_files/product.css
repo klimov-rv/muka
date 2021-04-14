@@ -47,6 +47,9 @@
 .product__info  { 
     min-height: 335px;
 }
+.product__info>* {
+    margin-bottom: 15px;
+}
 
 .product__price:hover {
     color: #f4a344; 
@@ -88,5 +91,13 @@
     background-position-y: bottom; 
 }
 
-.template-towar .siteFooter { 
+.product__card .beans-animate.js-parallax__first-layer {
+    background: url("parallax-beans12--1st-layer.png") no-repeat left center transparent;
+    margin-left: -197px;
+    height: 72%;
+}
+.product__card .beans-animate.js-parallax__second-layer {
+    background: url("parallax-beans12--2nd-layer.png") no-repeat left center transparent;
+    margin-left: 274px;
+    height: 101%;
 }

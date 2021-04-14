@@ -1,16 +1,16 @@
 @media screen and (min-width: 1915px) {
-    .production {
+    .production  {
         background: url("production-section-bg.png") repeat-x center center / cover transparent;
         padding-top: 159px;
+    }
+    .production__slider_wrap {
+        padding: 75px 0 140px;
     }
     .elevator.elevator-lab::after {
         background: url("wave2-white.svg") no-repeat top center / cover transparent;
         width: 100%;
         left: 0;
         height: 103px;
-    }
-    .production__slider_wrap {
-        padding: 103px 0;
     }
     .greeting_parallax {
         background: url("pic1-cut5.png") no-repeat 10% center transparent;
@@ -443,7 +443,7 @@
     .country {
         display: none;
     }
-    .production__subtext {
+    .product-page __subtext {
         font-size: 22px;
     }
 }
@@ -511,6 +511,13 @@
 }
 
 @media screen and (max-width: 768px) {
+    
+.ourmission_collections .swiper-button-prev, .ourmission_collections .swiper-button-next {
+    width: 50px;
+    background-position-y: 30px;
+    height: 100px;
+}
+
     .masonry__item_inner .news-image {
         min-height: 220px;
     }
@@ -962,7 +969,13 @@
 }
 
 @media screen and (max-width: 480px) {
-    
+    .production {
+        background: url("production-section-bg.png") repeat-x center center / cover transparent; 
+        padding: 60px 0; 
+    }
+    .product-page-block {
+        background: url("pic2.png") no-repeat center 90% / 210px transparent;
+    }
     .tara_list {
         width: 100%;
         -webkit-box-orient: vertical;
@@ -1274,13 +1287,13 @@
         margin-bottom: 25px;
         padding-bottom: 35px;
     }
-    .production-block {
+    .product-page -block {
         background: url("pic2.png") no-repeat center 90% / 170px transparent;
     }
-    .promo.production {
+    .promo.product-page {
         min-height: 600px;
     }
-    .promo.production .hero__text_block {
+    .promo.product-page .hero__text_block {
         padding-bottom: 300px;
     }
     .promo .template_1 {
@@ -1339,7 +1352,7 @@
         padding-bottom: 80px;
     }
     .prodcarousel_collections .tabs-content .swiper-button-next, .prodcarousel_collections .tabs-content .swiper-button-prev {
-        bottom: 20px;
+        bottom: 25px;
     }
     .prodcarousel .tab {
         margin-bottom: -140px;
@@ -1567,7 +1580,7 @@
         background-size: cover;
     }
     .siteFooter__icon_link {
-        margin: 5px 15px 15px;
+        margin: 5px 15px 15px;                      
     }
     .siteFooter__copy {
         -webkit-box-pack: center;
@@ -1595,13 +1608,13 @@
         left: 0;
         width: 37%;
     }
-    .production__slider_wrap {
+    .product-page __slider_wrap {
         padding-bottom: 150px;
     }
-    .production {
+    .product-page  {
         background: url("production-section-bg.png") repeat-x -450px center /cover transparent;
     }
-    .production+.elevator-lab {
+    .product-page +.elevator-lab {
         margin-top: -113px;
     }
     .animate1_1 {
@@ -1916,7 +1929,7 @@
         min-height: 697px;
     }
     .aboutus-block .hero__text_block {
-        padding-bottom: 275px;
+        padding-bottom: 275px;          
     }
     .history__block {
         background: none;

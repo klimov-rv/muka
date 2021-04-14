@@ -175,7 +175,7 @@
 }
 
 .promo.aboutus .beans-animate.js-parallax__second-layer {
-    background: url("parallax-beans4--2nd-layer.png") no-repeat left center transparent; 
+    background: url("parallax-beans4--2nd-layer.png") no-repeat left center transparent;
 }
 
 .history .beans-animate.js-parallax__first-layer {
@@ -186,9 +186,29 @@
 
 .history .beans-animate.js-parallax__second-layer {
     background: url("parallax-beans5--2nd-layer.png") no-repeat left center transparent;
-    /* parallax-beans5--1st-layer.png
-    parallax-beans5--2nd-layer.png
-     */
+}
+
+.production .beans-animate.js-parallax__first-layer {
+    background: url("parallax-beans6--1st-layer.png") no-repeat left center transparent;
+    margin-left: -205px;
+}
+
+.production .beans-animate.js-parallax__second-layer {
+    background: url("parallax-beans6--2nd-layer.png") no-repeat left center transparent;
+    margin-left: 73px;
+    height: 113%;
+}
+
+.ourmission .beans-animate.js-parallax__first-layer {
+    background: url("parallax-beans7--1st-layer.png") no-repeat left center transparent;
+    margin-left: -205px;
+    height: 75%;
+}
+
+.ourmission .beans-animate.js-parallax__second-layer {
+    background: url("parallax-beans7--2nd-layer.png") no-repeat left top transparent;
+    margin-left: 73px;
+    height: 113%;
 }
 
 .production {
@@ -244,7 +264,7 @@
 
 .production__slider .swiper-button-prev, .production__slider .swiper-button-next {
     width: 50px;
-    background-position-y: 40px;
+    background-position-y: 30px;
     height: 100px;
 }
 
@@ -355,6 +375,7 @@
 
 .ourmission .greeting_parallax {
     background-image: url("mission-pic1.png");
+    background-position: center left;
 }
 
 .ourmission .ourmission_parallax {
@@ -390,4 +411,14 @@
 
 .cert__item.image-container.is-rectangle:hover {
     padding-top: 155%;
+}
+
+.elevator-lab .slider-pagination__wrap .swiper-button-prev {
+    background: url("arrow-white-left.png") no-repeat center center transparent;
+
+}
+
+.elevator-lab .slider-pagination__wrap .swiper-button-next {
+    background: url("arrow-white-right.png") no-repeat center center transparent;
+
 }

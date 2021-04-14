@@ -25,7 +25,22 @@
     height: 115%;
     margin-top: -32px;
 }
-.animate1_2 .beans-animate.js-parallax__second-layer  {
+
+.animate1_2 .beans-animate.js-parallax__second-layer {
+    background: url("parallax-beans3--2nd-layer.png") no-repeat left center transparent;
+    margin-left: -135px;
+    height: 114%;
+    width: 150%;
+}
+
+.animate1_2 .beans-animate.js-parallax__first-layer {
+    background: url("parallax-beans3--1st-layer.png") no-repeat left center transparent;
+    margin-left: -200px;
+    height: 115%;
+    margin-top: -32px;
+}
+
+.animate1_2 .beans-animate.js-parallax__second-layer {
     background: url("parallax-beans3--2nd-layer.png") no-repeat left center transparent;
     margin-left: -135px;
     height: 114%;
@@ -739,19 +754,18 @@ header .search_widget-submit {
 .swiper-button-prev {
     left: 0;
 }
-.greeting__slider .swiper-button-next, .greeting__slider .swiper-button-prev,
-.prodcarousel .swiper-button-next, .prodcarousel .swiper-button-prev {
+
+.greeting__slider .swiper-button-next, .greeting__slider .swiper-button-prev, .prodcarousel .swiper-button-next, .prodcarousel .swiper-button-prev {
     width: 50%;
 }
-.greeting__slider .swiper-button-prev, .prodcarousel .swiper-button-prev { 
+
+.greeting__slider .swiper-button-prev, .prodcarousel .swiper-button-prev {
     background: url("arrow-rev.png") no-repeat calc(100% - 30px) 80px transparent;
 }
 
 .greeting__slider .swiper-button-next, .prodcarousel .swiper-button-next {
-    background: url("arrow.png") no-repeat 36px 80px transparent; 
+    background: url("arrow.png") no-repeat 36px 80px transparent;
 }
- 
-
 
 .swiper-button-next::after, .swiper-button-prev::after {
     width: 77px;
@@ -1471,6 +1485,10 @@ input.quantity-input:focus-visible {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+}
+
+.contact-form .header-standart {
+    margin-bottom: 25px; 
 }
 
 .divarication__title {
@@ -2205,7 +2223,6 @@ input.quantity-input:focus-visible {
     min-height: 850px;
     position: relative;
 }
-
 
 .template-is-index .siteFooter {
     background-color: #fbfbfb;

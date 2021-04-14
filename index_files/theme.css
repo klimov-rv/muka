@@ -7057,7 +7057,7 @@ a[data-zoom-id] img, .mz-thumb img {
 /* line 12, swiper.min.css */
 
 .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
-  opacity: .35;
+  opacity: .15;
   cursor: auto;
   pointer-events: none;
 }
@@ -8548,11 +8548,11 @@ header .header-menu li:hover .subcol-dropdown {
   background: url("parallax-beans--1st-layer.png") no-repeat left center transparent;
   z-index: 1;
 }
-.beans-animate.js-parallax__second-layer { 
+
+.beans-animate.js-parallax__second-layer {
   background: url("parallax-beans--2st-layer.png") no-repeat left center transparent;
   z-index: 0;
 }
-
 
 .hero__text_block {
   /* flex: 0 0 50%;
@@ -8673,7 +8673,7 @@ header .header-menu li:hover .subcol-dropdown {
   padding: 15px 0 45px;
 }
 
-.clean.promo { 
+.clean.promo {
   background: url("pic1bg.png") repeat-x center bottom transparent;
   min-height: 435px;
   /* margin-bottom: -235px; */
@@ -8687,7 +8687,8 @@ header .header-menu li:hover .subcol-dropdown {
 }
 
 .towar.promo {
-  margin-bottom: -235px;
+  min-height: 475px;
+  margin-bottom: -270px;
   background-position-y: bottom;
 }
 
@@ -8723,6 +8724,8 @@ header .header-menu li:hover .subcol-dropdown {
   padding-left: 80px;
   justify-content: center;
   align-items: flex-start;
+  z-index: 9;
+  position: relative;
 }
 
 .standart__li {
@@ -8832,4 +8835,8 @@ form [type="radio"]:checked+label:after {
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
+}
+
+.siteFooter_parallax.template-2 {
+  background: url("bg-footer-v2.png") no-repeat right bottom / cover transparent;
 }
