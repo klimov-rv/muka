@@ -6,7 +6,7 @@ if ($('.js-parallax__first-layer').length > 0) {
 }
 if ($('.js-parallax__second-layer').length > 0) { 
     $(function () {
-        $('.js-parallax__second-layer').plaxmove({ ratioH: 0.03, ratioV: 0 })
+        $('.js-parallax__second-layer').plaxmove({ ratioH: 0.19, ratioV: 0 })
     }); 
 }
 (function ($) {

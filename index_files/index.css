@@ -1,10 +1,30 @@
+.promo.index .beans-animate.js-parallax__first-layer {
+    height: 110%;
+}
+
 .promo.index .beans-animate.js-parallax__second-layer {
     background: url("parallax-beans--2st-layer.png") no-repeat center center transparent;
     z-index: 0;
     width: 130%;
 }
-.promo.index .beans-animate.js-parallax__first-layer {  
-    height: 110%;
+
+.prodcarousel .beans-animate.js-parallax__first-layer {
+    background: url("parallax-beans2--1st-layer.png") no-repeat left center transparent;
+    width: 82%;
+    height: 73%;
+}
+
+.prodcarousel .beans-animate.js-parallax__second-layer {
+    background: url("parallax-beans2--2st-layer.png") no-repeat center 200px transparent;
+    width: 79%;
+}
+
+.animate1_2 .beans-animate.js-parallax__first-layer {
+    background: url("parallax-beans2--1st-layer.png") no-repeat left center transparent;
+}
+
+.animate1_2 .beans-animate.js-parallax__first-layer {
+    background: url("parallax-beans2--1st-layer.png") no-repeat left center transparent;
 }
 
 .nartistHeader {

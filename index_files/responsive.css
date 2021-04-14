@@ -11,7 +11,7 @@
     .production__slider_wrap {
         padding: 103px 0;
     }
-    .greeting_parallax { 
+    .greeting_parallax {
         background: url("pic1-cut5.png") no-repeat 10% center transparent;
     }
 }
@@ -44,7 +44,7 @@
     }
     .ourmission_parallax, .greeting_parallax, .promo-angle {
         background-image: none;
-    } 
+    }
     .ourmission .greeting_parallax {
         background: none;
     }
@@ -54,7 +54,7 @@
     .elevator::after {
         background: url("wave2.svg") no-repeat top center / cover transparent;
     }
-    .template-is-index .siteFooter { 
+    .template-is-index .siteFooter {
         clip-path: none;
         margin-top: -44px;
         background-color: #fbfbfb;
@@ -534,8 +534,7 @@
     }
     .fact-icons__slider .swiper-button-next, .fact-icons__slider .swiper-button-prev {
         width: 70px;
-    } 
-    
+    }
     #labSlider .icons__item .icon__signature {
         color: white;
     }
@@ -647,7 +646,7 @@
     }
     .promo__img_wrapper {
         height: 500px;
-    } 
+    }
     .swiper-button-next:after {
         left: auto;
         right: 0;
@@ -1235,6 +1234,11 @@
         width: 100%;
         padding: 15px 25px;
         white-space: initial;
+    }
+    .megatabcontent .tab button {
+        max-width: 128px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .prod-content .header-standart {
         padding-top: 15px;
