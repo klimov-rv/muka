@@ -174,7 +174,13 @@
     padding-top: 95px;
     z-index: 3;
 }
-
+.production__subtext_wrap { 
+    text-align: center;
+}
+.production__subtext {
+    font-family: PT Sans;
+    padding: 5px 0;
+}
 .production__slider_wrap {
     position: relative;
     z-index: 7;
