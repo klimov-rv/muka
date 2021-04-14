@@ -1,6 +1,7 @@
 @media screen and (min-width: 1675px) {
     .banner-bread {
         background-size: cover;
+        padding-bottom: 30px;
     }
     .geo-map {
         background: url("geo-map__bottombg.png") no-repeat bottom center / 100% transparent;
