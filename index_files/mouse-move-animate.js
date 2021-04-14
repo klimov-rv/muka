@@ -1,12 +1,12 @@
 
-if ($('.hero__beans_animate').length > 0) { 
+if ($('.js-parallax__first-layer').length > 0) { 
     $(function () {
-        $('.hero__beans_animate').plaxmove({ ratioH: 0.05, ratioV: 0 })
+        $('.js-parallax__first-layer').plaxmove({ ratioH: 0.31, ratioV: 0 })
     });
 }
-if ($('.beans_animate-vertical').length > 0) { 
+if ($('.js-parallax__second-layer').length > 0) { 
     $(function () {
-        $('.beans_animate-vertical').plaxmove({ ratioH: 0.15, ratioV: 0.05 })
+        $('.js-parallax__second-layer').plaxmove({ ratioH: 0.03, ratioV: 0 })
     }); 
 }
 (function ($) {

@@ -11,6 +11,9 @@
     .production__slider_wrap {
         padding: 103px 0;
     }
+    .greeting_parallax { 
+        background: url("pic1-cut5.png") no-repeat 10% center transparent;
+    }
 }
 
 @media screen and (min-width: 1675px) {

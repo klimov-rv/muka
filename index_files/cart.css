@@ -176,10 +176,13 @@ li.cart__item {
 .item__price_block {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+.checkout-item .item__price_block { 
     justify-content: flex-end;
 }
-.item__price_block { 
-    justify-content: center;
+.item__price_block .item__price_old {
+    margin-right: 5px;
 }
 
 .clean_template {
