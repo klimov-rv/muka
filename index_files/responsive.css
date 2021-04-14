@@ -50,10 +50,7 @@
     }
     .ourmission .greeting_parallax {
         background: none;
-    }
-    .news__card .image-holder {
-        min-height: 461px;
-    }
+    } 
     .elevator::after {
         background: url("wave2.svg") no-repeat top center / cover transparent;
     }

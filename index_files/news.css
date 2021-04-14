@@ -118,8 +118,8 @@
 
 .news__card .image-holder {
     margin-top: 75px;
-    margin-bottom: 150px;
-    min-height: 605px;
+    margin-bottom: 150px; 
+    padding-bottom: 90%;
 }
 
 .news__card .news-date {
