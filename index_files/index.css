@@ -20,11 +20,16 @@
 }
 
 .animate1_2 .beans-animate.js-parallax__first-layer {
-    background: url("parallax-beans2--1st-layer.png") no-repeat left center transparent;
+    background: url("parallax-beans3--1st-layer.png") no-repeat left center transparent;
+    margin-left: -200px;
+    height: 115%;
+    margin-top: -32px;
 }
-
-.animate1_2 .beans-animate.js-parallax__first-layer {
-    background: url("parallax-beans2--1st-layer.png") no-repeat left center transparent;
+.animate1_2 .beans-animate.js-parallax__second-layer  {
+    background: url("parallax-beans3--2nd-layer.png") no-repeat left center transparent;
+    margin-left: -135px;
+    height: 114%;
+    width: 150%;
 }
 
 .nartistHeader {
