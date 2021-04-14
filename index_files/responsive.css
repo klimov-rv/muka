@@ -1,6 +1,7 @@
 @media screen and (min-width: 1915px) {
     .production {
         background: url("production-section-bg.png") repeat-x center center / cover transparent;
+        padding-top: 159px;
     }
     .elevator.elevator-lab::after {
         background: url("wave2-white.svg") no-repeat top center / cover transparent;
@@ -961,6 +962,31 @@
 }
 
 @media screen and (max-width: 480px) {
+    
+    .tara_list {
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .tara_list li {
+        min-height: 145px;
+        -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+        flex: 1 1 100%;
+    }
+    .tara_text {
+        font-size: 50px;
+        text-align: center;
+        width: 100%;
+    }
+    .tara_select {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
     .t-row-like .t-cell-like:first-child {
         flex: 1 1 auto;
     }
@@ -1616,30 +1642,6 @@
 @media screen and (max-width: 380px) {
     .template-is-index .hero__text_block .hero__text:first-child {
         padding-top: 15px;
-    }
-    .tara_list {
-        width: 100%;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-    }
-    .tara_list li {
-        min-height: 145px;
-        -webkit-box-flex: 1;
-        -ms-flex: 1 1 100%;
-        flex: 1 1 100%;
-    }
-    .tara_text {
-        font-size: 50px;
-        text-align: center;
-        width: 100%;
-    }
-    .tara_select {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
     }
     .prodcarousel .tab {
         margin-bottom: -140px;

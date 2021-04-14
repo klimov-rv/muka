@@ -739,6 +739,19 @@ header .search_widget-submit {
 .swiper-button-prev {
     left: 0;
 }
+.greeting__slider .swiper-button-next, .greeting__slider .swiper-button-prev,
+.prodcarousel .swiper-button-next, .prodcarousel .swiper-button-prev {
+    width: 50%;
+}
+.greeting__slider .swiper-button-prev, .prodcarousel .swiper-button-prev { 
+    background: url("arrow-rev.png") no-repeat calc(100% - 30px) 80px transparent;
+}
+
+.greeting__slider .swiper-button-next, .prodcarousel .swiper-button-next {
+    background: url("arrow.png") no-repeat 36px 80px transparent; 
+}
+ 
+
 
 .swiper-button-next::after, .swiper-button-prev::after {
     width: 77px;
@@ -1395,6 +1408,7 @@ input.quantity-input:focus-visible {
     height: 67px;
     /* background: url("wave1.svg") no-repeat bottom center / cover transparent; */
     background: url("bg__video--top.png") no-repeat bottom center / 1920px transparent;
+    /* background: url("bg__video--top.png") no-repeat bottom center / 1920px transparent; */
     z-index: 9;
 }
 
@@ -1405,9 +1419,14 @@ input.quantity-input:focus-visible {
     left: 0;
     width: 101%;
     height: 94px;
-    background: url("wave2.svg") no-repeat top center / cover transparent;
+    /* background: url("wave2.svg") no-repeat top center / cover transparent; */
+    background: url("bg-video-bottom.png") no-repeat bottom center / 100% transparent;
     z-index: 9;
 }
+
+/* .elevator::after {
+    background-image: none;
+} */
 
 .elevator>.container_narrow {
     min-height: 695px;
@@ -2139,12 +2158,12 @@ input.quantity-input:focus-visible {
     z-index: 1;
     width: 100%;
     height: 100%;
-    background: url("contact_bg_3.png") right bottom no-repeat, url("contact_bg_4.png") left bottom no-repeat, white;
+    background: url("contact_bg_3.png") right bottom no-repeat, url("contact_bg_4.png") left bottom no-repeat, #fbfbfb;
     margin-top: 31px;
 }
 
 .template-is-index .siteFooter_parallax {
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 
 .siteFooter>.container_narrow {
@@ -2187,16 +2206,14 @@ input.quantity-input:focus-visible {
     position: relative;
 }
 
-.elevator::after {
-    background-image: none;
-}
 
 .template-is-index .siteFooter {
+    background-color: #fbfbfb;
     padding-top: 135px;
-    margin-top: -145px;
+    margin-top: 0;
     z-index: 7;
-    -webkit-clip-path: polygon(100% 878px, 0px 848px, 0% 6%, 1.89% 6.16%, 3.53% 6.24%, 5.16% 6.37%, 7.05% 6.45%, 9.27% 6.54%, 11.4% 6.57%, 13.05% 6.62%, 14.66% 6.64%, 16.45% 6.66%, 18.37% 6.93%, 20.08% 7.18%, 21.83% 7.64%, 23.51% 8.42%, 25.51% 9.23%, 30.4% 11.55%, 34.66% 13.42%, 37.4% 14.34%, 39.99% 14.85%, 42.46% 14.98%, 44.25% 14.79%, 45.99% 14.48%, 47.52% 14.12%, 48.99% 13.57%, 50.56% 12.95%, 51.75% 12.43%, 52.94% 11.8%, 54.31% 11.14%, 56.57% 10.1%, 58.73% 9.14%, 60.99% 8.28%, 63.52% 7.49%, 66.51% 6.97%, 69.36% 6.97%, 71.84% 7.01%, 74.68% 7.12%, 77.37% 7.37%, 80.02% 7.59%, 82.55% 7.9%, 85.16% 8.19%, 87.96% 8.65%, 91.17% 9.09%, 94.79% 9.78%, 100% 10.7%);
-    clip-path: polygon(100% 878px, 0px 848px, 0% 6%, 1.89% 6.16%, 3.53% 6.24%, 5.16% 6.37%, 7.05% 6.45%, 9.27% 6.54%, 11.4% 6.57%, 13.05% 6.62%, 14.66% 6.64%, 16.45% 6.66%, 18.37% 6.93%, 20.08% 7.18%, 21.83% 7.64%, 23.51% 8.42%, 25.51% 9.23%, 30.4% 11.55%, 34.66% 13.42%, 37.4% 14.34%, 39.99% 14.85%, 42.46% 14.98%, 44.25% 14.79%, 45.99% 14.48%, 47.52% 14.12%, 48.99% 13.57%, 50.56% 12.95%, 51.75% 12.43%, 52.94% 11.8%, 54.31% 11.14%, 56.57% 10.1%, 58.73% 9.14%, 60.99% 8.28%, 63.52% 7.49%, 66.51% 6.97%, 69.36% 6.97%, 71.84% 7.01%, 74.68% 7.12%, 77.37% 7.37%, 80.02% 7.59%, 82.55% 7.9%, 85.16% 8.19%, 87.96% 8.65%, 91.17% 9.09%, 94.79% 9.78%, 100% 10.7%);
+    /* -webkit-clip-path: polygon(100% 878px, 0px 848px, 0% 6%, 1.89% 6.16%, 3.53% 6.24%, 5.16% 6.37%, 7.05% 6.45%, 9.27% 6.54%, 11.4% 6.57%, 13.05% 6.62%, 14.66% 6.64%, 16.45% 6.66%, 18.37% 6.93%, 20.08% 7.18%, 21.83% 7.64%, 23.51% 8.42%, 25.51% 9.23%, 30.4% 11.55%, 34.66% 13.42%, 37.4% 14.34%, 39.99% 14.85%, 42.46% 14.98%, 44.25% 14.79%, 45.99% 14.48%, 47.52% 14.12%, 48.99% 13.57%, 50.56% 12.95%, 51.75% 12.43%, 52.94% 11.8%, 54.31% 11.14%, 56.57% 10.1%, 58.73% 9.14%, 60.99% 8.28%, 63.52% 7.49%, 66.51% 6.97%, 69.36% 6.97%, 71.84% 7.01%, 74.68% 7.12%, 77.37% 7.37%, 80.02% 7.59%, 82.55% 7.9%, 85.16% 8.19%, 87.96% 8.65%, 91.17% 9.09%, 94.79% 9.78%, 100% 10.7%);
+    clip-path: polygon(100% 878px, 0px 848px, 0% 6%, 1.89% 6.16%, 3.53% 6.24%, 5.16% 6.37%, 7.05% 6.45%, 9.27% 6.54%, 11.4% 6.57%, 13.05% 6.62%, 14.66% 6.64%, 16.45% 6.66%, 18.37% 6.93%, 20.08% 7.18%, 21.83% 7.64%, 23.51% 8.42%, 25.51% 9.23%, 30.4% 11.55%, 34.66% 13.42%, 37.4% 14.34%, 39.99% 14.85%, 42.46% 14.98%, 44.25% 14.79%, 45.99% 14.48%, 47.52% 14.12%, 48.99% 13.57%, 50.56% 12.95%, 51.75% 12.43%, 52.94% 11.8%, 54.31% 11.14%, 56.57% 10.1%, 58.73% 9.14%, 60.99% 8.28%, 63.52% 7.49%, 66.51% 6.97%, 69.36% 6.97%, 71.84% 7.01%, 74.68% 7.12%, 77.37% 7.37%, 80.02% 7.59%, 82.55% 7.9%, 85.16% 8.19%, 87.96% 8.65%, 91.17% 9.09%, 94.79% 9.78%, 100% 10.7%); */
     /* transition: clip-path .6s ease-out; */
     overflow: hidden;
 }
