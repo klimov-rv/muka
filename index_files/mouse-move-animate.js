@@ -9,6 +9,14 @@ if ($('.js-parallax__second-layer').length > 0) {
         $('.js-parallax__second-layer').plaxmove({ ratioH: 0.19, ratioV: 0 })
     }); 
 }
+
+if ($('.animate1_2').length > 0) { 
+    $(function () {
+        $('.js-parallax__first-layer').plaxmove({ ratioH: 0.05, ratioV: 0 })
+        $('.js-parallax__second-layer').plaxmove({ ratioH: 0.01, ratioV: 0 })
+    }); 
+}
+
 (function ($) {
     $.fn.plaxmove = function (options) {
 

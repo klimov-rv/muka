@@ -19,14 +19,14 @@
     width: 79%;
 }
 
-.animate1_2 .beans-animate.js-parallax__first-layer {
+.animate1_2 .js-parallax__first-layer {
     background: url("parallax-beans3--1st-layer.png") no-repeat left center transparent;
     margin-left: -200px;
     height: 115%;
     margin-top: -32px;
 }
 
-.animate1_2 .beans-animate.js-parallax__second-layer {
+.animate1_2 .js-parallax__second-layer {
     background: url("parallax-beans3--2nd-layer.png") no-repeat left center transparent;
     margin-left: -135px;
     height: 114%;
@@ -35,14 +35,14 @@
 
 .animate1_2 .beans-animate.js-parallax__first-layer {
     background: url("parallax-beans3--1st-layer.png") no-repeat left center transparent;
-    margin-left: -200px;
+    margin-left: -12px;
     height: 115%;
     margin-top: -32px;
 }
 
 .animate1_2 .beans-animate.js-parallax__second-layer {
     background: url("parallax-beans3--2nd-layer.png") no-repeat left center transparent;
-    margin-left: -135px;
+    margin-left: 24px;
     height: 114%;
     width: 150%;
 }
