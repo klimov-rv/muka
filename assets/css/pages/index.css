@@ -1204,11 +1204,6 @@ input.quantity-input:focus-visible {
     position: relative;
 }
 
-.geo-map .hero__beans_animate {
-    background: url("geo-map__animate1.png") no-repeat bottom center transparent;
-    margin-left: -50px;
-}
-
 .geo-map__left {
     position: relative;
     min-height: 198px;
@@ -1292,6 +1287,27 @@ input.quantity-input:focus-visible {
     height: 370px;
     position: relative;
     background: url("geo-map__animate0.png") no-repeat center center / contain transparent;
+}
+
+.zakupka-block .beans-animate {
+    background: none;
+}
+
+.zakupka_animate .beans-animate.zakupka_animate1 {
+    background: url("parallax-beans3--1st-layer.png") no-repeat left center transparent;
+    margin-left: -9px;
+    height: 143%;
+    margin-top: 16px;
+}
+.zakupka_animate.animate1_2 .beans-animate.zakupka_animate1 {
+    margin-top: -80px;
+}
+
+.zakupka_animate .beans-animate.zakupka_animate2 {
+    background: url("parallax-beans3--2nd-layer.png") no-repeat center center transparent;
+    margin-left: -90px;
+    height: 137%;
+    width: 124%;
 }
 
 .info0, .info0_1, .info0_2, .info0_3, .info0_4 {
@@ -2224,6 +2240,7 @@ input.quantity-input:focus-visible {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 230px;
 }
 
 .template-is-index .siteFooter {
@@ -2999,6 +3016,9 @@ background: url("5-burger.svg") no-repeat center left / 23px transparent;
     flex-direction: column;
     position: relative;
     bottom: 0;
+    
+    justify-content: center;
+    align-items: center;
 }
 
 .cart__total {

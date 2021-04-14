@@ -1,18 +1,22 @@
 .contact.promo {
-    background: url("contact-bg1.png") no-repeat center bottom transparent; 
+    background: url("contact-bg1.png") no-repeat center bottom transparent;
 }
+
 .contact-info {
     padding-bottom: 100px;
 }
+
 .contact .hero__text {
     padding-bottom: 120px;
 }
+
 .contact-info__wrap {
     margin-top: 50px;
 }
+
 .contact-map {
     min-height: 605px;
-    background: url("contact-map.png") no-repeat center bottom / cover transparent;
+    background: url("contact-map.png") no-repeat center bottom / contain transparent;
     margin-bottom: 150px;
 }
 
@@ -57,7 +61,7 @@ span.info-adress {
     display: inline-block;
     position: absolute;
     left: -5px;
-    top: 10px; 
+    top: 10px;
 }
 
 .icon-phone {
@@ -71,6 +75,21 @@ span.info-adress {
 .icon-adress {
     background: url("icon-adress.png") no-repeat center center transparent;
 }
+
 .dobavka {
     margin: 0 0 0 5px;
+}
+
+.contact-info .beans-animate.js-parallax__first-layer {
+    background: url("parallax-beans17--1st-layer.png") no-repeat center center transparent;
+    margin-left: -175px;
+    height: 139%;
+    margin-top: -343px;
+}
+
+.contact-info .beans-animate.js-parallax__second-layer {
+    background: url("parallax-beans17--2nd-layer.png") no-repeat center center transparent;
+    margin-left: -165px;
+    height: 148%;
+    margin-top: -390px;
 }

@@ -24,3 +24,17 @@
     margin: 0 35px 35px;
     flex: 0.1 0 30%;
 }
+
+.vacancies .beans-animate.js-parallax__first-layer {
+    background: url("parallax-beans18--1st-layer.png") no-repeat center center transparent;
+    margin-left: -298px;
+    height: 282%;
+    margin-top: -343px;
+}
+
+.vacancies .beans-animate.js-parallax__second-layer {
+    background: url("parallax-beans18--2nd-layer.png") no-repeat center center transparent;
+    margin-left: -165px;
+    height: 232%;
+    margin-top: -390px;
+}

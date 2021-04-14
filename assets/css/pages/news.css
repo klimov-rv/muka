@@ -157,3 +157,17 @@
     margin-left: -96px;
     height: 153%;
 }
+
+.news-feed .beans-animate.js-parallax__first-layer {
+    background: url("parallax-beans16--1st-layer.png") no-repeat center center transparent;
+    margin-left: -271px;
+    height: 139%;
+    margin-top: -393px;
+}
+
+.news-feed .beans-animate.js-parallax__second-layer {
+    background: url("parallax-beans16--2nd-layer.png") no-repeat center center transparent;
+    margin-left: -165px;
+    height: 148%;
+    margin-top: -500px;
+}
