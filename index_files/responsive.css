@@ -1,3 +1,14 @@
+@media screen and (min-width: 1915px) {
+    .production {
+        background: url("production-section-bg.png") repeat-x center center / cover transparent; 
+    }
+    .elevator.elevator-lab::after {
+        background: url("wave2-white.svg") no-repeat top center / cover transparent;
+        width: 100%;
+        left: 0;
+        height: 103px;
+    }
+}
 @media screen and (min-width: 1675px) {
     .banner-bread {
         background-size: cover;
@@ -8,7 +19,7 @@
     }
     .template-is-index .elevator::before {
         background: url("bg__video--top.png") no-repeat bottom center / 100% transparent;
-    }
+    }  
 }
 
 @media screen and (max-width: 1675px) {
