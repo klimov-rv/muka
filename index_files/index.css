@@ -1196,7 +1196,7 @@
  }
 
  .banner-bread {
-     background: url("banner__bread-all.png") no-repeat center center transparent;
+     background: url("banner__bread-all.png") no-repeat center -2px transparent;
  }
 
  .banner-bread>.container_narrow {

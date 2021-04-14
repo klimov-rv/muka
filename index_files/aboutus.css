@@ -4,6 +4,9 @@
     flex-direction: column;
 }
 
+.template-aboutus .hero__text_block {
+    padding-bottom: 130px;
+}
 
 .aboutus-block .header-standart {
     line-height: 1em;
@@ -74,7 +77,7 @@
     background-position-x: 1500px;
 }
 
-.history__list_li.anim-history .history__year_text,  .history__list_li.anim-history .history__year {
+.history__list_li.anim-history .history__year_text, .history__list_li.anim-history .history__year {
     opacity: 1;
 }
 
