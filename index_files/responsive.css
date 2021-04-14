@@ -1,6 +1,6 @@
 @media screen and (min-width: 1915px) {
     .production {
-        background: url("production-section-bg.png") repeat-x center center / cover transparent; 
+        background: url("production-section-bg.png") repeat-x center center / cover transparent;
     }
     .elevator.elevator-lab::after {
         background: url("wave2-white.svg") no-repeat top center / cover transparent;
@@ -8,10 +8,11 @@
         left: 0;
         height: 103px;
     }
-    .production__slider_wrap { 
+    .production__slider_wrap {
         padding: 103px 0;
     }
 }
+
 @media screen and (min-width: 1675px) {
     .banner-bread {
         background-size: cover;
@@ -22,7 +23,7 @@
     }
     .template-is-index .elevator::before {
         background: url("bg__video--top.png") no-repeat bottom center / 100% transparent;
-    }  
+    }
 }
 
 @media screen and (max-width: 1675px) {
@@ -40,15 +41,24 @@
     }
     .ourmission_parallax, .greeting_parallax, .promo-angle {
         background-image: none;
-    }
-    .template-is-index .siteFooter {
-        clip-path: none;
-    }
+    } 
     .ourmission .greeting_parallax {
         background: none;
     }
     .news__card .image-holder {
         min-height: 461px;
+    }
+    .elevator::after {
+        background: url("wave2.svg") no-repeat top center / cover transparent;
+    }
+    .template-is-index .siteFooter { 
+        clip-path: none;
+        margin-top: -44px;
+        background-color: #fbfbfb;
+    }
+    .template-is-index .siteFooter_parallax {
+        background-attachment: inherit;
+        background: url(contact_bg_3.png) right bottom no-repeat, url(contact_bg_4.png) left bottom no-repeat, #fbfbfb;
     }
 }
 
@@ -84,7 +94,7 @@
         margin-bottom: 0;
     }
     .template-is-index .siteFooter {
-        margin-top: -50px;
+        margin-top: -16px;
     }
     .template-is-index .siteFooter_parallax {
         background-attachment: unset;
@@ -262,6 +272,32 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .siteFooter__contacts, .siteFooter__copy {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .siteFooter__contacts {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+    }
+    .siteFooter__phone {
+        margin-left: unset;
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1;
+        text-align: center;
+        width: 100%;
+    }
+    .checkout-item__block {
+        margin-top: 35px;
+    }
     #productionSlider .swiper-slide img {
         -o-object-fit: contain;
         object-fit: contain;
@@ -471,7 +507,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .factsback { 
+    .factsback {
         left: 0;
     }
     .icons__item .icon__signature {
@@ -541,7 +577,7 @@
         right: 38px;
     }
     .siteFooter {
-        min-height: 875px;
+        min-height: 901px;
     }
     .hero__text_block {
         padding: 0;
@@ -1502,24 +1538,6 @@
         background-image: url("footer_bg-sm.png");
         background-size: cover;
     }
-    .siteFooter__contacts {
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-        order: -1;
-    }
-    .siteFooter__phone {
-        margin-left: unset;
-        -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-        order: -1;
-        text-align: center;
-        width: 100%;
-    }
     .siteFooter__icon_link {
         margin: 5px 15px 15px;
     }
@@ -1586,9 +1604,6 @@
     }
     .ourmission .tabs-content .slider-pagination__wrap {
         top: 35px;
-    }
-    .checkout-item__block {
-        margin-top: 35px;
     }
     .checkout-item__block .total-order-header {
         margin-top: 0;

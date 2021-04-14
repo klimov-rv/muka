@@ -8668,12 +8668,8 @@ header .header-menu li:hover .subcol-dropdown {
   padding: 15px 0 45px;
 }
 
-.clean.promo {
-  margin-bottom: -109px;
-}
-
-.clean.promo {
-  background: url("pic1bg.png") no-repeat center bottom transparent;
+.clean.promo { 
+  background: url("pic1bg.png") repeat-x center bottom transparent;
   min-height: 435px;
   /* margin-bottom: -235px; */
   /* towar */

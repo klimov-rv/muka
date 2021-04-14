@@ -1,40 +1,4 @@
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-track {
-    background: #75c94e;
-}
-
-::-webkit-scrollbar-thumb {
-    background: rgb(88, 18, 18);
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: rgb(49, 23, 165);
-}
-
-::-webkit-scrollbar {
-    background: turquoise;
-}
-
-::-webkit-scrollbar-button {
-    background: turquoise;
-}
-
-::-webkit-scrollbar-track-piece {
-    background: #75c94e;
-}
-
-::-webkit-scrollbar-corner {
-    background: turquoise;
-}
-
-::-webkit-resizer {
-    background: turquoise;
-}
-
-.checkout-item__list { 
+ .checkout-item__list { 
     scrollbar-color: #f3a344 #e5e5e5;
     scrollbar-width: thin;
 }

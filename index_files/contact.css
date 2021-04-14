@@ -71,3 +71,6 @@ span.info-adress {
 .icon-adress {
     background: url("icon-adress.png") no-repeat center center transparent;
 }
+.dobavka {
+    margin: 0 0 0 5px;
+}
