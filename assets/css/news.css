@@ -3,8 +3,8 @@
 }
 
 .news.promo {
-    background: url("../images/news-bg1.png") no-repeat center top transparent;
-    min-height: 575px;
+    background: url("../images/news-bg1.png") repeat-x center bottom transparent;
+    min-height: 530px;
 }
 
 .news-feed__wrap {

@@ -1,6 +1,7 @@
 .vakansii.promo {
     background-image: url("../images/vakansii-bg1.png");
     min-height: 559px;
+    background-position: center bottom;
 }
 
 .vacancies__wrap {
