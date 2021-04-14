@@ -114,19 +114,46 @@
 
 .news__card .header-standart {
     padding-top: 0;
-} 
+}
+
 .news__card .image-holder {
     margin-top: 75px;
     margin-bottom: 150px;
     min-height: 605px;
 }
+
 .news__card .news-date {
     display: block;
     width: 100%;
     margin-bottom: 30px;
 }
+
 .news__card .news-bold {
     display: block;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+.template-news-page .clean.promo .js-parallax__first-layer {
+    background: url("parallax-beans13--1st-layer.png") no-repeat left center transparent;
+    margin-left: -197px;
+    height: 129%;
+}
+
+.template-news-page .clean.promo .js-parallax__second-layer {
+    background: url("parallax-beans9--1st-layer.png") no-repeat right bottom transparent;
+    margin-left: -639px;
+    height: 94%;
+}
+
+.news__card .beans-animate.js-parallax__first-layer {
+    background: url("parallax-beans14--1st-layer.png") no-repeat center center transparent;
+    margin-left: -276px;
+    height: 113%;
+}
+
+.news__card .beans-animate.js-parallax__second-layer {
+    background: url("parallax-beans14--2nd-layer.png") no-repeat center center transparent;
+    margin-left: -96px;
+    height: 153%;
 }

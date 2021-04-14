@@ -1,3 +1,8 @@
+@media screen and (min-width: 1960px) {
+    .greeting_parallax {
+        background: url("pic1-cut5.png") no-repeat 10% center transparent;
+    }
+}
 @media screen and (min-width: 1915px) {
     .production  {
         background: url("production-section-bg.png") repeat-x center center / cover transparent;
@@ -11,9 +16,6 @@
         width: 100%;
         left: 0;
         height: 103px;
-    }
-    .greeting_parallax {
-        background: url("pic1-cut5.png") no-repeat 10% center transparent;
     }
 }
 
