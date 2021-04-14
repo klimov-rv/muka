@@ -1031,7 +1031,11 @@
         object-fit: contain;
     }
     .product__price {
-        margin: 25px 0;
+        margin: 10px 0 30px;
+    }
+    .towar.promo {
+        margin-bottom: -369px;
+        min-height: 570px;
     }
     .gallery-thumbs {
         padding: 0;
