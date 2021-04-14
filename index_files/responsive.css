@@ -456,6 +456,18 @@
 }
 
 @media screen and (max-width: 768px) {
+    .factsback { 
+        left: 0;
+    }
+    .icons__item .icon__signature {
+        padding: 0 10px;
+    }
+    .template-is-index .hero__text_block .button2 {
+        margin: 0 auto;
+    }
+    .template-is-index .hero__text {
+        width: 100%;
+    }
     .news__card .image-holder {
         margin-top: 20px;
         margin-bottom: 70px;
@@ -1563,6 +1575,9 @@
 }
 
 @media screen and (max-width: 380px) {
+    .template-is-index .hero__text_block .hero__text:first-child {
+        padding-top: 15px;
+    }
     .tara_list {
         width: 100%;
         -webkit-box-orient: vertical;

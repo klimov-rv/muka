@@ -48,6 +48,10 @@ button, input, optgroup, select, textarea {
   color: #7a7a7a;
 }
 
+#page>.content {
+  overflow: hidden;
+}
+
 .swiper-pagination {
   font-size: 30px;
 }
@@ -8667,7 +8671,8 @@ header .header-menu li:hover .subcol-dropdown {
 .clean.promo {
   background: url("pic1bg.png") no-repeat center bottom transparent;
   min-height: 435px;
-  /* margin-bottom: -235px; */ /* towar */
+  /* margin-bottom: -235px; */
+  /* towar */
   margin-bottom: -109px;
 }
 
