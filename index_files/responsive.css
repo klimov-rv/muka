@@ -1572,6 +1572,13 @@
     .ourmission .tabs-content .slider-pagination__wrap {
         top: 35px;
     }
+    .checkout-item__block {
+        margin-top: 35px;
+    }
+    .checkout-item__block .total-order-header {
+        margin-top: 0;
+        padding-top: 15px;
+    }
 }
 
 @media screen and (max-width: 380px) {
