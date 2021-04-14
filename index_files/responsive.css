@@ -507,6 +507,35 @@
 }
 
 @media screen and (max-width: 768px) {
+    .masonry__item_inner .news-image {
+        min-height: 220px;
+    }
+    .fact-icons .header-standart::after {
+        bottom: -30px;
+    }
+    .fact-icons__slider {
+        padding: 50px 0;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+    }
+    .fact-icons .icons__item:nth-child(1), .fact-icons .icons__item:nth-child(3) {
+        margin-top: 0;
+    }
+    .fact-icons__slider .slider-pagination__wrap {
+        position: absolute;
+        top: 73px;
+        left: auto;
+        height: 100px;
+        width: 100%;
+    }
+    .fact-icons__slider .swiper-button-next, .fact-icons__slider .swiper-button-prev {
+        width: 70px;
+    } 
+    
+    #labSlider .icons__item .icon__signature {
+        color: white;
+    }
     .factsback {
         left: 0;
     }
@@ -615,13 +644,7 @@
     }
     .promo__img_wrapper {
         height: 500px;
-    }
-    .swiper-button-next {
-        right: -35px;
-    }
-    .swiper-button-prev {
-        left: -35px;
-    }
+    } 
     .swiper-button-next:after {
         left: auto;
         right: 0;
@@ -1407,34 +1430,6 @@
     }
     .prodcarousel_collections.container_narrow {
         padding-bottom: 50px;
-    }
-    .fact-icons .header-standart::after {
-        bottom: -30px;
-    }
-    .fact-icons__slider {
-        padding: 50px 0;
-        position: relative;
-        overflow: hidden;
-        width: 100%;
-    }
-    .fact-icons .icons__item:nth-child(1), .fact-icons .icons__item:nth-child(3) {
-        margin-top: 0;
-    }
-    .fact-icons__slider .slider-pagination__wrap {
-        position: absolute;
-        top: 73px;
-        left: auto;
-        height: 100px;
-        width: 100%;
-    }
-    .fact-icons__slider .swiper-button-next, .fact-icons__slider .swiper-button-prev {
-        width: 70px;
-    }
-    .fact-icons__item:nth-child(1), .fact-icons__item:nth-child(3) {
-        margin-top: 0;
-    }
-    #labSlider .icons__item .icon__signature {
-        color: white;
     }
     .elevator-lab .elevator_textblock {
         padding: 50px 0;
