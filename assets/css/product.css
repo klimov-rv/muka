@@ -92,12 +92,12 @@
 }
 
 .product__card .beans-animate.js-parallax__first-layer {
-    background: url("parallax-beans12--1st-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans12--1st-layer.png") no-repeat left center transparent;
     margin-left: -197px;
     height: 72%;
 }
 .product__card .beans-animate.js-parallax__second-layer {
-    background: url("parallax-beans12--2nd-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans12--2nd-layer.png") no-repeat left center transparent;
     margin-left: 274px;
     height: 101%;
 }

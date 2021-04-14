@@ -127,7 +127,7 @@
  .checkout-item__block {
      width: 440px;
      height: 510px;
-     background: url("checkout-item__list.png") no-repeat center top transparent;
+     background: url("../images/checkout-item__list.png") no-repeat center top transparent;
      padding-right: 30px;
      padding-left: 40px;
  }
@@ -195,14 +195,14 @@
  }
 
  .cart__main-block .beans-animate.js-parallax__first-layer, .cart-checkout .beans-animate.js-parallax__first-layer {
-     background: url("parallax-beans15--1st-layer.png") no-repeat center center transparent;
+     background: url("../images/parallax-beans15--1st-layer.png") no-repeat center center transparent;
      margin-left: -172px;
      height: 99%;
      margin-top: -100px;
  }
 
  .cart__main-block .beans-animate.js-parallax__second-layer, .cart-checkout .beans-animate.js-parallax__second-layer {
-     background: url("parallax-beans15--2nd-layer.png") no-repeat center top transparent;
+     background: url("../images/parallax-beans15--2nd-layer.png") no-repeat center top transparent;
      margin-left: -205px;
      height: 75%;
  }

@@ -23,7 +23,7 @@
 }
 
 .history__block {
-    background: url("history-static_bg.png") no-repeat center center / 1275px transparent;
+    background: url("../images/history-static_bg.png") no-repeat center center / 1275px transparent;
     color: #4c4c4c;
     font-family: PT Sans;
     font-size: 18px;
@@ -31,7 +31,7 @@
 }
 
 .js-parallax__second-layer {
-    background: url("history-beans_bg.png") no-repeat center center transparent;
+    background: url("../images/history-beans_bg.png") no-repeat center center transparent;
 }
 
 .history__list {
@@ -44,7 +44,7 @@
     height: 461px;
     position: relative;
     margin-bottom: 17px;
-    background: url("white-bg-for-animate.jpg") no-repeat center center / cover transparent;
+    background: url("../images/white-bg-for-animate.jpg") no-repeat center center / cover transparent;
     -webkit-transition: background-position-x 9000ms ease;
     -o-transition: background-position-x 9000ms ease;
     transition: background-position-x 9000ms ease;
@@ -67,7 +67,7 @@
     left: 0;
     width: 200%;
     height: 200%;
-    background: url("white-bg-for-animate.jpg") no-repeat center center / cover transparent;
+    background: url("../images/white-bg-for-animate.jpg") no-repeat center center / cover transparent;
     -webkit-transition: background-position-y 5000ms linear;
     -o-transition: background-position-y 5000ms linear;
     transition: background-position-y 5000ms linear;
@@ -107,7 +107,7 @@
 .history__block .history__list_li .history__year:after {
     content: "";
     position: absolute;
-    background: url("fact-icon_bg.png") no-repeat center center / contain transparent;
+    background: url("../images/fact-icon_bg.png") no-repeat center center / contain transparent;
     opacity: .5;
     width: 100%;
     height: 100%;
@@ -169,50 +169,50 @@
 }
 
 .promo.aboutus .beans-animate.js-parallax__first-layer {
-    background: url("parallax-beans4--1st-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans4--1st-layer.png") no-repeat left center transparent;
     margin-left: -213px;
     height: 119%;
 }
 
 .promo.aboutus .beans-animate.js-parallax__second-layer {
-    background: url("parallax-beans4--2nd-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans4--2nd-layer.png") no-repeat left center transparent;
 }
 
 .history .beans-animate.js-parallax__first-layer {
-    background: url("parallax-beans5--1st-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans5--1st-layer.png") no-repeat left center transparent;
     margin-left: -313px;
     height: 100%;
 }
 
 .history .beans-animate.js-parallax__second-layer {
-    background: url("parallax-beans5--2nd-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans5--2nd-layer.png") no-repeat left center transparent;
 }
 
 .production .beans-animate.js-parallax__first-layer {
-    background: url("parallax-beans6--1st-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans6--1st-layer.png") no-repeat left center transparent;
     margin-left: -205px;
 }
 
 .production .beans-animate.js-parallax__second-layer {
-    background: url("parallax-beans6--2nd-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans6--2nd-layer.png") no-repeat left center transparent;
     margin-left: 73px;
     height: 113%;
 }
 
 .ourmission .beans-animate.js-parallax__first-layer {
-    background: url("parallax-beans7--1st-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans7--1st-layer.png") no-repeat left center transparent;
     margin-left: -205px;
     height: 75%;
 }
 
 .ourmission .beans-animate.js-parallax__second-layer {
-    background: url("parallax-beans7--2nd-layer.png") no-repeat left top transparent;
+    background: url("../images/parallax-beans7--2nd-layer.png") no-repeat left top transparent;
     margin-left: 73px;
     height: 113%;
 }
 
 .production {
-    background: url("production-section-bg.png") repeat-x center center transparent;
+    background: url("../images/production-section-bg.png") repeat-x center center transparent;
     min-height: 1027px;
     padding-top: 95px;
     z-index: 3;
@@ -233,7 +233,7 @@
 }
 
 .promo.aboutus {
-    background: url("about-head__bg.png") repeat-x bottom center transparent;
+    background: url("../images/about-head__bg.png") repeat-x bottom center transparent;
 }
 
 .production__slider {
@@ -303,7 +303,7 @@
 }
 
 .elevator.elevator-lab::after {
-    background: url("wave2-white.svg") no-repeat top center / cover transparent;
+    background: url("../images/wave2-white.svg") no-repeat top center / cover transparent;
 }
 
 .production+.elevator-lab {
@@ -329,19 +329,19 @@
 }
 
 .elevator-lab .icons__item:nth-child(1) figure {
-    background-image: url("lab-icon_1.png");
+    background-image: url("../images/lab-icon_1.png");
 }
 
 .elevator-lab .icons__item:nth-child(2) figure {
-    background-image: url("lab-icon_2.png");
+    background-image: url("../images/lab-icon_2.png");
 }
 
 .elevator-lab .icons__item:nth-child(3) figure {
-    background-image: url("lab-icon_3.png");
+    background-image: url("../images/lab-icon_3.png");
 }
 
 .elevator-lab .icons__item:nth-child(4) figure {
-    background-image: url("lab-icon_4.png");
+    background-image: url("../images/lab-icon_4.png");
 }
 
 .cert__list .cert {
@@ -366,7 +366,7 @@
     left: 55px;
     width: 350px;
     height: 390px;
-    background: url("mission-pic3.png") no-repeat center center / contain transparent;
+    background: url("../images/mission-pic3.png") no-repeat center center / contain transparent;
 }
 
 .ourmission .tab button {
@@ -374,12 +374,12 @@
 }
 
 .ourmission .greeting_parallax {
-    background-image: url("mission-pic1.png");
+    background-image: url("../images/mission-pic1.png");
     background-position: center left;
 }
 
 .ourmission .ourmission_parallax {
-    background: url("mission-pic4.png") no-repeat right top transparent;
+    background: url("../images/mission-pic4.png") no-repeat right top transparent;
     left: auto;
     right: 0;
     width: 50vw;
@@ -414,11 +414,11 @@
 }
 
 .elevator-lab .slider-pagination__wrap .swiper-button-prev {
-    background: url("arrow-white-left.png") no-repeat center center transparent;
+    background: url("../images/arrow-white-left.png") no-repeat center center transparent;
 
 }
 
 .elevator-lab .slider-pagination__wrap .swiper-button-next {
-    background: url("arrow-white-right.png") no-repeat center center transparent;
+    background: url("../images/arrow-white-right.png") no-repeat center center transparent;
 
 }

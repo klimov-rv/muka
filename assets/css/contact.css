@@ -1,5 +1,5 @@
 .contact.promo {
-    background: url("contact-bg1.png") no-repeat center bottom transparent;
+    background: url("../images/contact-bg1.png") no-repeat center bottom transparent;
 }
 
 .contact-info {
@@ -16,7 +16,7 @@
 
 .contact-map {
     min-height: 605px;
-    background: url("contact-map.png") no-repeat center bottom / contain transparent;
+    background: url("../images/contact-map.png") no-repeat center bottom / contain transparent;
     margin-bottom: 150px;
 }
 
@@ -65,15 +65,15 @@ span.info-adress {
 }
 
 .icon-phone {
-    background: url("icon-tel.png") no-repeat center center transparent;
+    background: url("../images/icon-tel.png") no-repeat center center transparent;
 }
 
 .icon-mail {
-    background: url("icon-mail.png") no-repeat center center transparent;
+    background: url("../images/icon-mail.png") no-repeat center center transparent;
 }
 
 .icon-adress {
-    background: url("icon-adress.png") no-repeat center center transparent;
+    background: url("../images/icon-adress.png") no-repeat center center transparent;
 }
 
 .dobavka {
@@ -81,14 +81,14 @@ span.info-adress {
 }
 
 .contact-info .beans-animate.js-parallax__first-layer {
-    background: url("parallax-beans17--1st-layer.png") no-repeat center center transparent;
+    background: url("../images/parallax-beans17--1st-layer.png") no-repeat center center transparent;
     margin-left: -175px;
     height: 139%;
     margin-top: -343px;
 }
 
 .contact-info .beans-animate.js-parallax__second-layer {
-    background: url("parallax-beans17--2nd-layer.png") no-repeat center center transparent;
+    background: url("../images/parallax-beans17--2nd-layer.png") no-repeat center center transparent;
     margin-left: -165px;
     height: 148%;
     margin-top: -390px;

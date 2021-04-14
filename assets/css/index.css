@@ -3,45 +3,45 @@
 }
 
 .promo.index .beans-animate.js-parallax__second-layer {
-    background: url("parallax-beans--2st-layer.png") no-repeat center center transparent;
+    background: url("../images/parallax-beans--2st-layer.png") no-repeat center center transparent;
     z-index: 0;
     width: 130%;
 }
 
 .prodcarousel .beans-animate.js-parallax__first-layer {
-    background: url("parallax-beans2--1st-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans2--1st-layer.png") no-repeat left center transparent;
     width: 82%;
     height: 73%;
 }
 
 .prodcarousel .beans-animate.js-parallax__second-layer {
-    background: url("parallax-beans2--2st-layer.png") no-repeat center 200px transparent;
+    background: url("../images/parallax-beans2--2st-layer.png") no-repeat center 200px transparent;
     width: 79%;
 }
 
 .animate1_2 .js-parallax__first-layer {
-    background: url("parallax-beans3--1st-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans3--1st-layer.png") no-repeat left center transparent;
     margin-left: -200px;
     height: 115%;
     margin-top: -32px;
 }
 
 .animate1_2 .js-parallax__second-layer {
-    background: url("parallax-beans3--2nd-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans3--2nd-layer.png") no-repeat left center transparent;
     margin-left: -135px;
     height: 114%;
     width: 150%;
 }
 
 .animate1_2 .beans-animate.js-parallax__first-layer {
-    background: url("parallax-beans3--1st-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans3--1st-layer.png") no-repeat left center transparent;
     margin-left: -12px;
     height: 115%;
     margin-top: -32px;
 }
 
 .animate1_2 .beans-animate.js-parallax__second-layer {
-    background: url("parallax-beans3--2nd-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans3--2nd-layer.png") no-repeat left center transparent;
     margin-left: 24px;
     height: 114%;
     width: 150%;
@@ -168,7 +168,7 @@
 }
 
 .siteHeader__logo {
-    background: url("logo-site.png") no-repeat center center transparent;
+    background: url("../images/logo-site.png") no-repeat center center transparent;
     display: block;
     height: 100px;
     width: 100px;
@@ -176,19 +176,19 @@
 }
 
 .siteHeader__icon.search {
-    background: url("icon-1-search.svg") no-repeat center center transparent;
+    background: url("../images/icon-1-search.svg") no-repeat center center transparent;
 }
 
 .siteHeader__icon.favorites {
-    background: url("icon-2-heart.svg") no-repeat center center transparent;
+    background: url("../images/icon-2-heart.svg") no-repeat center center transparent;
 }
 
 .siteHeader__icon.login {
-    background: url("icon-3-user.svg") no-repeat center center transparent;
+    background: url("../images/icon-3-user.svg") no-repeat center center transparent;
 }
 
 .siteHeader__icon.cart {
-    background: url("icon-4-basket.svg") no-repeat 10px center transparent;
+    background: url("../images/icon-4-basket.svg") no-repeat 10px center transparent;
     width: auto;
     padding-left: 33px;
     white-space: nowrap;
@@ -296,7 +296,7 @@ header .search_widget-submit {
     right: 0;
     width: 25px;
     height: 25px;
-    background: url("icon-1-search.svg") no-repeat center center transparent;
+    background: url("../images/icon-1-search.svg") no-repeat center center transparent;
     opacity: .5;
 }
 
@@ -314,7 +314,7 @@ header .search_widget-submit {
 }
 
 .siteHeader__icon_btn {
-    background: url("btn_topleft2.png") no-repeat center 35px transparent;
+    background: url("../images/btn_topleft2.png") no-repeat center 35px transparent;
     display: block;
     height: 130px;
     width: 150px;
@@ -327,7 +327,7 @@ header .search_widget-submit {
     position: absolute;
     height: 100%;
     width: 100%;
-    background: url("btn_topleft2.png") no-repeat center 27px transparent;
+    background: url("../images/btn_topleft2.png") no-repeat center 27px transparent;
     opacity: 0;
     z-index: 1;
     -webkit-transition: opacity 300ms;
@@ -347,7 +347,7 @@ header .search_widget-submit {
 }
 
 .siteHeader__icon_btn.cart-icon {
-    background-image: url("btn_topleft1.png");
+    background-image: url("../images/btn_topleft1.png");
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -361,7 +361,7 @@ header .search_widget-submit {
 }
 
 .siteHeader__icon_btn.cart-icon .icon {
-    background: url("cart.png") no-repeat center center transparent;
+    background: url("../images/cart.png") no-repeat center center transparent;
     height: 100%;
     width: 100%;
     position: relative;
@@ -449,7 +449,7 @@ header .search_widget-submit {
 }
 
 .siteHeader__mainnav .dropmenu-bg {
-    background: url("mainmenu-bg.png") no-repeat center center transparent;
+    background: url("../images/mainmenu-bg.png") no-repeat center center transparent;
     height: 835px;
     width: 835px;
     position: absolute;
@@ -462,7 +462,7 @@ header .search_widget-submit {
 }
 
 .siteHeader__mainnav .dropmenu-bg.dots1 {
-    background-image: url("rounds-1.png");
+    background-image: url("../images/rounds-1.png");
 }
 
 .menu__list.is-active .dropmenu-bg.dots1 {
@@ -472,7 +472,7 @@ header .search_widget-submit {
 }
 
 .siteHeader__mainnav .dropmenu-bg.dots2 {
-    background-image: url("rounds-2.png");
+    background-image: url("../images/rounds-2.png");
 }
 
 .menu__list.is-active .dropmenu-bg.dots2 {
@@ -482,7 +482,7 @@ header .search_widget-submit {
 }
 
 .siteHeader__mainnav .dropmenu-bg.dots3 {
-    background-image: url("rounds-3.png");
+    background-image: url("../images/rounds-3.png");
 }
 
 .menu__list.is-active .dropmenu-bg.dots3 {
@@ -584,7 +584,7 @@ header .search_widget-submit {
     -webkit-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
     transform: scaleX(-1);
-    background: url("mashinka.png") no-repeat center center / 50% transparent;
+    background: url("../images/mashinka.png") no-repeat center center / 50% transparent;
     opacity: 0;
     -webkit-transition: -webkit-all 0.3s cubic-bezier(.23, 1, .32, 1);
     -webkit-transition: all 0.3s cubic-bezier(.23, 1, .32, 1);
@@ -604,7 +604,7 @@ header .search_widget-submit {
     width: 135px;
     left: calc(50% - 65px);
     bottom: -10px;
-    background: url("active_underline1.png") no-repeat bottom center transparent;
+    background: url("../images/active_underline1.png") no-repeat bottom center transparent;
     -webkit-transform: scale3d(0, 1, 1);
     transform: scale3d(0, 1, 1);
     -webkit-transition: -webkit-transform 0.1s;
@@ -669,7 +669,7 @@ header .search_widget-submit {
 .promo-angle {
     width: 291px;
     height: 671px;
-    background: url("pic1-angle.png") no-repeat top left transparent;
+    background: url("../images/pic1-angle.png") no-repeat top left transparent;
     position: absolute;
     top: 0;
     left: 0;
@@ -744,7 +744,7 @@ header .search_widget-submit {
     /* background-color: transparent; */
     opacity: 0.9;
     outline: none;
-    background: url("arrow.png") no-repeat left 73px transparent;
+    background: url("../images/arrow.png") no-repeat left 73px transparent;
 }
 
 .swiper-button-next {
@@ -760,11 +760,11 @@ header .search_widget-submit {
 }
 
 .greeting__slider .swiper-button-prev, .prodcarousel .swiper-button-prev {
-    background: url("arrow-rev.png") no-repeat calc(100% - 30px) 80px transparent;
+    background: url("../images/arrow-rev.png") no-repeat calc(100% - 30px) 80px transparent;
 }
 
 .greeting__slider .swiper-button-next, .prodcarousel .swiper-button-next {
-    background: url("arrow.png") no-repeat 36px 80px transparent;
+    background: url("../images/arrow.png") no-repeat 36px 80px transparent;
 }
 
 .swiper-button-next::after, .swiper-button-prev::after {
@@ -794,16 +794,16 @@ header .search_widget-submit {
 }
 
 .swiper-button-next:hover {
-    background-image: url("arrow-h.png");
+    background-image: url("../images/arrow-h.png");
 }
 
 .swiper-button-prev {
-    background: url("arrow-rev.png") no-repeat right 73px transparent;
+    background: url("../images/arrow-rev.png") no-repeat right 73px transparent;
     background-position: 100% 73px;
 }
 
 .swiper-button-prev:hover {
-    background-image: url("arrow-h-rev.png");
+    background-image: url("../images/arrow-h-rev.png");
 }
 
 .swiper-container-3d .swiper-slide-shadow-right, .swiper-container-3d .swiper-slide-shadow-left {
@@ -886,7 +886,7 @@ h2 {
     width: 50vw;
     height: 100%;
     z-index: -1;
-    background: url("pic1-cut5.png") no-repeat left center transparent;
+    background: url("../images/pic1-cut5.png") no-repeat left center transparent;
     background-size: initial;
     /* background-attachment: fixed; */
 }
@@ -975,7 +975,7 @@ input.quantity-input:focus-visible {
     bottom: -23px;
     height: 100px;
     width: 100%;
-    background: url("pic1-colos.png") no-repeat center center / 50px transparent;
+    background: url("../images/pic1-colos.png") no-repeat center center / 50px transparent;
     -webkit-transform: rotate(30deg);
     -ms-transform: rotate(30deg);
     transform: rotate(30deg);
@@ -991,14 +991,14 @@ input.quantity-input:focus-visible {
     left: -15px;
     height: 100px;
     width: 100px;
-    background: url("pic1-colos.png") no-repeat center center / 50px transparent;
+    background: url("../images/pic1-colos.png") no-repeat center center / 50px transparent;
     -webkit-transform: rotate(30deg);
     -ms-transform: rotate(30deg);
     transform: rotate(30deg);
 }
 
 .animate0_1 {
-    background: url("greeting0.png") no-repeat center center / 550px transparent;
+    background: url("../images/greeting0.png") no-repeat center center / 550px transparent;
     height: 370px;
     position: relative;
 }
@@ -1009,7 +1009,7 @@ input.quantity-input:focus-visible {
     left: 165px;
     width: 350px;
     height: 175px;
-    background: url("greeting1.png") no-repeat center center / contain transparent;
+    background: url("../images/greeting1.png") no-repeat center center / contain transparent;
 }
 
 .greeting_numbers {
@@ -1018,7 +1018,7 @@ input.quantity-input:focus-visible {
 }
 
 .greeting__wrap_img-center {
-    background: url("greeting-center.png") no-repeat center center transparent;
+    background: url("../images/greeting-center.png") no-repeat center center transparent;
     position: relative;
 }
 
@@ -1035,7 +1035,7 @@ input.quantity-input:focus-visible {
     width: 400px;
     bottom: -125px;
     right: -115px;
-    background: url("greeting11.png") no-repeat right bottom / contain transparent;
+    background: url("../images/greeting11.png") no-repeat right bottom / contain transparent;
 }
 
 .greeting__text {
@@ -1084,7 +1084,7 @@ input.quantity-input:focus-visible {
     left: -100%;
     width: 300%;
     height: 300%;
-    background: url("fact-icon_bg.png") no-repeat center center transparent;
+    background: url("../images/fact-icon_bg.png") no-repeat center center transparent;
     z-index: -1;
 }
 
@@ -1115,7 +1115,7 @@ input.quantity-input:focus-visible {
     height: 175px;
     margin: 0 auto 20px;
     padding: 15px;
-    background: url("fact-icon_1.png") no-repeat center center / 130px 110px transparent;
+    background: url("../images/fact-icon_1.png") no-repeat center center / 130px 110px transparent;
     border-radius: 50%;
 }
 
@@ -1130,7 +1130,7 @@ input.quantity-input:focus-visible {
     width: 100%;
     height: 100%;
     top: 0;
-    /* background: url("svg-line.svg") no-repeat center center / 1519px transparent; */
+    /* background: url("../images/svg-line.svg") no-repeat center center / 1519px transparent; */
     z-index: 1;
     margin-left: 103px;
     display: flex;
@@ -1159,7 +1159,7 @@ input.quantity-input:focus-visible {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("pic2-angle.png") no-repeat bottom left transparent;
+    background: url("../images/pic2-angle.png") no-repeat bottom left transparent;
     z-index: 1;
 }
 
@@ -1168,23 +1168,23 @@ input.quantity-input:focus-visible {
 }
 
 .fact-icons .icons__item:nth-child(1) figure {
-    background-image: url("fact-icon_1.png");
+    background-image: url("../images/fact-icon_1.png");
 }
 
 .fact-icons .icons__item:nth-child(2) figure {
-    background-image: url("fact-icon_2.png");
+    background-image: url("../images/fact-icon_2.png");
 }
 
 .fact-icons .icons__item:nth-child(3) figure {
-    background-image: url("fact-icon_3.png");
+    background-image: url("../images/fact-icon_3.png");
 }
 
 .fact-icons .icons__item:nth-child(4) figure {
-    background-image: url("figure8.svg");
+    background-image: url("../images/figure8.svg");
 }
 
 .banner-bread {
-    background: url("banner__bread-all.png") no-repeat center -2px transparent;
+    background: url("../images/banner__bread-all.png") no-repeat center -2px transparent;
 }
 
 .banner-bread>.container_narrow {
@@ -1199,7 +1199,7 @@ input.quantity-input:focus-visible {
 }
 
 .geo-map {
-    background: url("geo-map__bottombg.png") no-repeat bottom center transparent;
+    background: url("../images/geo-map__bottombg.png") no-repeat bottom center transparent;
     margin-bottom: -100px;
     position: relative;
 }
@@ -1215,7 +1215,7 @@ input.quantity-input:focus-visible {
     left: 0;
     height: 300%;
     width: 100%;
-    background: url("geo-map.png") no-repeat center center transparent;
+    background: url("../images/geo-map.png") no-repeat center center transparent;
 }
 
 .country {
@@ -1227,7 +1227,7 @@ input.quantity-input:focus-visible {
 .country.russia {
     width: 797px;
     height: 304px;
-    background: url("map-russia-1.png") no-repeat center center transparent;
+    background: url("../images/map-russia-1.png") no-repeat center center transparent;
     top: 61px;
     left: -1px;
 }
@@ -1235,7 +1235,7 @@ input.quantity-input:focus-visible {
 .country.belarus {
     width: 119px;
     height: 40px;
-    background: url("map-bl-1.png") no-repeat center center transparent;
+    background: url("../images/map-bl-1.png") no-repeat center center transparent;
     top: 266px;
     left: -62px;
 }
@@ -1243,7 +1243,7 @@ input.quantity-input:focus-visible {
 .country.iran {
     width: 93px;
     height: 82px;
-    background: url("map-iran-1.png") no-repeat center center transparent;
+    background: url("../images/map-iran-1.png") no-repeat center center transparent;
     top: 372px;
     left: 111px;
 }
@@ -1251,7 +1251,7 @@ input.quantity-input:focus-visible {
 .country.knr {
     width: 285px;
     height: 187px;
-    background: url("map-knr-1.png") no-repeat center center transparent;
+    background: url("../images/map-knr-1.png") no-repeat center center transparent;
     top: 291px;
     left: 250px;
 }
@@ -1259,7 +1259,7 @@ input.quantity-input:focus-visible {
 .country.vietnam {
     width: 124px;
     height: 77px;
-    background: url("map-viet-1.png") no-repeat center center transparent;
+    background: url("../images/map-viet-1.png") no-repeat center center transparent;
     top: 458px;
     left: 305px;
 }
@@ -1286,7 +1286,7 @@ input.quantity-input:focus-visible {
 .animate1_2 {
     height: 370px;
     position: relative;
-    background: url("geo-map__animate0.png") no-repeat center center / contain transparent;
+    background: url("../images/geo-map__animate0.png") no-repeat center center / contain transparent;
 }
 
 .zakupka-block .beans-animate {
@@ -1294,7 +1294,7 @@ input.quantity-input:focus-visible {
 }
 
 .zakupka_animate .beans-animate.zakupka_animate1 {
-    background: url("parallax-beans3--1st-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans3--1st-layer.png") no-repeat left center transparent;
     margin-left: -9px;
     height: 143%;
     margin-top: 16px;
@@ -1304,7 +1304,7 @@ input.quantity-input:focus-visible {
 }
 
 .zakupka_animate .beans-animate.zakupka_animate2 {
-    background: url("parallax-beans3--2nd-layer.png") no-repeat center center transparent;
+    background: url("../images/parallax-beans3--2nd-layer.png") no-repeat center center transparent;
     margin-left: -90px;
     height: 137%;
     width: 124%;
@@ -1316,7 +1316,7 @@ input.quantity-input:focus-visible {
 }
 
 .info0_1 {
-    background: url("info0_1.png") no-repeat center center transparent;
+    background: url("../images/info0_1.png") no-repeat center center transparent;
     height: 185px;
 }
 
@@ -1347,7 +1347,7 @@ input.quantity-input:focus-visible {
 }
 
 .info0_2 {
-    background: url("info0_2.png") no-repeat center center transparent;
+    background: url("../images/info0_2.png") no-repeat center center transparent;
     height: 185px;
 }
 
@@ -1394,7 +1394,7 @@ input.quantity-input:focus-visible {
 }
 
 .elevator {
-    background: url("elevator_bg.png") no-repeat center center / cover transparent;
+    background: url("../images/elevator_bg.png") no-repeat center center / cover transparent;
     z-index: 1;
     position: relative;
     min-height: 700px;
@@ -1436,9 +1436,9 @@ input.quantity-input:focus-visible {
     left: 0;
     width: 100%;
     height: 67px;
-    /* background: url("wave1.svg") no-repeat bottom center / cover transparent; */
-    background: url("bg__video--top.png") no-repeat bottom center / 1920px transparent;
-    /* background: url("bg__video--top.png") no-repeat bottom center / 1920px transparent; */
+    /* background: url("../images/wave1.svg") no-repeat bottom center / cover transparent; */
+    background: url("../images/bg__video--top.png") no-repeat bottom center / 1920px transparent;
+    /* background: url("../images/bg__video--top.png") no-repeat bottom center / 1920px transparent; */
     z-index: 9;
 }
 
@@ -1449,8 +1449,8 @@ input.quantity-input:focus-visible {
     left: 0;
     width: 101%;
     height: 94px;
-    /* background: url("wave2.svg") no-repeat top center / cover transparent; */
-    background: url("bg-video-bottom.png") no-repeat bottom center / 100% transparent;
+    /* background: url("../images/wave2.svg") no-repeat top center / cover transparent; */
+    background: url("../images/bg-video-bottom.png") no-repeat bottom center / 100% transparent;
     z-index: 9;
 }
 
@@ -1526,7 +1526,7 @@ input.quantity-input:focus-visible {
 }
 
 .prodcarousel {
-    background: url("carousel-section-bg.png") repeat-x center center / cover transparent;
+    background: url("../images/carousel-section-bg.png") repeat-x center center / cover transparent;
     padding: 115px 0 85px;
     position: relative;
     z-index: 0;
@@ -1544,7 +1544,7 @@ input.quantity-input:focus-visible {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("grains3_all.png") no-repeat center center transparent;
+    background: url("../images/grains3_all.png") no-repeat center center transparent;
     z-index: 3;
 }
 
@@ -1557,12 +1557,12 @@ input.quantity-input:focus-visible {
 
 .template-is-index .prodcarousel_collections .tablinks:nth-child(1) {
     padding-top: 50px;
-    background: url("tab1.png") no-repeat top center transparent;
+    background: url("../images/tab1.png") no-repeat top center transparent;
 }
 
 .template-is-index .prodcarousel_collections .tablinks:nth-child(2) {
     padding-top: 50px;
-    background: url("tab2.png") no-repeat top center transparent;
+    background: url("../images/tab2.png") no-repeat top center transparent;
 }
 
 .prodcarousel .tab {
@@ -1818,7 +1818,7 @@ input.quantity-input:focus-visible {
 }
 
 .half__img_full {
-    background: url('site_files/banner__right-img.jpg') no-repeat center center / cover transparent;
+    background: url('../fonts/site_files/banner__right-img.jpg') no-repeat center center / cover transparent;
     -webkit-transition: all 300ms;
     -o-transition: all 300ms;
     transition: all 300ms;
@@ -1873,7 +1873,7 @@ input.quantity-input:focus-visible {
     padding: 27px;
     position: relative;
     margin: 0 17px;
-    background: url("icon-2-heart-white.svg") no-repeat center center transparent;
+    background: url("../images/icon-2-heart-white.svg") no-repeat center center transparent;
     -webkit-transition: all 300ms;
     -o-transition: all 300ms;
     transition: all 300ms;
@@ -1979,7 +1979,7 @@ input.quantity-input:focus-visible {
 .instagram {
     min-height: 790px;
     background-color: #f1f1f1;
-    background-image: url('pic3.jpg');
+    background-image: url('../fonts/pic3.jpg');
     background-position: bottom left;
     background-repeat: no-repeat;
 }
@@ -2018,7 +2018,7 @@ input.quantity-input:focus-visible {
     line-height: 55px;
     font-weight: 300;
     text-transform: uppercase;
-    background: url('icon-insta.svg') no-repeat center left / 34px transparent;
+    background: url('../fonts/icon-insta.svg') no-repeat center left / 34px transparent;
     padding: 15px 0 15px 45px;
 }
 
@@ -2131,7 +2131,7 @@ input.quantity-input:focus-visible {
 }
 
 .link-tel {
-    background: url('icon-tel.svg') no-repeat center left / 11px transparent;
+    background: url('../fonts/icon-tel.svg') no-repeat center left / 11px transparent;
 }
 
 .icon-whatsup-chat {
@@ -2152,7 +2152,7 @@ input.quantity-input:focus-visible {
     height: 25px;
     width: 25px;
     padding: 25px;
-    background: url('icon-whatsupp.svg') no-repeat center center transparent;
+    background: url('../fonts/icon-whatsupp.svg') no-repeat center center transparent;
 }
 
 .footer__map {
@@ -2192,7 +2192,7 @@ input.quantity-input:focus-visible {
     z-index: 1;
     width: 100%;
     height: 100%;
-    background: url("contact_bg_3.png") right bottom no-repeat, url("contact_bg_4.png") left bottom no-repeat, #fbfbfb;
+    background: url("../images/contact_bg_3.png") right bottom no-repeat, url("../images/contact_bg_4.png") left bottom no-repeat, #fbfbfb;
     margin-top: 31px;
 }
 
@@ -2295,7 +2295,7 @@ input.quantity-input:focus-visible {
 .siteFooter__icon_link .icon {
     width: 100%;
     height: 100%;
-    background: url("icon-ins.svg") no-repeat center center / 13px transparent;
+    background: url("../images/icon-ins.svg") no-repeat center center / 13px transparent;
 }
 
 .siteFooter__phone {
@@ -2310,23 +2310,23 @@ input.quantity-input:focus-visible {
 }
 
 .siteFooter__icon_link .icon.is-inst {
-    background-image: url("icon-ins.svg");
+    background-image: url("../images/icon-ins.svg");
 }
 
 .siteFooter__icon_link .icon.is-vk {
-    background-image: url("icon-vk.svg");
+    background-image: url("../images/icon-vk.svg");
 }
 
 .siteFooter__icon_link .icon.is-tw {
-    background-image: url("icon-twitter.svg");
+    background-image: url("../images/icon-twitter.svg");
 }
 
 .siteFooter__icon_link .icon.is-yt {
-    background-image: url("icon-youtube.svg");
+    background-image: url("../images/icon-youtube.svg");
 }
 
 .siteFooter__icon_link .icon.is-fb {
-    background-image: url("icon-fb.svg");
+    background-image: url("../images/icon-fb.svg");
 }
 
 .siteFooter__icon_link:hover {
@@ -2343,7 +2343,7 @@ input.quantity-input:focus-visible {
     position: absolute;
     bottom: 0;
     right: 0;
-    background: url('arrow.svg') no-repeat center 15px / 18px transparent;
+    background: url('../fonts/arrow.svg') no-repeat center 15px / 18px transparent;
     width: 50px;
     height: 77px;
     background-color: #ffffff;
@@ -2742,7 +2742,7 @@ input.quantity-input:focus-visible {
 }
 
 .bttn-favorite {
-    background: url("icon-2-heart.svg") no-repeat center right transparent;
+    background: url("../images/icon-2-heart.svg") no-repeat center right transparent;
     position: absolute;
     height: 19px;
     width: 140px;
@@ -2753,7 +2753,7 @@ input.quantity-input:focus-visible {
 }
 
 .bttn-favorite.is-added {
-    background: url("icon-2-heart-yellow.svg") no-repeat center right transparent;
+    background: url("../images/icon-2-heart-yellow.svg") no-repeat center right transparent;
 }
 
 .product-block_hidden .bttn-favorite {
@@ -2799,7 +2799,7 @@ input.quantity-input:focus-visible {
 /* .burger-mobile {
 width: 70px;
 height: 50px;
-background: url("5-burger.svg") no-repeat center left / 23px transparent;
+background: url("../images/5-burger.svg") no-repeat center left / 23px transparent;
 } */
 
 .topline {
@@ -2868,7 +2868,7 @@ background: url("5-burger.svg") no-repeat center left / 23px transparent;
     border: 0px solid;
     -ms-flex-preferred-size: 33%;
     flex-basis: 33%;
-    background: url("arrow_more.svg") no-repeat center center / 13px white;
+    background: url("../images/arrow_more.svg") no-repeat center center / 13px white;
 }
 
 .quantity-controls button:last-child {
@@ -3505,7 +3505,7 @@ background: url("5-burger.svg") no-repeat center left / 23px transparent;
     top: 0px;
     width: 100%;
     height: 100%;
-    background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='14' height='11'%3E%3Cdefs%3E%3Cpath id='a' d='M708.71 347.72l-5 5a1 1 0 0 1-1.05.22.98.98 0 0 1-.9-.26l-2.94-2.95a1 1 0 0 1 1.41-1.41l2.51 2.5 4.54-4.53a1 1 0 1 1 1.43 1.43z'/%3E%3C/defs%3E%3Cuse fill='%23292f39' xlink:href='%23a' transform='translate(-697 -344)'/%3E%3C/svg%3E");
+    background-image: url("../images/data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='14' height='11'%3E%3Cdefs%3E%3Cpath id='a' d='M708.71 347.72l-5 5a1 1 0 0 1-1.05.22.98.98 0 0 1-.9-.26l-2.94-2.95a1 1 0 0 1 1.41-1.41l2.51 2.5 4.54-4.53a1 1 0 1 1 1.43 1.43z'/%3E%3C/defs%3E%3Cuse fill='%23292f39' xlink:href='%23a' transform='translate(-697 -344)'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 70%;
@@ -3666,7 +3666,7 @@ span.pagination-link {
     -webkit-transition: opacity 0.3s;
     -o-transition: opacity 0.3s;
     transition: opacity 0.3s;
-    background: url("meshok.png") no-repeat bottom center / 100% transparent;
+    background: url("../images/meshok.png") no-repeat bottom center / 100% transparent;
     text-align: center;
     line-height: 254px;
     font-family: PT Sans;
@@ -3685,36 +3685,36 @@ span.pagination-link {
 }
 
 .tara_list li:nth-child(1) input:after {
-    background: url("meshok-1.png") no-repeat bottom center / 60% transparent;
+    background: url("../images/meshok-1.png") no-repeat bottom center / 60% transparent;
 }
 
 .tara_list li:nth-child(2) input:after {
     font-size: 21px;
-    background: url("meshok-2.png") no-repeat bottom center / 70% transparent;
+    background: url("../images/meshok-2.png") no-repeat bottom center / 70% transparent;
 }
 
 .tara_list li:nth-child(3) input:after {
     font-size: 23px;
-    background: url("meshok-3.png") no-repeat bottom center / 80% transparent;
+    background: url("../images/meshok-3.png") no-repeat bottom center / 80% transparent;
 }
 
 .tara_list li:nth-child(4) input:after {
     font-size: 25px;
-    background: url("meshok-4.png") no-repeat bottom center / 90% transparent;
+    background: url("../images/meshok-4.png") no-repeat bottom center / 90% transparent;
 }
 
 .tara_list li:nth-child(5) input:after {
     font-size: 30px;
-    background: url("meshok-5.png") no-repeat bottom center / 100% transparent;
+    background: url("../images/meshok-5.png") no-repeat bottom center / 100% transparent;
 }
 
 .tara_list li:nth-child(6) input:after {
-    background: url("meshok-bestarno.png") no-repeat bottom center / 100% transparent;
+    background: url("../images/meshok-bestarno.png") no-repeat bottom center / 100% transparent;
     width: 210px;
 }
 
 .tara_list li:nth-child(7) input:after {
-    background: url("meshok-jd.png") no-repeat bottom center / 100% transparent;
+    background: url("../images/meshok-jd.png") no-repeat bottom center / 100% transparent;
     width: 210px;
 }
 

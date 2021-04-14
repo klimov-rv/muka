@@ -1,18 +1,18 @@
 @media screen and (min-width: 1960px) {
     .greeting_parallax {
-        background: url("pic1-cut5.png") no-repeat 10% center transparent;
+        background: url("../images/pic1-cut5.png") no-repeat 10% center transparent;
     }
 }
 @media screen and (min-width: 1915px) {
     .production  {
-        background: url("production-section-bg.png") repeat-x center center / cover transparent;
+        background: url("../images/production-section-bg.png") repeat-x center center / cover transparent;
         padding-top: 159px;
     }
     .production__slider_wrap {
         padding: 75px 0 140px;
     }
     .elevator.elevator-lab::after {
-        background: url("wave2-white.svg") no-repeat top center / cover transparent;
+        background: url("../images/wave2-white.svg") no-repeat top center / cover transparent;
         width: 100%;
         left: 0;
         height: 103px;
@@ -25,10 +25,10 @@
         padding-bottom: 30px;
     }
     .geo-map {
-        background: url("geo-map__bottombg.png") no-repeat bottom center / 100% transparent;
+        background: url("../images/geo-map__bottombg.png") no-repeat bottom center / 100% transparent;
     }
     .template-is-index .elevator::before {
-        background: url("bg__video--top.png") no-repeat bottom center / 100% transparent;
+        background: url("../images/bg__video--top.png") no-repeat bottom center / 100% transparent;
     }
 }
 
@@ -52,7 +52,7 @@
         background: none;
     } 
     .elevator::after {
-        background: url("wave2.svg") no-repeat top center / cover transparent;
+        background: url("../images/wave2.svg") no-repeat top center / cover transparent;
     }
     .template-is-index .siteFooter {
         clip-path: none;
@@ -103,7 +103,7 @@
         background-attachment: unset;
     }
     .siteFooter_parallax {
-        background: url("contact_bg_3.png") right bottom no-repeat, url("contact_bg_4.png") left bottom no-repeat, #fbfbfb;
+        background: url("../images/contact_bg_3.png") right bottom no-repeat, url("../images/contact_bg_4.png") left bottom no-repeat, #fbfbfb;
     }
 }
 
@@ -114,7 +114,7 @@
     .waygraphic__point_5 .waypoint {
         width: 95px;
         height: 195px;
-        background-image: url("waygraphic_point.png");
+        background-image: url("../images/waygraphic_point.png");
         font-size: 70px;
     }
     .waygraphic__point {
@@ -325,7 +325,7 @@
     }
     .geo-map__left .geo-map__imgholder {
         height: 100%;
-        background-image: url("geo-map-md.png");
+        background-image: url("../images/geo-map-md.png");
         background-position: center;
         background-size: contain;
     }
@@ -381,7 +381,7 @@
         padding: 0;
     }
     .instagram__left {
-        background-image: url('pic3.jpg');
+        background-image: url('../fonts/pic3.jpg');
         background-position: -170px 100%;
         background-repeat: no-repeat;
         background-size: 700px;
@@ -449,7 +449,7 @@
 
 @media screen and (max-width: 920px) {
     .contact-map {
-        background: url("contact-map.png") no-repeat top center / contain transparent;
+        background: url("../images/contact-map.png") no-repeat top center / contain transparent;
     }
     .contact-form .header-standart {
         margin-bottom: 25px;
@@ -566,7 +566,7 @@
         margin-bottom: 0;
     }
     .news.promo {
-        background: url("news-bg1-sm.png") no-repeat bottom center / cover transparent;
+        background: url("../images/news-bg1-sm.png") no-repeat bottom center / cover transparent;
         min-height: 459px;
         margin-bottom: 20px;
     }
@@ -593,7 +593,7 @@
         padding-bottom: 0;
     }
     .siteHeader__logo {
-        background: url("logo-site.png") no-repeat center center / contain transparent;
+        background: url("../images/logo-site.png") no-repeat center center / contain transparent;
     }
     .greeting__slider {
         width: 100%;
@@ -970,11 +970,11 @@
 
 @media screen and (max-width: 480px) {
     .production {
-        background: url("production-section-bg.png") repeat-x center center / cover transparent; 
+        background: url("../images/production-section-bg.png") repeat-x center center / cover transparent; 
         padding: 60px 0; 
     }
     .product-page-block {
-        background: url("pic2.png") no-repeat center 90% / 210px transparent;
+        background: url("../images/pic2.png") no-repeat center 90% / 210px transparent;
     }
     .tara_list {
         width: 100%;
@@ -1060,7 +1060,7 @@
         padding-left: 30px;
         width: 340px;
         height: 610px;
-        background: url("checkout-item__list-sm.png") no-repeat center top / 100% transparent;
+        background: url("../images/checkout-item__list-sm.png") no-repeat center top / 100% transparent;
     }
     .template-cart .siteFooter {
         min-height: 300px;
@@ -1122,7 +1122,7 @@
         left: -15px;
         height: 100px;
         width: 100px;
-        background: url("pic1-colos.png") no-repeat center center / 50px transparent;
+        background: url("../images/pic1-colos.png") no-repeat center center / 50px transparent;
         -webkit-transform: rotate(30deg);
         -ms-transform: rotate(30deg);
         transform: rotate(30deg);
@@ -1174,7 +1174,7 @@
         padding-bottom: 140px;
     }
     .contact.promo {
-        background: url("contact-bg1-sm.png") no-repeat center bottom / cover transparent;
+        background: url("../images/contact-bg1-sm.png") no-repeat center bottom / cover transparent;
     }
     .pagination-item {
         padding: 12px;
@@ -1195,7 +1195,7 @@
         padding-bottom: 205px;
     }
     .vakansii-block {
-        background: url("vakansii-pic1.png") no-repeat bottom center / 300px transparent;
+        background: url("../images/vakansii-pic1.png") no-repeat bottom center / 300px transparent;
     }
     .meshok-po-centru .container_narrow {
         padding: 0;
@@ -1210,13 +1210,13 @@
         margin-bottom: 40px;
     }
     .meshok-po-centru__image {
-        background: url("meshok-po-centru.png") no-repeat center center / contain transparent;
+        background: url("../images/meshok-po-centru.png") no-repeat center center / contain transparent;
     }
     .zakupka+.waygraphic {
         padding-top: 0;
     }
     .zakupka-block {
-        background: url("zakupka_animate0.png") no-repeat center 80% / 270px transparent;
+        background: url("../images/zakupka_animate0.png") no-repeat center 80% / 270px transparent;
     }
     .zakupka.promo .hero__text_block {
         padding-bottom: 285px;
@@ -1241,13 +1241,13 @@
     .container_megatabs .swiper-button-next, .container_megatabs .swiper-button-prev {
         bottom: -200px;
         width: 50%;
-        background: url("arrow.png") no-repeat center center transparent;
+        background: url("../images/arrow.png") no-repeat center center transparent;
     }
     .container_megatabs .swiper-button-next {
         right: 20px;
     }
     .container_megatabs .swiper-button-prev {
-        background: url("arrow-rev.png") no-repeat center center transparent;
+        background: url("../images/arrow-rev.png") no-repeat center center transparent;
         left: 20px;
     }
     .container_megatabs .slider-buttons__wrap {
@@ -1291,7 +1291,7 @@
         padding-bottom: 35px;
     }
     .product-page -block {
-        background: url("pic2.png") no-repeat center 90% / 170px transparent;
+        background: url("../images/pic2.png") no-repeat center 90% / 170px transparent;
     }
     .promo.product-page {
         min-height: 600px;
@@ -1342,7 +1342,7 @@
         margin-top: -10px;
     }
     .prodcarousel {
-        background: url("carousel-section-bg.png") repeat-x -400px center / cover transparent;
+        background: url("../images/carousel-section-bg.png") repeat-x -400px center / cover transparent;
     }
     .prodcarousel {
         padding-top: 55px;
@@ -1377,7 +1377,7 @@
         min-height: 235px;
     }
     .geo-map__left .geo-map__imgholder {
-        background-image: url("geo-map-xs.png");
+        background-image: url("../images/geo-map-xs.png");
     }
     .animate0_1 {
         background-size: contain;
@@ -1503,7 +1503,7 @@
         align-items: center;
     }
     .banner-bread {
-        background-image: url("banner-bread-sm.png");
+        background-image: url("../images/banner-bread-sm.png");
         background-size: cover;
     }
     .geo-map__right {
@@ -1570,7 +1570,7 @@
         align-items: center;
         top: unset;
         right: unset;
-        background: url("info0-circle.png") no-repeat center center transparent;
+        background: url("../images/info0-circle.png") no-repeat center center transparent;
     }
     .info0_2 {
         background: none;
@@ -1579,7 +1579,7 @@
         min-height: 499px;
     }
     .siteFooter {
-        background-image: url("footer_bg-sm.png");
+        background-image: url("../images/footer_bg-sm.png");
         background-size: cover;
     }
     .siteFooter__icon_link {
@@ -1615,13 +1615,13 @@
         padding-bottom: 150px;
     }
     .product-page  {
-        background: url("production-section-bg.png") repeat-x -450px center /cover transparent;
+        background: url("../images/production-section-bg.png") repeat-x -450px center /cover transparent;
     }
     .product-page +.elevator-lab {
         margin-top: -113px;
     }
     .animate1_1 {
-        background: url("mission-pic3-xs.png") no-repeat center center / contain transparent;
+        background: url("../images/mission-pic3-xs.png") no-repeat center center / contain transparent;
         position: relative;
         top: auto;
         left: auto;
@@ -1804,7 +1804,7 @@
         min-height: 470px;
     }
     .banner-bread {
-        background-image: url("banner-bread-sm.png");
+        background-image: url("../images/banner-bread-sm.png");
     }
     .geo-map__right {
         -webkit-box-ordinal-group: 0;
@@ -1863,7 +1863,7 @@
         align-items: center;
         top: unset;
         right: unset;
-        background: url("info0-circle.png") no-repeat center center transparent;
+        background: url("../images/info0-circle.png") no-repeat center center transparent;
     }
     .info0_2 {
         background: none;
@@ -1872,7 +1872,7 @@
         min-height: 499px;
     }
     .siteFooter {
-        background-image: url("footer_bg-sm.png");
+        background-image: url("../images/footer_bg-sm.png");
     }
     .siteFooter__contacts {
         -webkit-box-pack: center;
@@ -1915,7 +1915,7 @@
         margin-top: -15px;
     }
     .promo.aboutus {
-        background: url("about-head__bg-sm.png") no-repeat bottom center / cover transparent;
+        background: url("../images/about-head__bg-sm.png") no-repeat bottom center / cover transparent;
     }
     .aboutus-block {
         height: auto;

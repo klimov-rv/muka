@@ -8528,7 +8528,7 @@ header .header-menu li:hover .subcol-dropdown {
 
 .promo-block, .aboutus-block {
   position: relative;
-  background: url("pic1.png") no-repeat center right / 60% transparent;
+  background: url("../images/pic1.png") no-repeat center right / 60% transparent;
   padding-top: 170px;
   width: 100%;
   display: flex;
@@ -8545,12 +8545,12 @@ header .header-menu li:hover .subcol-dropdown {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("parallax-beans--1st-layer.png") no-repeat left center transparent;
+  background: url("../images/parallax-beans--1st-layer.png") no-repeat left center transparent;
   z-index: 1;
 }
 
 .beans-animate.js-parallax__second-layer {
-  background: url("parallax-beans--2st-layer.png") no-repeat left center transparent;
+  background: url("../images/parallax-beans--2st-layer.png") no-repeat left center transparent;
   z-index: 0;
 }
 
@@ -8589,7 +8589,7 @@ header .header-menu li:hover .subcol-dropdown {
   right: -117px;
   height: 100px;
   width: 100px;
-  background: url("pic1-colos.png") no-repeat center center transparent;
+  background: url("../images/pic1-colos.png") no-repeat center center transparent;
 }
 
 .hero__text_block .button1 {
@@ -8674,7 +8674,7 @@ header .header-menu li:hover .subcol-dropdown {
 }
 
 .clean.promo {
-  background: url("pic1bg.png") repeat-x center bottom transparent;
+  background: url("../images/pic1bg.png") repeat-x center bottom transparent;
   min-height: 435px;
   /* margin-bottom: -235px; */
   /* towar */
@@ -8682,7 +8682,7 @@ header .header-menu li:hover .subcol-dropdown {
 }
 
 .index.promo {
-  background: url("pic1bg.png") repeat-x bottom center transparent;
+  background: url("../images/pic1bg.png") repeat-x bottom center transparent;
   min-height: 749px;
 }
 
@@ -8747,7 +8747,7 @@ header .header-menu li:hover .subcol-dropdown {
 .img-contain, .img-cover {
   width: 100%;
   height: 100%;
-  background: url("no-image.png") no-repeat center top / cover transparent;
+  background: url("../images/no-image.png") no-repeat center top / cover transparent;
 }
 
 .img-contain {
@@ -8777,7 +8777,7 @@ header .header-menu li:hover .subcol-dropdown {
   left: 0;
   z-index: 1;
   width: 100%;
-  background: url("cart_footer_bg_5.png") center bottom / cover transparent;
+  background: url("../images/cart_footer_bg_5.png") center bottom / cover transparent;
   min-height: 850px;
   margin-top: 31px;
 }
@@ -8838,5 +8838,5 @@ form [type="radio"]:checked+label:after {
 }
 
 .siteFooter_parallax.template-2 {
-  background: url("bg-footer-v2.png") no-repeat right bottom / cover transparent;
+  background: url("../images/bg-footer-v2.png") no-repeat right bottom / cover transparent;
 }

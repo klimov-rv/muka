@@ -1,9 +1,9 @@
 .news-feed .beans-animate {
-    background: url("news-beans1.png") no-repeat center center transparent;
+    background: url("../images/news-beans1.png") no-repeat center center transparent;
 }
 
 .news.promo {
-    background: url("news-bg1.png") no-repeat center top transparent;
+    background: url("../images/news-bg1.png") no-repeat center top transparent;
     min-height: 575px;
 }
 
@@ -53,7 +53,7 @@
     overflow: hidden;
     height: 100%;
     width: 100%;
-    background: url("no-image.png") no-repeat center center / cover transparent;
+    background: url("../images/no-image.png") no-repeat center center / cover transparent;
 }
 
 .news-right {
@@ -135,38 +135,38 @@
 }
 
 .template-news-page .clean.promo .js-parallax__first-layer {
-    background: url("parallax-beans13--1st-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans13--1st-layer.png") no-repeat left center transparent;
     margin-left: -197px;
     height: 129%;
 }
 
 .template-news-page .clean.promo .js-parallax__second-layer {
-    background: url("parallax-beans9--1st-layer.png") no-repeat right bottom transparent;
+    background: url("../images/parallax-beans9--1st-layer.png") no-repeat right bottom transparent;
     margin-left: -639px;
     height: 94%;
 }
 
 .news__card .beans-animate.js-parallax__first-layer {
-    background: url("parallax-beans14--1st-layer.png") no-repeat center center transparent;
+    background: url("../images/parallax-beans14--1st-layer.png") no-repeat center center transparent;
     margin-left: -276px;
     height: 113%;
 }
 
 .news__card .beans-animate.js-parallax__second-layer {
-    background: url("parallax-beans14--2nd-layer.png") no-repeat center center transparent;
+    background: url("../images/parallax-beans14--2nd-layer.png") no-repeat center center transparent;
     margin-left: -96px;
     height: 153%;
 }
 
 .news-feed .beans-animate.js-parallax__first-layer {
-    background: url("parallax-beans16--1st-layer.png") no-repeat center center transparent;
+    background: url("../images/parallax-beans16--1st-layer.png") no-repeat center center transparent;
     margin-left: -271px;
     height: 139%;
     margin-top: -393px;
 }
 
 .news-feed .beans-animate.js-parallax__second-layer {
-    background: url("parallax-beans16--2nd-layer.png") no-repeat center center transparent;
+    background: url("../images/parallax-beans16--2nd-layer.png") no-repeat center center transparent;
     margin-left: -165px;
     height: 148%;
     margin-top: -500px;

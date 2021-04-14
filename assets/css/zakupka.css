@@ -1,5 +1,5 @@
 .zakupka-block {
-  background: url("zakupka_animate0.png") no-repeat calc(100% - 90px) 210px / 500px transparent;
+  background: url("../images/zakupka_animate0.png") no-repeat calc(100% - 90px) 210px / 500px transparent;
 }
 
 .zakupka_animate {
@@ -94,7 +94,7 @@
 
 .waygraphic__wrap {
   min-height: 760px;
-  background: url("waygraphic_line.png") no-repeat 144px 165px transparent;
+  background: url("../images/waygraphic_line.png") no-repeat 144px 165px transparent;
   position: relative;
 }
 
@@ -155,7 +155,7 @@
   right: -95px;
   width: 95px;
   height: 195px;
-  background: url("waygraphic_point.png") no-repeat center center transparent;
+  background: url("../images/waygraphic_point.png") no-repeat center center transparent;
   font-family: Amatic SC;
   text-align: center;
   color: #fea933;
@@ -178,7 +178,7 @@
 }
 
 .waygraphic__point_5 .waypoint {
-  background: url("waygraphic_point5.png") no-repeat center center transparent;
+  background: url("../images/waygraphic_point5.png") no-repeat center center transparent;
   top: -109px;
   right: -108px;
   width: 125px;
@@ -188,19 +188,19 @@
 
 .meshok-po-centru__image {
   min-height: 390px;
-  background: url("meshok-po-centru.png") no-repeat center center transparent;
+  background: url("../images/meshok-po-centru.png") no-repeat center center transparent;
 }
 
 
 .waygraphic .beans-animate.js-parallax__first-layer {
-  background: url("parallax-beans19--1st-layer.png") no-repeat center center transparent;
+  background: url("../images/parallax-beans19--1st-layer.png") no-repeat center center transparent;
   margin-left: -298px;
   height: 282%;
   margin-top: -343px;
 }
 
 .waygraphic .beans-animate.js-parallax__second-layer {
-  background: url("parallax-beans19--2nd-layer.png") no-repeat center center transparent;
+  background: url("../images/parallax-beans19--2nd-layer.png") no-repeat center center transparent;
   margin-left: -165px;
   height: 232%;
   margin-top: -313px;
