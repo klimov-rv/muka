@@ -61,7 +61,7 @@
     }
     .template-is-index .siteFooter_parallax {
         background-attachment: inherit;
-        background: url(contact_bg_3.png) right bottom no-repeat, url(contact_bg_4.png) left bottom no-repeat, #fbfbfb;
+        background: url("../images/contact_bg_3.png") right bottom no-repeat, url("../images/contact_bg_4.png") left bottom no-repeat, #fbfbfb;
     }
 }
 
@@ -875,6 +875,16 @@
 }
 
 @media screen and (max-width: 640px) {
+    .promo.aboutus {
+        background: url("../images/about-head__bg-sm.png") no-repeat bottom center / cover transparent;
+    }
+    .aboutus-block {
+        height: auto;
+        min-height: 697px;
+    }
+    .aboutus-block .hero__text_block {
+        padding-bottom: 275px;          
+    }
     .container_narrow {
         padding-right: 10px;
         padding-left: 10px;
@@ -1533,7 +1543,7 @@
         max-width: none;
         padding-bottom: 20px;
     }
-    .animate1_2 {
+    .geo-map .zakupka_animate {
         display: none;
     }
     .geo-map .text-title {
@@ -1805,41 +1815,7 @@
     }
     .banner-bread {
         background-image: url("../images/banner-bread-sm.png");
-    }
-    .geo-map__right {
-        -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-        order: -1;
-    }
-    .geo-map__list>li {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-    }
-    .geo-map__list .greeting_numbers {
-        margin-right: unset;
-    }
-    .geo-map .header-standart.lefted {
-        text-align: center;
-    }
-    .geo-map .header-standart.lefted::after {
-        bottom: -20px;
-        width: 100%;
-        left: 0;
-    }
-    .geo-map .font-sans {
-        text-align: center;
-        max-width: none;
-        padding-bottom: 20px;
-    }
-    .animate1_2 {
-        display: none;
-    }
-    .geo-map .text-title {
-        text-align: center;
-        font-size: 48px;
-    }
+    } 
     .info0, .info0_1, .info0_2, .info0_3, .info0_4 {
         top: 0;
     }
@@ -1913,16 +1889,6 @@
         clip-path: none;
         padding-top: 30px;
         margin-top: -15px;
-    }
-    .promo.aboutus {
-        background: url("../images/about-head__bg-sm.png") no-repeat bottom center / cover transparent;
-    }
-    .aboutus-block {
-        height: auto;
-        min-height: 697px;
-    }
-    .aboutus-block .hero__text_block {
-        padding-bottom: 275px;          
     }
     .history__block {
         background: none;

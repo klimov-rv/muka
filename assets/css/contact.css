@@ -1,5 +1,5 @@
 .contact.promo {
-    background: url("../images/contact-bg1.png") no-repeat center bottom transparent;
+    background: url("../images/contact-bg1.png") repeat-x center bottom transparent;
 }
 
 .contact-info {

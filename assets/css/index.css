@@ -1,11 +1,14 @@
 .promo.index .beans-animate.js-parallax__first-layer {
     height: 110%;
+    margin-left: 106px;
+    margin-top: -31px;
 }
 
 .promo.index .beans-animate.js-parallax__second-layer {
     background: url("../images/parallax-beans--2st-layer.png") no-repeat center center transparent;
-    z-index: 0;
     width: 130%;
+    margin-left: -69px;
+    margin-top: 48px;
 }
 
 .prodcarousel .beans-animate.js-parallax__first-layer {
@@ -19,32 +22,33 @@
     width: 79%;
 }
 
-.animate1_2 .js-parallax__first-layer {
+.zakupka_animate .zakupka_animate1 {
     background: url("../images/parallax-beans3--1st-layer.png") no-repeat left center transparent;
     margin-left: -200px;
     height: 115%;
     margin-top: -32px;
 }
 
-.animate1_2 .js-parallax__second-layer {
+.zakupka_animate .zakupka_animate2 {
     background: url("../images/parallax-beans3--2nd-layer.png") no-repeat left center transparent;
     margin-left: -135px;
     height: 114%;
     width: 150%;
 }
 
-.animate1_2 .beans-animate.js-parallax__first-layer {
+..zakupka_animate .zakupka_animate1 {
     background: url("../images/parallax-beans3--1st-layer.png") no-repeat left center transparent;
-    margin-left: -12px;
+    margin-left: -100px;
     height: 115%;
-    margin-top: -32px;
+    margin-top: -232px;
 }
 
-.animate1_2 .beans-animate.js-parallax__second-layer {
+..zakupka_animate .zakupka_animate2 {
     background: url("../images/parallax-beans3--2nd-layer.png") no-repeat left center transparent;
-    margin-left: 24px;
+    margin-left: -88px;
     height: 114%;
     width: 150%;
+    margin-top: -244px;
 }
 
 .nartistHeader {
@@ -1283,7 +1287,7 @@ input.quantity-input:focus-visible {
     font-family: "Amatic SC";
 }
 
-.animate1_2 {
+.zakupka_animate {
     height: 370px;
     position: relative;
     background: url("../images/geo-map__animate0.png") no-repeat center center / contain transparent;
@@ -1295,19 +1299,17 @@ input.quantity-input:focus-visible {
 
 .zakupka_animate .beans-animate.zakupka_animate1 {
     background: url("../images/parallax-beans3--1st-layer.png") no-repeat left center transparent;
-    margin-left: -9px;
+    margin-left: 0px;
     height: 143%;
-    margin-top: 16px;
-}
-.zakupka_animate.animate1_2 .beans-animate.zakupka_animate1 {
-    margin-top: -80px;
-}
+    margin-top: -158px;
+} 
 
 .zakupka_animate .beans-animate.zakupka_animate2 {
     background: url("../images/parallax-beans3--2nd-layer.png") no-repeat center center transparent;
-    margin-left: -90px;
+    margin-left: -59px;
     height: 137%;
     width: 124%;
+    margin-top: -85px;
 }
 
 .info0, .info0_1, .info0_2, .info0_3, .info0_4 {
@@ -2301,11 +2303,12 @@ input.quantity-input:focus-visible {
 .siteFooter__phone {
     margin-left: 90px;
     font-size: 40px;
+    color: #4a1300;
     white-space: nowrap;
     font-weight: bold;
-}
+} 
 
-.siteHeader__phone:hover {
+.siteHeader__phone:hover, .siteFooter__phone:hover {
     color: #f4a344;
 }
 
@@ -3016,7 +3019,6 @@ background: url("../images/5-burger.svg") no-repeat center left / 23px transpare
     flex-direction: column;
     position: relative;
     bottom: 0;
-    
     justify-content: center;
     align-items: center;
 }
@@ -3720,6 +3722,13 @@ span.pagination-link {
 
 .tara_select .tara_list input[type="radio"]:not(.switch):checked {
     opacity: 1;
+}
+
+.mercanie-off {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 @supports (-webkit-appearance: none) or (-moz-appearance: none) {
