@@ -1,5 +1,5 @@
-.contact.promo {
-    background: url("../images/contact-bg1.png") repeat-x center bottom transparent;
+.contact.promo  {
+    background: url("../images/contact-bg1.png") bottom center no-repeat, url("../images/pic1bg.png") bottom center repeat-x; 
 }
 
 .contact-info {
@@ -33,16 +33,18 @@
 }
 
 .contact-info__list a {
-    font-size: 40px;
+    font-size: 45px;
     color: #4a1400;
     white-space: nowrap;
+    font-weight: bold;
 }
 
 .contact-info__list small {
-    font-size: 25px;
+    font-size: 32px;
     color: #808080;
     margin-right: 9px;
     white-space: nowrap;
+    font-weight: 500;
 }
 
 a.info-email {

@@ -8776,8 +8776,7 @@ header .header-menu li:hover .subcol-dropdown {
   bottom: 0;
   left: 0;
   z-index: 1;
-  width: 100%;
-  background: url("../images/cart_footer_bg_5.png") center bottom / cover transparent;
+  width: 100%; 
   min-height: 850px;
   margin-top: 31px;
 }
@@ -8836,7 +8835,9 @@ form [type="radio"]:checked+label:after {
   -webkit-transform: scale(1);
   transform: scale(1);
 }
-
 .siteFooter_parallax.template-2 {
-  background: url("../images/bg-footer-v2.png") no-repeat right bottom / cover transparent;
+  background: url("../images/contact_bg_3.png") right bottom no-repeat, url("../images/contact_bg_4.png") left bottom no-repeat, white;
+} 
+.siteFooter_parallax.template-3 { 
+  background: url("../images/footer-template3__bg_3.png") right bottom no-repeat, url("../images/footer-template3__bg_4.png") left bottom no-repeat, white;
 }

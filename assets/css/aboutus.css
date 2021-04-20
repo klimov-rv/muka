@@ -169,40 +169,45 @@
 }
 
 .promo.aboutus .beans-animate.js-parallax__first-layer {
-    background: url("../images/parallax-beans4--1st-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans4--1st-layer.png") no-repeat center center transparent;
     margin-left: -213px;
     height: 119%;
+    margin-top: -65px;
 }
 
 .promo.aboutus .beans-animate.js-parallax__second-layer {
-    background: url("../images/parallax-beans4--2nd-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans4--2nd-layer.png") no-repeat center center transparent;
+    margin-left: -130px;
+    height: 119%;
+    margin-top: -136px;
 }
 
 .history .beans-animate.js-parallax__first-layer {
-    background: url("../images/parallax-beans5--1st-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans5--1st-layer.png") no-repeat center center transparent;
     margin-left: -313px;
     height: 100%;
 }
 
 .history .beans-animate.js-parallax__second-layer {
-    background: url("../images/parallax-beans5--2nd-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans5--2nd-layer.png") no-repeat center center transparent;
 }
 
-.production .beans-animate.js-parallax__first-layer {
-    background: url("../images/parallax-beans6--1st-layer.png") no-repeat left center transparent;
+.about-production .beans-animate.js-parallax__first-layer {
+    background: url("../images/parallax-beans6--1st-layer.png") no-repeat center center transparent;
     margin-left: -205px;
 }
 
-.production .beans-animate.js-parallax__second-layer {
-    background: url("../images/parallax-beans6--2nd-layer.png") no-repeat left center transparent;
+.about-production .beans-animate.js-parallax__second-layer {
+    background: url("../images/parallax-beans6--2nd-layer.png") no-repeat center center transparent;
     margin-left: 73px;
     height: 113%;
 }
 
 .ourmission .beans-animate.js-parallax__first-layer {
-    background: url("../images/parallax-beans7--1st-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans7--1st-layer.png") no-repeat center center transparent;
     margin-left: -205px;
-    height: 75%;
+    height: 100%;
+    margin-top: -215px;
 }
 
 .ourmission .beans-animate.js-parallax__second-layer {
@@ -211,14 +216,15 @@
     height: 113%;
 }
 
-.production {
+.about-production {
     background: url("../images/production-section-bg.png") repeat-x center center transparent;
     min-height: 1027px;
     padding-top: 95px;
+    margin-bottom: -83px;
     z-index: 3;
 }
 
-.production__subtext_wrap {
+.about-production__subtext_wrap {
     text-align: center;
 }
 
@@ -227,13 +233,13 @@
     padding: 5px 0;
 }
 
-.production__slider_wrap {
+.about-production__slider_wrap {
     position: relative;
     z-index: 7;
 }
 
 .promo.aboutus {
-    background: url("../images/about-head__bg.png") repeat-x bottom center transparent;
+    background: url("../images/about-head__bg.png") bottom center no-repeat, url("../images/pic1bg.png") bottom center repeat-x;
 }
 
 .production__slider {
@@ -302,10 +308,6 @@
     z-index: 1;
 }
 
-.elevator.elevator-lab::after {
-    background: url("../images/wave2-white.svg") no-repeat top center / cover transparent;
-}
-
 .production+.elevator-lab {
     margin-top: -73px;
 }
@@ -350,6 +352,10 @@
 
 .ourmission {
     padding-bottom: 110px;
+    padding-top: 150px;
+    background: url("../images/wave-white.svg") no-repeat top center / cover transparent;
+    margin-top: -45px;
+    z-index: 3;
 }
 
 .ourmission_collections {
@@ -380,6 +386,7 @@
 
 .ourmission .ourmission_parallax {
     background: url("../images/mission-pic4.png") no-repeat right top transparent;
+    top: 150px;
     left: auto;
     right: 0;
     width: 50vw;
@@ -415,10 +422,8 @@
 
 .elevator-lab .slider-pagination__wrap .swiper-button-prev {
     background: url("../images/arrow-white-left.png") no-repeat center center transparent;
-
 }
 
 .elevator-lab .slider-pagination__wrap .swiper-button-next {
     background: url("../images/arrow-white-right.png") no-repeat center center transparent;
-
 }

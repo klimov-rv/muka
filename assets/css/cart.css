@@ -151,8 +151,9 @@
  }
 
  .checkout-item__block .total-order-header {
-     margin-top: 25px;
-     padding-top: 35px;
+     margin-top: 0px;
+     padding-top: 28px;
+     font-size: 60px;
  }
 
  .checkout-item__block .total-order-summ {
@@ -160,7 +161,7 @@
  }
 
  .checkout-item__list {
-     height: 163px;
+     height: 147px;
      overflow: auto;
      flex-wrap: nowrap;
      margin-bottom: 25px;
@@ -190,14 +191,15 @@
  .template-cart-checkout .lefted.dedicated::after {
      display: none;
  }
+
  .template-cart .clean.promo .template_1 .header-standart {
-    padding: 15px 0 40px;
+     padding: 15px 0 40px;
  }
 
  .cart__main-block .beans-animate.js-parallax__first-layer, .cart-checkout .beans-animate.js-parallax__first-layer {
      background: url("../images/parallax-beans15--1st-layer.png") no-repeat center center transparent;
      margin-left: -172px;
-     height: 99%;
+     height: 125%;
      margin-top: -100px;
  }
 

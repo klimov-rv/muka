@@ -1,7 +1,6 @@
-.vakansii.promo {
-    background-image: url("../images/vakansii-bg1.png");
-    min-height: 559px;
-    background-position: center bottom;
+.vakansii.promo { 
+    background: url("../images/vakansii-pic1-meshok.png") center bottom no-repeat, url("../images/pic1bg.png") center bottom repeat-x;
+    min-height: 559px; 
 }
 
 .vacancies__wrap {
@@ -27,15 +26,15 @@
 }
 
 .vacancies .beans-animate.js-parallax__first-layer {
-    background: url("../images/parallax-beans18--1st-layer.png") no-repeat center center transparent;
-    margin-left: -298px;
+    background: url("../images/parallax-beans18--1st-layer.png") no-repeat top center transparent;
+    margin-left: -228px;
     height: 282%;
-    margin-top: -343px;
+    margin-top: -445px;
 }
 
 .vacancies .beans-animate.js-parallax__second-layer {
     background: url("../images/parallax-beans18--2nd-layer.png") no-repeat center center transparent;
-    margin-left: -165px;
+    margin-left: -118px;
     height: 232%;
     margin-top: -390px;
 }

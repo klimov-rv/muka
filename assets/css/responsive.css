@@ -2,26 +2,33 @@
     .greeting_parallax {
         background: url("../images/pic1-cut5.png") no-repeat 10% center transparent;
     }
+    .banner-bread {
+        background: url("../images/banner__bread-all-2560.png") repeat-x center -2px transparent;
+    }
+    .banner-bread>.container_narrow {
+        background: url("../../muka/banner__bread-0-2560.png") no-repeat right center transparent;
+    }
+    .container_megatabs {
+        background: url("../../muka/megatabs_bg-2560.png") repeat-x center top transparent;
+    }
+    .about-production {
+        background: url("../images/production-section-bg-xl.png") repeat-x center center / 2560px transparent;
+        margin-bottom: -128px;
+        padding-top: 50px;
+    }
+    .prodcarousel {
+        background: url("../images/carousel-section-bg-2560.png") repeat-x center center transparent;
+    }
 }
+
 @media screen and (min-width: 1915px) {
-    .production  {
-        background: url("../images/production-section-bg.png") repeat-x center center / cover transparent;
-        padding-top: 159px;
-    }
-    .production__slider_wrap {
+    .about-production__slider_wrap {
         padding: 75px 0 140px;
-    }
-    .elevator.elevator-lab::after {
-        background: url("../images/wave2-white.svg") no-repeat top center / cover transparent;
-        width: 100%;
-        left: 0;
-        height: 103px;
     }
 }
 
 @media screen and (min-width: 1675px) {
     .banner-bread {
-        background-size: cover;
         padding-bottom: 30px;
     }
     .geo-map {
@@ -50,9 +57,6 @@
     }
     .ourmission .greeting_parallax {
         background: none;
-    } 
-    .elevator::after {
-        background: url("../images/wave2.svg") no-repeat top center / cover transparent;
     }
     .template-is-index .siteFooter {
         clip-path: none;
@@ -510,13 +514,21 @@
 }
 
 @media screen and (max-width: 768px) {
-    
-.ourmission_collections .swiper-button-prev, .ourmission_collections .swiper-button-next {
-    width: 50px;
-    background-position-y: 30px;
-    height: 100px;
-}
-
+    .ourmission .swiper-slide {
+        -webkit-box-align: flex-start;
+        -ms-flex-align: flex-start;
+        align-items: flex-start;
+        height: auto;
+        padding-top: 50px;
+    }
+    .cert__item.image-container.is-rectangle:hover {
+        padding-top: 130%;
+    }
+    .ourmission_collections .swiper-button-prev, .ourmission_collections .swiper-button-next {
+        width: 50px;
+        background-position-y: 30px;
+        height: 100px;
+    }
     .masonry__item_inner .news-image {
         min-height: 220px;
     }
@@ -875,6 +887,9 @@
 }
 
 @media screen and (max-width: 640px) {
+    .ourmission .tabcontent {
+        padding: 135px 5px 110px;
+    }
     .promo.aboutus {
         background: url("../images/about-head__bg-sm.png") no-repeat bottom center / cover transparent;
     }
@@ -883,7 +898,7 @@
         min-height: 697px;
     }
     .aboutus-block .hero__text_block {
-        padding-bottom: 275px;          
+        padding-bottom: 275px;
     }
     .container_narrow {
         padding-right: 10px;
@@ -979,9 +994,13 @@
 }
 
 @media screen and (max-width: 480px) {
-    .production {
-        background: url("../images/production-section-bg.png") repeat-x center center / cover transparent; 
-        padding: 60px 0; 
+    .prodcarousel_collections .product.swiper-slide {
+        padding-bottom: 75px;
+        padding-top: 95px;
+    }
+    .about-production {
+        background: url("../images/production-section-bg.png") repeat-x center center / cover transparent;
+        padding: 60px 0;
     }
     .product-page-block {
         background: url("../images/pic2.png") no-repeat center 90% / 210px transparent;
@@ -1077,6 +1096,7 @@
     }
     .item__img {
         margin: 0;
+        min-width: 60px;
     }
     .item__info_image {
         align-self: center;
@@ -1100,21 +1120,21 @@
     }
     .item__act {
         position: absolute;
-        top: 30px;
+        top: 15px;
         right: -15px;
         width: 80px;
         max-width: none;
         flex-basis: auto;
         height: 60px;
         padding: 0;
-    } 
+    }
     .cart__list {
         border-top: 1px solid #e1e1e1;
     }
     .clean_template {
         padding-top: 210px;
     }
-    .template-cart .clean_template {
+    .template-cart-checkout .clean_template, .template-cart .clean_template {
         padding-top: 100px;
     }
     .cart__item_heading {
@@ -1140,7 +1160,7 @@
     .template-cart .clean.promo {
         background-position-x: -375px;
         min-height: 405px;
-    } 
+    }
     .template-cart .hero__text:after {
         display: block;
     }
@@ -1194,7 +1214,7 @@
     }
     .margin-b-block {
         margin-bottom: 30px;
-    } 
+    }
     .circumstances {
         margin-bottom: -70px;
     }
@@ -1360,9 +1380,6 @@
     }
     .prodcarousel+.fact-icons {
         margin-top: -100px;
-    }
-    .prodcarousel_collections .product.swiper-slide {
-        padding-bottom: 80px;
     }
     .prodcarousel_collections .tabs-content .swiper-button-next, .prodcarousel_collections .tabs-content .swiper-button-prev {
         bottom: 25px;
@@ -1593,7 +1610,7 @@
         background-size: cover;
     }
     .siteFooter__icon_link {
-        margin: 5px 15px 15px;                      
+        margin: 5px 15px 15px;
     }
     .siteFooter__copy {
         -webkit-box-pack: center;
@@ -1624,10 +1641,10 @@
     .product-page __slider_wrap {
         padding-bottom: 150px;
     }
-    .product-page  {
+    .product-page {
         background: url("../images/production-section-bg.png") repeat-x -450px center /cover transparent;
     }
-    .product-page +.elevator-lab {
+    .product-page+.elevator-lab {
         margin-top: -113px;
     }
     .animate1_1 {
@@ -1640,6 +1657,8 @@
         min-height: 283px;
     }
     .ourmission {
+        padding-top: 50px;
+        margin-top: -112px;
         padding-bottom: 10px;
     }
     .ourmission_collections {
@@ -1650,7 +1669,7 @@
         padding-left: 0;
     }
     .ourmission .tabcontent {
-        padding: 155px 5px 110px;
+        padding: 75px 5px 110px;
     }
     .ourmission .tab button {
         margin: 0 15px;
@@ -1663,9 +1682,18 @@
         margin-top: 0;
         padding-top: 15px;
     }
+    .clean.promo .template_1 .header-standart {
+        line-height: 1.1em;
+    }
+    .vakansii.promo {
+        background: url("../images/pic1bg.png") center bottom repeat-x;
+    }
 }
 
 @media screen and (max-width: 380px) {
+    .checkout-item__block {
+        height: 550px;
+    }
     .template-is-index .hero__text_block .hero__text:first-child {
         padding-top: 15px;
     }
@@ -1798,7 +1826,7 @@
         padding: 50px 0;
         position: relative;
         overflow: hidden;
-    } 
+    }
     .fact-icons__corner4, .fact-icons__bgline {
         background: none;
     }
@@ -1815,7 +1843,7 @@
     }
     .banner-bread {
         background-image: url("../images/banner-bread-sm.png");
-    } 
+    }
     .info0, .info0_1, .info0_2, .info0_3, .info0_4 {
         top: 0;
     }

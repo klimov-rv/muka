@@ -4,8 +4,8 @@
 }
 
 .promo.product-page {
-    min-height: 675px;
-    background: url("../images/production-head__bg-all.png") repeat-x bottom center / cover transparent;
+    min-height: 629px;
+    background: url("../images/production-head__bg-meshok.png") bottom center no-repeat, url("../images/pic1bg.png") bottom center repeat-x, url("../images/pic1bg.png") center -500px repeat-x;
 }
 
 .product-page.promo .beans-animate.js-parallax__first-layer {
@@ -34,6 +34,22 @@
     background: url("../images/parallax-beans9--1st-layer.png") no-repeat center right transparent;
     margin-left: -259px;
     height: 131%;
+    width: 121%;
+}
+
+.container_megatabs .prod-content__wrap .beans-animate.js-parallax__first-layer {
+    background: url("../images/parallax-beans2--1st-layer.png") no-repeat center center transparent;
+    width: 147%;
+    height: 100%;
+    margin-left: -554px;
+    margin-top: 148px;
+}
+
+.container_megatabs .prod-content__wrap .beans-animate.js-parallax__second-layer {
+    background: url("../images/parallax-beans2--2st-layer.png") no-repeat center center transparent;
+    width: 126%;
+    height: 134%;
+    margin-left: -317px;
 }
 
 .prod-content .beans-animate.js-parallax__second-layer {
@@ -41,24 +57,28 @@
     height: 82%;
     margin-left: -200px;
 }
+
 .samovivoz>.container_narrow {
-position: unset; 
+    position: unset;
 }
+
 .samovivoz .beans-animate.js-parallax__first-layer {
-    background: url("../images/parallax-beans11--1st-layer.png") no-repeat center right transparent;
-    margin-left: -387px;
-    height: 100%;
-    z-index: 5;
+    background: url("../images/parallax-beans--1st-layer.png") no-repeat center center transparent;
+    width: 94%;
+    height: 53%;
+    margin-left: -81px;
+    margin-top: -107px;
 }
 
 .samovivoz .beans-animate.js-parallax__second-layer {
     background: url("../images/parallax-beans11--2nd-layer.png") no-repeat center bottom transparent;
     height: 123%;
-    margin-left: -200px;
+    margin-left: -85px;
 }
 
 .megatabcontent {
     width: 100%;
+    z-index: 2;
 }
 
 .megatabcontent .tab {
@@ -103,7 +123,7 @@ position: unset;
     font-size: 70px;
 }
 
-.prod-content__subtext_wrap, .production__subtext_wrap {
+.prod-content__subtext_wrap, .about-production__subtext_wrap {
     margin-bottom: 21px;
     text-align: center;
     width: 100%;
@@ -157,6 +177,7 @@ position: unset;
 }
 
 .container_megatabs .product.swiper-slide {
+    padding-top: 0;
     padding-bottom: 35px;
 }
 
@@ -168,12 +189,8 @@ position: unset;
 .samovivoz__picture {
     background: url("../images/pic-23.png") no-repeat center center /contain transparent;
     min-height: 310px;
-}
-
+} 
 .samovivoz {
-    background-image: url("../images/samovivoz-bg.png");
-}
-
-.samovivoz {
+    background: url("../images/samovivoz-bg.png") center center transparent;
     margin-top: 110px;
 }

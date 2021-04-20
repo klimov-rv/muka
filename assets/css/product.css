@@ -1,4 +1,4 @@
-.product__card { 
+.product__card {
     z-index: 9;
 }
 
@@ -39,21 +39,26 @@
     margin: -15px 0 0;
 }
 
-.product__price,
-.product__type {
+.product__price, .product__type {
     font-size: 40px;
     color: #2f2f2f;
 }
-.product__info  { 
+
+.product__info {
     min-height: 335px;
 }
+
 .product__info>* {
     margin-bottom: 15px;
 }
 
 .product__price:hover {
-    color: #f4a344; 
-} 
+    color: #d67300;
+}
+.product__price {
+    color: #f4a344;
+}
+
 .description-block_title {
     font-size: 40px;
     color: #2f2f2f;
@@ -62,42 +67,46 @@
     line-height: 1.3em;
 }
 
-
 .product__description .t-row-like {
-    width: 80%; 
+    width: 80%;
     display: flex;
     flex-wrap: nowrap;
 }
-.product__description .t-cell-like { 
-    padding: 3px 10px;   
+
+.product__description .t-cell-like {
+    padding: 3px 10px;
     margin: 3px 20px 3px 0;
     font-size: 16px;
     font-weight: 300;
     line-height: 31px;
-} 
-.product__description b.t-cell-like { 
+}
+
+.product__description b.t-cell-like {
     font-weight: 700;
 }
+
 .t-row-like .t-cell-like:first-child {
     flex: 1 0 60%;
 }
-.t-row-like .t-cell-like:last-child { 
+
+.t-row-like .t-cell-like:last-child {
     flex: 1 0 60%;
-    text-align: center; 
+    text-align: center;
     white-space: nowrap;
 }
 
 .product__card .greeting_parallax {
-    background-position-y: bottom; 
+    background-position-y: bottom;
 }
 
 .product__card .beans-animate.js-parallax__first-layer {
-    background: url("../images/parallax-beans12--1st-layer.png") no-repeat left center transparent;
+    background: url("../images/parallax-beans12--1st-layer.png") no-repeat center center transparent;
     margin-left: -197px;
     height: 72%;
 }
+
 .product__card .beans-animate.js-parallax__second-layer {
-    background: url("../images/parallax-beans12--2nd-layer.png") no-repeat left center transparent;
-    margin-left: 274px;
-    height: 101%;
+    background: url("../images/parallax-beans12--2nd-layer.png") no-repeat center center transparent;
+    margin-left: 292px;
+    height: 121%;
 }

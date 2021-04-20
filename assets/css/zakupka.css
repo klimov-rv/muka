@@ -1,9 +1,7 @@
-.zakupka-block {
-  background: url("../images/zakupka_animate0.png") no-repeat calc(100% - 90px) 210px / 500px transparent;
-}
+.zakupka-block {}
 
-.zakupka_animate {
-  position: relative;
+.zakupka-block .beans-animate {
+  background: none;
 }
 
 .zakupka.promo .hero__text_block {
@@ -191,12 +189,11 @@
   background: url("../images/meshok-po-centru.png") no-repeat center center transparent;
 }
 
-
 .waygraphic .beans-animate.js-parallax__first-layer {
   background: url("../images/parallax-beans19--1st-layer.png") no-repeat center center transparent;
-  margin-left: -298px;
+  margin-left: -77px;
   height: 282%;
-  margin-top: -343px;
+  margin-top: -420px;
 }
 
 .waygraphic .beans-animate.js-parallax__second-layer {
