@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .vakansii.promo { 
     background: url("../images/vakansii-pic1-meshok.png") center bottom no-repeat, url("../images/pic1bg.png") center bottom repeat-x;
     min-height: 559px; 
@@ -12,17 +19,26 @@
 
 .contact-form__btns {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 } 
 .contact-form__btns .font-sans {
     color: #4c4c4c;
 } 
 .contact-form__btns .three_elems {
     margin: 0 35px 35px;
-    flex: 0.1 0 30%;
+    -webkit-box-flex: 0.1;
+        -ms-flex: 0.1 0 30%;
+            flex: 0.1 0 30%;
 }
 
 .vacancies .beans-animate.js-parallax__first-layer {

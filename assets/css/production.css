@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .production-block {
     /* background: url("../images/pic2.png") no-repeat calc(100% - 150px) 100px / 300px transparent;  */
     background: none;
@@ -82,7 +89,9 @@
 }
 
 .megatabcontent .tab {
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     padding-top: 35px;
     padding-bottom: 190px;
 }
@@ -127,8 +136,12 @@
     margin-bottom: 21px;
     text-align: center;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 .prod-content__subtext, .production__subtext {

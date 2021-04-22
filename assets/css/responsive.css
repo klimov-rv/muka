@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @media screen and (min-width: 1960px) {
     .greeting_parallax {
         background: url("../images/pic1-cut5.png") no-repeat 10% center transparent;
@@ -59,7 +66,8 @@
         background: none;
     }
     .template-is-index .siteFooter {
-        clip-path: none;
+        -webkit-clip-path: none;
+                clip-path: none;
         margin-top: -44px;
         background-color: #fbfbfb;
     }
@@ -80,7 +88,9 @@
         position: static;
     }
     .history__block .history__list_li {
-        flex: 1 0 300px;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 0 300px;
+                flex: 1 0 300px;
         height: auto;
         padding: 15px;
     }
@@ -95,7 +105,9 @@
         left: auto;
     }
     .history__block .history__list_li {
-        order: initial;
+        -webkit-box-ordinal-group: initial;
+            -ms-flex-order: initial;
+                order: initial;
     }
     .history__list_li {
         margin-bottom: 0;
@@ -132,8 +144,12 @@
         left: 0;
         right: auto;
         bottom: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: flex-end;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
     }
     .waygraphic__point .waypoint {
         top: auto;
@@ -583,16 +599,25 @@
         margin-bottom: 20px;
     }
     .masonry .masonry__item {
-        flex: 1 1 100%;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 100%;
+                flex: 1 1 100%;
         margin-bottom: 10px;
     }
     .masonry .masonry__item .news-image__link {
-        flex: 0 0 220px;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 220px;
+                flex: 0 0 220px;
     }
     .masonry__item_inner {
         padding: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         height: auto;
     }
     .news-image__link {
@@ -726,7 +751,8 @@
     }
     .hero__text_block {
         -ms-flex-align: flex-start;
-        align-items: flex-start;
+        -webkit-box-align: start;
+                align-items: flex-start;
     }
     .hero__text.subtext {
         font-size: 40px;
@@ -1030,7 +1056,9 @@
         flex-direction: column;
     }
     .t-row-like .t-cell-like:first-child {
-        flex: 1 1 auto;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
     }
     .product__description .t-cell-like {
         padding: 3px 0;
@@ -1040,7 +1068,8 @@
         width: 100%;
     }
     .product__description .t-row-like.wrap-xs {
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .product__description {
         padding-top: 30px;
@@ -1099,7 +1128,9 @@
         min-width: 60px;
     }
     .item__info_image {
-        align-self: center;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
     }
     .item__info_wrap .item__price_block {
         margin-bottom: 12px;
@@ -1113,7 +1144,9 @@
         margin: 0;
     }
     .cart__item {
-        align-items: flex-start;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
     }
     li.cart__item {
         padding: 25px 20px 25px 0;
@@ -1124,7 +1157,8 @@
         right: -15px;
         width: 80px;
         max-width: none;
-        flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto;
         height: 60px;
         padding: 0;
     }
@@ -1187,7 +1221,8 @@
         overflow: visible;
         margin: -10px;
         max-width: none;
-        flex-basis: auto;
+        -ms-flex-preferred-size: auto;
+            flex-basis: auto;
         min-height: 330px;
     }
     .contact-info__list a {
@@ -1295,7 +1330,8 @@
         margin-bottom: 20px;
     }
     .megatabcontent .tab {
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         padding-bottom: 75px;
     }
     .template-production .tab.megatabs {
@@ -1310,7 +1346,8 @@
     .megatabcontent .tab button {
         max-width: 128px;
         overflow: hidden;
-        text-overflow: ellipsis;
+        -o-text-overflow: ellipsis;
+           text-overflow: ellipsis;
     }
     .prod-content .header-standart {
         padding-top: 15px;

@@ -1,6 +1,16 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .aboutus-block {
     background-image: none;
     padding-top: 131px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -35,11 +45,16 @@
 }
 
 .history__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
 .history__list_li {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 13.9%;
     flex: 0 0 13.9%;
     height: 461px;
     position: relative;
@@ -92,8 +107,14 @@
 .history__block .history__list_li .history__year {
     width: 130px;
     height: 125px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin: 25px auto;
     color: #ffaa39;
@@ -115,20 +136,28 @@
 
 .history__list_li .history__year:after {
     -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
     transition-duration: 1s;
     -webkit-transition-property: transform;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    -o-transition-property: transform;
     transition-property: transform;
+    transition-property: transform, -webkit-transform;
     -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
     transition-timing-function: ease-in-out;
 }
 
 .history__list_li.anim-history .history__year:after {
     -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
     transform: rotate(360deg);
 }
 
 .history__list_li.left-anim.anim-history .history__year:after {
     -webkit-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
     transform: rotate(-360deg);
 }
 
@@ -149,22 +178,32 @@
 }
 
 .history__list_li:nth-child(12) {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
     order: 1;
 }
 
 .history__list_li:nth-child(11) {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
     order: 2;
 }
 
 .history__list_li:nth-child(10) {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
     order: 3;
 }
 
 .history__list_li:nth-child(9) {
+    -webkit-box-ordinal-group: 5;
+    -ms-flex-order: 4;
     order: 4;
 }
 
 .history__list_li:nth-child(8) {
+    -webkit-box-ordinal-group: 6;
+    -ms-flex-order: 5;
     order: 5;
 }
 
@@ -195,12 +234,14 @@
 .about-production .beans-animate.js-parallax__first-layer {
     background: url("../images/parallax-beans6--1st-layer.png") no-repeat center center transparent;
     margin-left: -205px;
+    margin-top: -130px;
 }
 
 .about-production .beans-animate.js-parallax__second-layer {
     background: url("../images/parallax-beans6--2nd-layer.png") no-repeat center center transparent;
-    margin-left: 73px;
+    margin-left: 40px;
     height: 113%;
+    margin-top: -113px;
 }
 
 .ourmission .beans-animate.js-parallax__first-layer {
@@ -284,7 +325,11 @@
     font-size: 18px;
     color: #4c4c4c;
     font-family: PT Sans;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -293,6 +338,8 @@
     display: inline-block;
     text-align: center;
     width: 100px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100px;
     flex: 0 0 100px;
     line-height: 81px;
 }
@@ -327,6 +374,7 @@
 }
 
 .elevator-lab .icons__item figure {
+    -webkit-filter: hue-rotate(3.3deg) brightness(90.3%) saturate(70%);
     filter: hue-rotate(3.3deg) brightness(90.3%) saturate(70%);
 }
 
@@ -412,6 +460,7 @@
     width: 100%;
     background-color: white;
     border-radius: 20px;
+    -webkit-box-shadow: 0px 10px 30px 0px #dbdcd8;
     box-shadow: 0px 10px 30px 0px #dbdcd8;
     padding: 20px;
 }

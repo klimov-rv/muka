@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 .product__card {
     z-index: 9;
 }
@@ -69,8 +76,11 @@
 
 .product__description .t-row-like {
     width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
 }
 
 .product__description .t-cell-like {
@@ -86,11 +96,15 @@
 }
 
 .t-row-like .t-cell-like:first-child {
-    flex: 1 0 60%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 60%;
+            flex: 1 0 60%;
 }
 
 .t-row-like .t-cell-like:last-child {
-    flex: 1 0 60%;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 60%;
+            flex: 1 0 60%;
     text-align: center;
     white-space: nowrap;
 }
