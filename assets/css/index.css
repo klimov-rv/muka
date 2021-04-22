@@ -864,6 +864,7 @@ header .search_widget-submit {
     position: relative;
     border-radius: 50px;
     outline: none;
+    z-index: 5;
 }
 
 .button1 {
@@ -875,7 +876,7 @@ header .search_widget-submit {
 .button2 {
     border: 0px solid;
     background-color: #f3a344;
-    color: white;
+    color: white; 
 }
 
 .button2:hover {
@@ -1185,6 +1186,9 @@ input.quantity-input:focus-visible {
     z-index: 1;
 }
 
+.fact-icons .icons__item {
+    opacity: 0;
+}
 .fact-icons .icons__item:nth-child(1), .fact-icons .icons__item:nth-child(3) {
     margin-top: -85px;
 }

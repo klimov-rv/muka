@@ -121,8 +121,17 @@ $trig2.bind('inview', function (event, visible, topOrBottomOrBoth) {
       // whole part of element is visible
 
       $trig2.animate({ left: '+=470' }, "slow");
-      $trig2.animate({ left: '+=310' }, "slow");
-      $trig2.animate({ left: '+=510' }, "slow");
+      setTimeout((function() {
+        $('.fact-icons .icons__item:nth-child(1)').animate({ opacity: 1 } ,{duration:300});
+      }), 700); 
+      setTimeout((function() {
+        $('.fact-icons .icons__item:nth-child(2)').animate({ opacity: 1 } ,{duration:300});
+      }), 1300); 
+      setTimeout((function() {
+        $('.fact-icons .icons__item:nth-child(3)').animate({ opacity: 1 } ,{duration:300});
+      }), 1900);  
+      $trig2.animate({ left: '+=310' }, "slow"); 
+      $trig2.animate({ left: '+=510' }, "slow"); 
       $trig2.animate({ left: '+=100%' }, 730);
     }
   }
